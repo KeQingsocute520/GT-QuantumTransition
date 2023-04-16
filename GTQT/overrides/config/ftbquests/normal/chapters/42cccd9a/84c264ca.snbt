@@ -1,0 +1,11 @@
+{
+	x: 5.5d,
+	y: 13.5d,
+	tasks: [{
+		uid: "73b29d9b",
+		type: "item",
+		items: [{
+			item: "mbd:guiyanmk3"
+		}]
+	}]
+}

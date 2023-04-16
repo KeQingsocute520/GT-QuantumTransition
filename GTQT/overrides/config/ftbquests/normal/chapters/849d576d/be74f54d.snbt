@@ -1,0 +1,42 @@
+{
+	title: "弄丢了？",
+	x: 1.5d,
+	y: 14.0d,
+	text: [
+		"没错，如果你没有弄丢，我会送你一个满级的终端"
+	],
+	dependencies: [
+		"e85d2289"
+	],
+	tasks: [{
+		uid: "4030c819",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 465s,
+			tag: {
+				terminal: {
+					_creative: 1b
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "584423ea",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 465s,
+			tag: {
+				terminal: {
+					_creative: 1b,
+					world_prospector: {
+						slots: {}
+					},
+					_hw: {}
+				}
+			}
+		}
+	}]
+}

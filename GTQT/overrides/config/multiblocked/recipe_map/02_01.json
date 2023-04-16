@@ -1,0 +1,347 @@
+{
+  "name": "02_01",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "ddc5b393-feaf-4b23-bbb2-4c108b50f3b2",
+      "duration": 1,
+      "inputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 131072
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_monazite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_pitchblende_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_bastnasite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_wulfenite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_tungstate_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_scheelite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_powellite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_pyrolusite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_spessartine_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_stibnite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_uraninite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_lepidolite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_magnesite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_bauxite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_cooperite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_certus_quartz_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_plutonium_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_thorium_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_naquadah_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_cobaltite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_ilmenite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_platinum_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_palladium_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_neodymium_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_lithium_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_molybdenum_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_beryllium_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_aluminium_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_copper_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_iron_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_lead_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_asbestos_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_tantalite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_soapstone_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_vanadium_magnetite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:ore_barite_0\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

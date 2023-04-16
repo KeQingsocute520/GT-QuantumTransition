@@ -1,0 +1,34 @@
+{
+	title: "另一种石油来源",
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d780a941"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8bbff231",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreOilsands"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreOilsands"
+				}
+			}
+		}]
+	},
+	{
+		uid: "303297dd",
+		type: "checkmark"
+	}]
+}

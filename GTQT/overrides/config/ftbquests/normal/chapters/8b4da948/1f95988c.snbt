@@ -1,0 +1,24 @@
+{
+	title: "氡",
+	x: 2.0d,
+	y: -4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6db142ed"
+	],
+	tasks: [{
+		uid: "a38ea838",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "radon",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

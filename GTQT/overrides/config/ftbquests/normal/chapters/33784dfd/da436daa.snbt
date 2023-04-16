@@ -1,0 +1,20 @@
+{
+	title: "宝石宝石在哪里pat3",
+	x: -8.0d,
+	y: 9.5d,
+	description: "红宝石",
+	text: [
+		"红宝石在主世界地狱均有所分布",
+		"当然，你需要找到红石矿脉。在制作红石合金的时候相信你已经制备好了"
+	],
+	dependencies: [
+		"90a1f4ab"
+	],
+	tasks: [{
+		uid: "2dd68668",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ruby_0"
+		}]
+	}]
+}

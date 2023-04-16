@@ -1,0 +1,2 @@
+// 电动马达（UXV） * 1
+<recipemap:assembly_line>.findRecipe(125829120, [<metaitem:stickNeptuniumAluminide> * 64, <metaitem:stickNeptuniumAluminide> * 32, <metaitem:stickHighDurabilityCompoundSteel3> * 64, <metaitem:stickLongHighDurabilityCompoundSteel3> * 8, <metaitem:roundTriniumSteel> * 64, <metaitem:cableGtQuadrupleTaranium> * 8, <metaitem:nanowireFermium> * 64, <metaitem:nanowireFermium> * 64, <metaitem:nanowireFermium> * 64, <metaitem:nanowireFermium> * 64, <metaitem:nanowireFermium> * 64, <metaitem:nanowireFermium> * 64], [<liquid:suspended_pgqd> * 750]).remove();

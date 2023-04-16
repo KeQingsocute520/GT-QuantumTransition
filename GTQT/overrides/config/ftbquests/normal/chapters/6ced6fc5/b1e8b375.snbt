@@ -1,0 +1,18 @@
+{
+	x: 20.5d,
+	y: 0.5d,
+	description: "(一种肼的产线",
+	text: [
+		""
+	],
+	dependencies: [
+		"942a82b7"
+	],
+	tasks: [{
+		uid: "3660a219",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 15006"
+		}]
+	}]
+}

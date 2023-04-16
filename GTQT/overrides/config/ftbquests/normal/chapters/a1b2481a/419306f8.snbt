@@ -1,0 +1,25 @@
+{
+	title: "硝酸",
+	x: -9.5d,
+	y: -7.0d,
+	text: [
+		"在硝化甘油产线里，你应该已经完成了硝酸的量产。",
+		"如果没有，从现在开始，你需要一条硝酸产线。"
+	],
+	dependencies: [
+		"a735150f"
+	],
+	tasks: [{
+		uid: "ea1104a7",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "nitric_acid",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

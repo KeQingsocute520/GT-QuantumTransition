@@ -1,0 +1,24 @@
+{
+	x: 9.0d,
+	y: 18.0d,
+	description: "看看地下有什么",
+	text: [
+		"勘探矿物！",
+		"终于知道地下有什么了。"
+	],
+	dependencies: [
+		"43b92260"
+	],
+	tasks: [{
+		uid: "eefa864c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 466s,
+			tag: {
+				Charge: 100000L
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

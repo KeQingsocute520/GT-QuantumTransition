@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -0.5d,
+	dependencies: [
+		"e20dce56"
+	],
+	tasks: [{
+		uid: "ab03f6a8",
+		type: "item",
+		items: [{
+			item: "mbd:bedrockmk1"
+		}]
+	}]
+}

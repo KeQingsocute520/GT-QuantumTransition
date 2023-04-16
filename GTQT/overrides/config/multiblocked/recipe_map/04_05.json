@@ -1,0 +1,88 @@
+{
+  "name": "04_05",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "6f7b16ec-4732-4407-bd95-e8b32fe2563c",
+      "duration": 1,
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 10000
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "pos_y",
+          "condition": {
+            "min": 200,
+            "max": 250
+          }
+        },
+        {
+          "type": "rain",
+          "condition": {
+            "level": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "uid": "cb408044-7d38-4e48-b014-a2b642169019",
+      "duration": 1,
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "pos_y",
+          "condition": {
+            "min": 200,
+            "max": 150
+          }
+        },
+        {
+          "type": "rain",
+          "condition": {
+            "level": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "uid": "366d6d08-6efe-47ab-9ff0-648a5fe8510a",
+      "duration": 1,
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "pos_y",
+          "condition": {
+            "min": 0,
+            "max": 150
+          }
+        },
+        {
+          "type": "rain",
+          "condition": {
+            "level": 1.0
+          }
+        }
+      ]
+    }
+  ]
+}

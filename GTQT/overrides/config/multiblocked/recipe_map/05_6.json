@@ -1,0 +1,67 @@
+{
+  "name": "05_6",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "4509259c-36de-4e68-96a9-6c3ee61b095d",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"light_enriched_taranium_fuel\",Amount:2}"
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 131072
+          }
+        ]
+      }
+    },
+    {
+      "uid": "051559a9-f6d9-41db-a6cf-e34182f92222",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"medium_enriched_taranium_fuel\",Amount:2}"
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 262144
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c0f59334-ab99-4b52-a6f1-bbd60124e976",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"heavy_enriched_taranium_fuel\",Amount:2}"
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 524288
+          }
+        ]
+      }
+    }
+  ]
+}

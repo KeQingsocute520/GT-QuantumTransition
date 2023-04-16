@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: 8.5d,
+	dependencies: [
+		"c27a7e26"
+	],
+	tasks: [{
+		uid: "f6fb45d3",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:canister_partial_lox 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

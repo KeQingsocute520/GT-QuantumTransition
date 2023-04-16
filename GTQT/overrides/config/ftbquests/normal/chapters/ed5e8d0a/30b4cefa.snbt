@@ -1,0 +1,21 @@
+{
+	title: "稀有气体 氖",
+	x: -3.0d,
+	y: -10.0d,
+	dependencies: [
+		"d43822e9"
+	],
+	tasks: [{
+		uid: "11b0cdb2",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "neon",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

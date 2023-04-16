@@ -1,0 +1,24 @@
+{
+	title: "生命之源",
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"81a33471"
+	],
+	tasks: [{
+		uid: "42de4e34",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "water",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

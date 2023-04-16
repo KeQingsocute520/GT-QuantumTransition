@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"可装在me线缆上(ME致密线缆除外),光度15。",
+		"",
+		"必须输入ae电才能发光。"
+	],
+	dependencies: [
+		"f7a73efd"
+	],
+	tasks: [{
+		uid: "14c432bd",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 180"
+		}]
+	}]
+}

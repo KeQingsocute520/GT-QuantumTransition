@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 13.5d,
+	dependencies: [
+		"f8a944f9"
+	],
+	tasks: [{
+		uid: "956e7bd6",
+		type: "item",
+		items: [{
+			item: "ic2:fluid_cell"
+		}]
+	}]
+}

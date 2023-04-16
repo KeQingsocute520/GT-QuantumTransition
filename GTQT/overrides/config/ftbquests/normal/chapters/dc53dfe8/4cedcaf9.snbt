@@ -1,0 +1,25 @@
+{
+	title: "胶水",
+	x: 16.0d,
+	y: 12.0d,
+	description: "黏糊糊的",
+	text: [
+		"如果在树脂里提取出来，也确实是合理"
+	],
+	dependencies: [
+		"2defcc9e"
+	],
+	tasks: [{
+		uid: "1339b36f",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "glue",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

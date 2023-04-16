@@ -1,0 +1,24 @@
+{
+	title: "二氯乙烷",
+	x: 8.5d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fc9faef4"
+	],
+	tasks: [{
+		uid: "4aea36eb",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "dichloroethane",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

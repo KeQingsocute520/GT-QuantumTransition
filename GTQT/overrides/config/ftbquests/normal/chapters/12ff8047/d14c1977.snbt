@@ -1,0 +1,72 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"TC6会在峡谷、矿道、遗迹自然生成对应六种元要素的魔力结晶。魔力结晶会发出亮度为1的光。空手即可采集，",
+		"且不受时运和精准采集影响。掉落对应要素的魔力水晶碎片，用于合成或炼金。魔力结晶通常在峡谷、矿道、遗迹",
+		"自然生成。生成的种类与区域群系或建筑类型有关：",
+		"火Ignis种类的要素结晶更多的生成在炎热干燥的区域————沙漠之下的矿道峡谷。",
+		"水Aqua种类的要素结晶更多的生成在河流与海洋之下的矿道峡谷。",
+		"秩序Ordo、混沌Perditio种类的要素结晶更多的生成在遗迹或神殿之中。",
+		"混沌Perditio种类的要素结晶也会更多的生成在沼泽、蘑菇岛之下的矿道峡谷。",
+		"当区块内存在咒波时，魔力结晶有几率消耗少量咒波而转换成咒波结晶。生长会消耗少量咒波与灵气值。"
+	],
+	tasks: [{
+		uid: "988ed2d5",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "aer",
+					amount: 1
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "terra",
+					amount: 1
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "ignis",
+					amount: 1
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "aqua",
+					amount: 1
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "ordo",
+					amount: 1
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "perditio",
+					amount: 1
+				}]
+			}
+		}]
+	}]
+}

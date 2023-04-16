@@ -1,0 +1,19 @@
+{
+	x: 12.5d,
+	y: 5.0d,
+	dependencies: [
+		"61d15843"
+	],
+	tasks: [{
+		uid: "58ca5a6d",
+		type: "item",
+		items: [{
+			item: "animania:cooked_prime_pork"
+		}]
+	}],
+	rewards: [{
+		uid: "f41e44fd",
+		type: "random",
+		table: 9
+	}]
+}

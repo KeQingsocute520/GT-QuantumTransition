@@ -1,0 +1,20 @@
+{
+	x: 17.5d,
+	y: 0.5d,
+	dependencies: [
+		"e937c376"
+	],
+	tasks: [{
+		uid: "e94d8603",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogen_peroxide",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

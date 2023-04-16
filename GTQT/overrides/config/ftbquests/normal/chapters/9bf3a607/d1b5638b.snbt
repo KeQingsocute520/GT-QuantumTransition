@@ -1,0 +1,18 @@
+{
+	x: 2.5d,
+	y: 1.0d,
+	dependencies: [
+		"fce32ccb"
+	],
+	tasks: [{
+		uid: "d76c5075",
+		type: "item",
+		items: [{
+			id: "ic2:chainsaw",
+			Damage: 26s,
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

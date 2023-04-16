@@ -1,0 +1,301 @@
+{
+  "version": 2,
+  "location": "mbd:bileiz",
+  "traits": {
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 7,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 100000000,
+      "maxReceive": 500000000,
+      "maxExtract": 500000000
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "gregtech:metal_casing",
+          "meta": 6
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "04_05",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "A    A",
+        "A    A",
+        "A    A",
+        "BBBBBB",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      "
+      ],
+      [
+        "      ",
+        "      ",
+        " CCCC ",
+        "B    B",
+        " BBBB ",
+        " A  A ",
+        " A  A ",
+        " A  A ",
+        " A  A ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      "
+      ],
+      [
+        "  @B  ",
+        "  BB  ",
+        " CBBC ",
+        "B AA B",
+        " BAAB ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  "
+      ],
+      [
+        "  BB  ",
+        "  BB  ",
+        " CBBC ",
+        "B AA B",
+        " BAAB ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  ",
+        "  AA  "
+      ],
+      [
+        "      ",
+        "      ",
+        " CCCC ",
+        "B    B",
+        " BBBB ",
+        " A  A ",
+        " A  A ",
+        " A  A ",
+        " A  A ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      "
+      ],
+      [
+        "A    A",
+        "A    A",
+        "A    A",
+        "BBBBBB",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      ",
+        "      "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_frame_7",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:bileiz",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "gregtech:multiblock_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+	title: "最强升级欸",
+	x: 25.5d,
+	y: 3.0d,
+	text: [
+		"虽然还是燧石，但至少这是匠魂的燧石。"
+	],
+	dependencies: [
+		"fe5c68d1"
+	],
+	tasks: [{
+		uid: "c55af284",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "05361551",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "0adaf8d7",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9bb05883",
+		type: "random",
+		table: 9
+	}]
+}

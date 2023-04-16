@@ -1,0 +1,18 @@
+{
+	title: "聚爆压缩机需要boom",
+	x: 22.0d,
+	y: -4.5d,
+	text: [
+		"如果你的TNT量产了可以忽视它"
+	],
+	dependencies: [
+		"c0fe415d"
+	],
+	tasks: [{
+		uid: "9ef34b5c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 460"
+		}]
+	}]
+}

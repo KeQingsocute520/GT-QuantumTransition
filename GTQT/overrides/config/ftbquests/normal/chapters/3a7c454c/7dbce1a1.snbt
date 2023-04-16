@@ -1,0 +1,21 @@
+{
+	title: "聚甲基硅氧烷",
+	x: 9.0d,
+	y: -4.0d,
+	dependencies: [
+		"0e9404ca"
+	],
+	tasks: [{
+		uid: "ad541784",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "polymethylsilesquioxane",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

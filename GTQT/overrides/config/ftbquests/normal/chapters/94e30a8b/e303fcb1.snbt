@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "707e75cb",
+		type: "kill",
+		entity: "minecraft:creeper",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "f53c320f",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

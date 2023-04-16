@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	dependencies: [
+		"f5fb2a29"
+	],
+	tasks: [{
+		uid: "3af9bfd3",
+		type: "item",
+		items: [{
+			item: "qmd:waste_spallation 1 4"
+		}]
+	}]
+}

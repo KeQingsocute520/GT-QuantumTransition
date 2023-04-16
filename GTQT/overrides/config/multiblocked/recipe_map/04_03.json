@@ -1,0 +1,358 @@
+{
+  "name": "04_03",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "a03dec9c-adc8-4c80-bc4c-a25ad0966f15",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"tjcore:meta_item_1\",Count:2,Damage:224s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:16,Damage:604s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:meta_item_1\",Count:1,Damage:133s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:8,Damage:641s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "dba0a31d-d219-4007-8844-b96ce480e3f0",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:8,Damage:314s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:1,Damage:312s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:16,Damage:310s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:1,Damage:605s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2005000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:1,Damage:57s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "97afe53f-432e-45e7-a3c0-a171f0c314a0",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_wire_fine\",Count:4,Damage:3578s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:2,Damage:441s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:2,Damage:33s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:4,Damage:25011s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 50500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:16,Damage:70s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8d8b24cc-93df-4bac-b6d0-99ee7b01b223",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 12,
+              "matches": [
+                "{id:\"gregtech:meta_foil\",Count:12,Damage:1012s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_plate\",Count:4,Damage:1006s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_foil\",Count:4,Damage:40s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_foil\",Count:4,Damage:25014s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 50500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:16,Damage:69s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "9d7f0b09-c961-4874-8733-441061e7008c",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:1,Damage:605s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"gregtech:meta_wire_fine\",Count:16,Damage:77s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"gregtech:meta_foil\",Count:16,Damage:94s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:16,Damage:616s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "38da11da-a1d4-46ff-bbab-837f72cd91bd",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:16,Damage:406s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"tjcore:meta_item_1\",Count:2,Damage:181s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:32,Damage:307s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:8,Damage:60s,tag:{display:{Name:\"量子比特PCB板\"}}}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

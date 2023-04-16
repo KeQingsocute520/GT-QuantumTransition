@@ -1,0 +1,25 @@
+{
+	title: "聚乙烯",
+	x: 20.0d,
+	y: 15.0d,
+	text: [
+		"查询章节 石油化工"
+	],
+	dependencies: [
+		"e348a67a"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "66959f09",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "plastic",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

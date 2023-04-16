@@ -1,0 +1,375 @@
+{
+  "version": 2,
+  "location": "mbd:guiyanmk2",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0
+    },
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 7,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 999999999,
+      "maxReceive": 999999999,
+      "maxExtract": 999999999
+    },
+    "fluid": []
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblock:control_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "05_6",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "               ",
+        "               ",
+        "               ",
+        "      AAA      ",
+        "               ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "      AAA      ",
+        "    BB   BB    ",
+        "      AAA      ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "    BB   BB    ",
+        "   B  AAA  B   ",
+        "    BB   BB    ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "   B       B   ",
+        "  BCBB D BBCB  ",
+        "   B       B   ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "  B         B  ",
+        " B B   D   B B ",
+        "  B         B  ",
+        "               ",
+        "               "
+      ],
+      [
+        "     EEEEE     ",
+        "     E   E     ",
+        "  B  E   E  B  ",
+        " B B E D E B B ",
+        "  B  E   E  B  ",
+        "     E   E     ",
+        "     EEEEE     "
+      ],
+      [
+        "     EEEEE     ",
+        "      FFF      ",
+        " A    FFF    A ",
+        "A A   FFF   A A",
+        " A    FFF    AG",
+        "      FFF      ",
+        "     EEEEE     "
+      ],
+      [
+        "     EEEEE     ",
+        "      F F      ",
+        " A    F F    A ",
+        "A ADDDFFFDDDA A",
+        " A    F F    AG",
+        "      F F      ",
+        "     EEEEE     "
+      ],
+      [
+        "     EEEEE     ",
+        "      FFF      ",
+        " A    FFF    A ",
+        "A A   FFF   A A",
+        " A    FFF    A@",
+        "      FFF      ",
+        "     EEEEE     "
+      ],
+      [
+        "     EEEEE     ",
+        "     E   E     ",
+        "  B  E   E  B  ",
+        " B B E D E B B ",
+        "  B  E   E  B  ",
+        "     E   E     ",
+        "     EEEEE     "
+      ],
+      [
+        "               ",
+        "               ",
+        "  B         B  ",
+        " B B   D   B B ",
+        "  B         B  ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "   B       B   ",
+        "  BCBB D BBCB  ",
+        "   B       B   ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "    BB   BB    ",
+        "   B  AAA  B   ",
+        "    BB   BB    ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "      AAA      ",
+        "    BB   BB    ",
+        "      AAA      ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "               ",
+        "      AAA      ",
+        "               ",
+        "               ",
+        "               "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:wire_coil",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:guiyanmk2",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:fusion_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "gregtech:fusion_casing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "gregtech:boiler_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "gcym:large_multiblock_casing",
+            "meta": 11
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "gregtech:wire_coil",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

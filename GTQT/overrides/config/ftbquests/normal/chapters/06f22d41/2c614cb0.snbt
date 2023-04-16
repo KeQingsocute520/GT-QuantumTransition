@@ -1,0 +1,16 @@
+{
+	icon: "tjcore:tjmetaitem 1 17",
+	x: 4.5d,
+	y: 10.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "907ac75d",
+		type: "ftbmoney:money",
+		value: 2560L
+	}],
+	rewards: [{
+		uid: "d3f42115",
+		type: "item",
+		item: "tjcore:tjmetaitem 1 17"
+	}]
+}

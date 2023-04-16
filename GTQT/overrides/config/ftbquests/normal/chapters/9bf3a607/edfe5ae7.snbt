@@ -1,0 +1,18 @@
+{
+	x: 11.0d,
+	y: 1.0d,
+	dependencies: [
+		"d16cd276"
+	],
+	tasks: [{
+		uid: "6f624259",
+		type: "item",
+		items: [{
+			id: "emt:electricgoggles",
+			Damage: 165s,
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

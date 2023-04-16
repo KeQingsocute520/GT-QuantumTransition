@@ -1,0 +1,16 @@
+{
+	title: "独行月球",
+	x: -5.0d,
+	y: -0.5d,
+	text: [
+		"查询 无人深空 章节获取详细详细"
+	],
+	dependencies: [
+		"585211e1"
+	],
+	tasks: [{
+		uid: "16ff0926",
+		type: "dimension",
+		dim: -28
+	}]
+}

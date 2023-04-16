@@ -1,0 +1,70 @@
+{
+	title: "MV",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 382"
+	},
+	{
+		item: "gregtech:meta_item_1 1 233"
+	},
+	{
+		item: "gregtech:meta_item_1 1 128"
+	},
+	{
+		item: "gregtech:meta_item_1 1 143"
+	},
+	{
+		item: "gregtech:meta_item_1 1 173"
+	},
+	{
+		item: "gregtech:meta_item_1 1 188"
+	},
+	{
+		item: "gregtech:meta_item_1 1 218"
+	},
+	{
+		item: "gregtech:meta_item_1 1 203"
+	},
+	{
+		item: "gregtech:meta_item_1 1 158"
+	},
+	{
+		item: {
+			id: "gregtech:gt_armor",
+			Damage: 3s,
+			tag: {
+				Charge: 1000000L
+			}
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 521",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 519",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 104"
+	},
+	{
+		item: "tjcore:tjmetaitem 1 108"
+	},
+	{
+		item: "tjcore:tjmetaitem 1 65",
+		count: 8
+	},
+	{
+		item: "tjcore:tjmetaitem 1 55",
+		count: 8
+	},
+	{
+		item: "tjcore:tjmetaitem 1 69",
+		count: 8
+	},
+	{
+		item: "tjcore:tjmetaitem 1 68",
+		count: 8
+	}]
+}

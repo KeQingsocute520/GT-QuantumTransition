@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	dependencies: [
+		"24c28123"
+	],
+	tasks: [{
+		uid: "b88b4acb",
+		type: "item",
+		items: [{
+			item: "qmd:target_chamber_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "dfb86aea",
+		type: "item",
+		item: "mbd:bashishili"
+	}]
+}

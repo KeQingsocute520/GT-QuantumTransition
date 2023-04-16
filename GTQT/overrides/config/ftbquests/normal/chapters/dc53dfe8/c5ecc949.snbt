@@ -1,0 +1,14 @@
+{
+	x: 12.0d,
+	y: 18.0d,
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "cd9bb654",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_graphite_0"
+		}]
+	}]
+}

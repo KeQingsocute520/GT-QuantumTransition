@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "location": "mbd:steam_output",
+  "traits": {
+    "background": "multiblocked:textures/gui/fluid_hatch_gui.png",
+    "fluid": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 2,
+        "x": 79,
+        "y": 71,
+        "autoIO": false,
+        "tC": 10000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "DOWN_TO_UP"
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelName": "steam_core3",
+        "type": "geo"
+      },
+      "lightEmissive": 15
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "canShared": true
+}

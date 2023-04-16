@@ -1,0 +1,24 @@
+{
+	title: "氮气",
+	x: 20.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cee26c6b"
+	],
+	tasks: [{
+		uid: "d3204efe",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "nitrogen",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

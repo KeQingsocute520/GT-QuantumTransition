@@ -1,0 +1,31 @@
+{
+	x: -2.5d,
+	y: -10.5d,
+	dependencies: [
+		"e2a3f2ab",
+		"fc9fefe9"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9391eb69",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "silicone_rubber",
+					Amount: 1000
+				}
+			}
+		},
+		{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "styrene_butadiene_rubber",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

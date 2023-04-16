@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	description: "硅岩在哪里",
+	text: [
+		"分布在金星与小行星带。",
+		"当然建议去金星开采。"
+	],
+	dependencies: [
+		"ca8f4809"
+	],
+	tasks: [{
+		uid: "34635a9b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_naquadah_0"
+		}]
+	}],
+	rewards: [{
+		uid: "fc9fd86e",
+		type: "random",
+		table: 4
+	}]
+}

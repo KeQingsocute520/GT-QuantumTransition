@@ -1,0 +1,37 @@
+{
+	title: "把东西存起来",
+	x: 12.5d,
+	y: 0.0d,
+	description: "你当然需要整理箱子，或者是，一个更大的箱子？",
+	dependencies: [
+		"2b5c2513"
+	],
+	tasks: [{
+		uid: "6661ff8b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any chest"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "chest"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d7149da3",
+		type: "item",
+		item: "ironchest:iron_chest"
+	},
+	{
+		uid: "dd49ac81",
+		type: "random",
+		table: 9
+	}]
+}

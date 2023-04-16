@@ -1,0 +1,25 @@
+{
+	x: 22.0d,
+	y: -8.0d,
+	text: [
+		"两款基于装配线的设备，集成了装配线的优点"
+	],
+	dependencies: [
+		"6dc18240"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e6e94893",
+		type: "item",
+		items: [{
+			item: "mbd:zhuangpeixmk1"
+		}]
+	},
+	{
+		uid: "271d18f7",
+		type: "item",
+		items: [{
+			item: "mbd:daxzuz"
+		}]
+	}]
+}

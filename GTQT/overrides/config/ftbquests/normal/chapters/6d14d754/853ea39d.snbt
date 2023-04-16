@@ -1,0 +1,32 @@
+{
+	x: 18.5d,
+	y: 7.0d,
+	description: "科技包永远离不开cu",
+	text: [
+		"cu,嘿嘿我的cu"
+	],
+	dependencies: [
+		"2a4123c2"
+	],
+	tasks: [{
+		uid: "c6bf317b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_copper_0"
+		}],
+		count: 32L
+	},
+	{
+		uid: "b55ed6f5",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_chalcopyrite_0"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "82a31d2b",
+		type: "random",
+		table: 9
+	}]
+}

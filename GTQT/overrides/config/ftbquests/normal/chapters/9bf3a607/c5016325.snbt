@@ -1,0 +1,13 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "8fdc7e2d",
+		type: "item",
+		items: [{
+			item: "keletupack:ichorium_pick_adv"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "地狱土特产part3",
+	x: 21.0d,
+	y: 6.5d,
+	text: [
+		"硫矿石生成在很低的位置，通常在岩浆湖湖床底下，你可能需要一点防火药水。"
+	],
+	dependencies: [
+		"43ea6a67"
+	],
+	tasks: [{
+		uid: "7d41da2b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sulfur_0 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0616f110",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			}
+		}
+	}]
+}

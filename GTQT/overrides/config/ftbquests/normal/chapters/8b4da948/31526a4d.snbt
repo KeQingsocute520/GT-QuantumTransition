@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: -4.5d,
+	description: "杀凋机？",
+	text: [
+		"为了制造发射器，你需要一点下界之。"
+	],
+	dependencies: [
+		"43ea6a67"
+	],
+	tasks: [{
+		uid: "158f58a4",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 1L
+	}]
+}

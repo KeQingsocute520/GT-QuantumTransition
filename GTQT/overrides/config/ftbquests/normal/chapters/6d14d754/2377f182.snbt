@@ -1,0 +1,14 @@
+{
+	x: 33.5d,
+	y: 0.0d,
+	description: "不同的燃料拥有不同的燃烧时间，煤炭变成焦煤后会变得更加耐烧。（你可以尝试再把焦煤塞进焦炉一次）",
+	dependencies: [
+		"cd1cd41c",
+		"3ba748c1"
+	],
+	tasks: [{
+		uid: "05594f31",
+		type: "checkmark",
+		title: "高效燃烧"
+	}]
+}

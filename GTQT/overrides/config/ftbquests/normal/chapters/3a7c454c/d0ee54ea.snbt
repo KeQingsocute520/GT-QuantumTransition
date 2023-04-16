@@ -1,0 +1,18 @@
+{
+	x: -11.5d,
+	y: -3.5d,
+	text: [
+		"电解锂云母产物之一。",
+		"建议电解岩盐量产。"
+	],
+	dependencies: [
+		"5a79a4b8"
+	],
+	tasks: [{
+		uid: "8eac9989",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 83"
+		}]
+	}]
+}

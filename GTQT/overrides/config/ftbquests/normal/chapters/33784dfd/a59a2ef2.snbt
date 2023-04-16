@@ -1,0 +1,29 @@
+{
+	title: "真有点咸",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"81a33471"
+	],
+	tasks: [{
+		uid: "43e22a36",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreRockSalt"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreRockSalt"
+				}
+			}
+		}]
+	}]
+}

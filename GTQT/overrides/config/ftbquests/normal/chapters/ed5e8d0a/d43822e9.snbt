@@ -1,0 +1,24 @@
+{
+	title: "下界空气",
+	x: -4.0d,
+	y: -10.0d,
+	text: [
+		"众所周知，因为下界的空气质量很差，所以下界的空气质量很差"
+	],
+	dependencies: [
+		"b99e49f8"
+	],
+	tasks: [{
+		uid: "4a037554",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "liquid_nether_air",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 20.5d,
+	y: -1.0d,
+	dependencies: [
+		"a735150f"
+	],
+	tasks: [{
+		uid: "67e708f2",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_copper_solution",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

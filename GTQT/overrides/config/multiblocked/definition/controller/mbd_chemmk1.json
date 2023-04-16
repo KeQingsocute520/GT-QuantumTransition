@@ -1,0 +1,387 @@
+{
+  "version": 2,
+  "location": "mbd:chemmk1",
+  "traits": {
+    "item": [],
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 10000,
+      "maxReceive": 500,
+      "maxExtract": 500
+    },
+    "fluid": []
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblock:control_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "04_12",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        " AAA ",
+        " ABA ",
+        " ACA ",
+        " AAA ",
+        " AAA ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        " AAA ",
+        " AAA ",
+        " A A ",
+        " A A ",
+        " A A ",
+        " A A ",
+        " AAA ",
+        " AAA ",
+        " AAA "
+      ],
+      [
+        "AAAAA",
+        "@D DA",
+        "ED DA",
+        "AD DA",
+        "AAAAA",
+        " FFF ",
+        " FFF ",
+        " FFF ",
+        " FFF ",
+        "AAAAA",
+        "AAGAA",
+        "A G A",
+        "A G A",
+        "A G A",
+        "A G A",
+        "A   A",
+        "AAAAA",
+        "AAAAA"
+      ],
+      [
+        "AAAAA",
+        "A   A",
+        "A   A",
+        "A   A",
+        "AAAAA",
+        " HFH ",
+        " HFH ",
+        " HFH ",
+        " HFH ",
+        "AAAAA",
+        " GGG ",
+        "A   A",
+        "A   A",
+        "A   A",
+        "A   A",
+        "A   A",
+        "AAAAA",
+        "AAAAA"
+      ],
+      [
+        "AAAAA",
+        "I   A",
+        "I   A",
+        "A   A",
+        "AAAAA",
+        " JFJ ",
+        " JFJ ",
+        " JFJ ",
+        " JFJ ",
+        "AAAAA",
+        " GGG ",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA"
+      ],
+      [
+        "AAAAA",
+        "I   A",
+        "I   A",
+        "A   A",
+        "A   A",
+        "A   A",
+        "A   A",
+        "A   A",
+        "A   A",
+        "AAAAA",
+        " GGG ",
+        "AAAAA",
+        " AAA ",
+        " AAA ",
+        " AAA ",
+        " AAA ",
+        " AAA ",
+        " AAA "
+      ],
+      [
+        "AAAAA",
+        "KD DA",
+        "KD DA",
+        "AD DA",
+        "AD DA",
+        "AD DA",
+        "AD DA",
+        "AD DA",
+        "AD DA",
+        "AAAAA",
+        " GGG ",
+        "AAAAA",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "AAAAA",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_compressed_187",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:chemmk1",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_frame_20",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "mbd:gtce_ic",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_compressed_18",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_compressed_187",
+            "meta": 14
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "gregtech:boiler_casing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "gregtech:multiblock_casing",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "multiblocked:item_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

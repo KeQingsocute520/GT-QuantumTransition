@@ -1,0 +1,11 @@
+{
+	x: -3.0d,
+	y: 12.0d,
+	tasks: [{
+		uid: "c04e2ba2",
+		type: "item",
+		items: [{
+			item: "mbd:solarplantmk3"
+		}]
+	}]
+}

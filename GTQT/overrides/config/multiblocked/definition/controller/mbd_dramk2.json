@@ -1,0 +1,306 @@
+{
+  "version": 2,
+  "location": "mbd:dramk2",
+  "traits": {
+    "item": [],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0
+    },
+    "bg_lp": {
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "textType": 3
+    },
+    "bot_mana": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 1000000,
+      "allowSpark": false
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblock:control_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "03_03",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "ABBBBBA",
+        "A     A",
+        "A     A",
+        "A     A",
+        "A     A",
+        "ABBBBBA"
+      ],
+      [
+        "BBBBBBB",
+        " CCCCCD",
+        " EEEEE ",
+        " EEEEE ",
+        " CCCCC ",
+        "BBBBBBB"
+      ],
+      [
+        "BBBBBBB",
+        " CFFFCG",
+        " EHHHE ",
+        " EHHHE ",
+        " CFFFC ",
+        "BBBBBBB"
+      ],
+      [
+        "BBBBBBB",
+        " CFFFC@",
+        " EHHHE ",
+        " EHHHE ",
+        " CFFFC ",
+        "BBBBBBB"
+      ],
+      [
+        "BBBBBBB",
+        " CFFFCI",
+        " EHHHE ",
+        " EHHHE ",
+        " CFFFC ",
+        "BBBBBBB"
+      ],
+      [
+        "BBBBBBB",
+        " CCCCCJ",
+        " EEEEE ",
+        " EEEEE ",
+        " CCCCC ",
+        "BBBBBBB"
+      ],
+      [
+        "ABBBBBA",
+        "A     A",
+        "A     A",
+        "A     A",
+        "A     A",
+        "ABBBBBA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_frame_7",
+            "meta": 15
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:dramk2",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:machine_casing",
+            "meta": 9
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "thaumicaugmentation:starfield_glass",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "multiblocked:mana_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "gregtech:transparent_casing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "gregtech:fusion_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "multiblocked:lp_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "gregtech:fusion_casing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "multiblocked:item_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

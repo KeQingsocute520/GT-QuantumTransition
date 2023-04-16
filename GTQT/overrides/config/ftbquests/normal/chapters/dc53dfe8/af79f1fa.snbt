@@ -1,0 +1,27 @@
+{
+	x: 6.5d,
+	y: 12.0d,
+	text: [
+		"制作扇叶"
+	],
+	dependencies: [
+		"9ea1ad6f"
+	],
+	tasks: [{
+		uid: "2c1a7d34",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 425"
+		}]
+	}],
+	rewards: [{
+		uid: "c2aa69ba",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "fb898059",
+		type: "choice",
+		table: 4
+	}]
+}

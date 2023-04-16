@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: -6.5d,
+	text: [
+		"创制稀薄气体放电用玻璃管，呈现放电发光"
+	],
+	dependencies: [
+		"044521e6"
+	],
+	tasks: [{
+		uid: "8836264d",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 571"
+		}]
+	}]
+}

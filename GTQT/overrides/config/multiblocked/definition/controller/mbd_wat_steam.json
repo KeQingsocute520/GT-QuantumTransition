@@ -1,0 +1,300 @@
+{
+  "version": 2,
+  "location": "mbd:wat_steam",
+  "traits": {
+    "fluid": [],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblock:control_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "01_05",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAAAA",
+        "  B  ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "  A  ",
+        "  C  ",
+        "  C  ",
+        "  C  ",
+        "  C  ",
+        "  A  "
+      ],
+      [
+        "AAAAA",
+        " ADA ",
+        "  A  ",
+        "  A  ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        " AAA ",
+        " CEC ",
+        " CEC ",
+        " CEC ",
+        " CEC ",
+        " AAA "
+      ],
+      [
+        "AAAAA",
+        " @DA ",
+        " ADA ",
+        " ADA ",
+        "  D  ",
+        "  D  ",
+        "  D  ",
+        "  D  ",
+        "  D  ",
+        "  D  ",
+        "  D  ",
+        "  D  ",
+        "  D  ",
+        "  D  ",
+        "  D  ",
+        "  D  ",
+        "  D  ",
+        "AADAA",
+        "CEAEC",
+        "CEAEC",
+        "CEAEC",
+        "CEAEC",
+        "AAAAA"
+      ],
+      [
+        "AAAAA",
+        " ADA ",
+        "  A  ",
+        "  A  ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        " AAA ",
+        " CEC ",
+        " CEC ",
+        " CEC ",
+        " CEC ",
+        " AAA "
+      ],
+      [
+        "AAAAA",
+        "  F  ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "  A  ",
+        "  C  ",
+        "  C  ",
+        "  C  ",
+        "  C  ",
+        "  A  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:wat_steam",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "gregtech:transparent_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "gregtech:boiler_casing",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "gregtech:boiler_firebox_casing",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

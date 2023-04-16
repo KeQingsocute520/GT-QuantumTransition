@@ -1,0 +1,534 @@
+//oredicts
+item.material.oreprefix.nanowire=%s Nanowire
+item.material.oreprefix.nanofoil=%s Nanofoil
+
+//tiles
+tile.turbine_bearing.galvanized_bearing.name=Galvanized Steel Turbine Bearing
+tile.turbine_bearing.aluminium_bearing.name=Aluminum Turbine Bearing
+tile.turbine_bearing.stainless_bearing.name=Stainless Steel Turbine Bearing
+tile.turbine_bearing.titanium_bearing.name=Titanium Turbine Bearing
+tile.turbine_bearing.tungstensteel_bearing.name=Tungsteensteel Turbine Bearing
+tile.turbine_blades.galvanized_blades.name=Galvanized Steel Turbine Blades
+tile.turbine_blades.aluminium_blades.name=Aluminum Turbine Blades
+tile.turbine_blades.stainless_blades.name=Stainless Steel Turbine Blades
+tile.turbine_blades.titanium_blades.name=Titanium Turbine Blades
+tile.turbine_blades.tungstensteel_blades.name=Tungsteensteel Turbine Blades
+
+//materials
+material.bt_6=BT6
+material.birmabright=Birmabright
+material.triphenylphosphine=Triphenyl Phosphine
+material.phosphorustrichloride=Phosphorus Trichloride
+material.phenylmagnesiumbromide=Phenylmagnesium Bromide
+material.bromobenzene=Bromobenzene
+material.draconium=Draconium
+material.silicaceramic=Ceramic
+material.nickelplatedtin=Nickel Plated Tin
+material.dibromoterephthaloyldichloride=2,5-dibromo-terephthaloyl dichloride
+material.p_one_solution=Impure P1 Solution
+material.su_photoresist=SU8-Photoresist
+material.hydrogensilsesquioxane=Hydrogen Silsesquioxane (HSQ)
+material.polypphenylene=Ladder Poly(p-phenylene)
+material.tretrakispdcatalyst=Tetrakis-Pd Catalyst
+material.palladiumchloride=Palladium Dichloride
+material.hydraziniumchloride=Hydrazinium Chloride
+material.dibromoisophthalicacid=2-Dibromoisophthalic Acid
+material.superheavy_l=Superheavy Alloy (Light)
+material.superheavy_h=Superheavy Alloy (Heavy)
+material.acrylonitrile=Acrylonitrile
+material.bismuth_phosphomolybdate=Bismuth Phosphomolybdate Catalyst
+material.cf_coating_solution=Carbon Fiber Coating Solution
+material.sodiumthiocyanatepolymerizationsolution=Sodium Thiocyanate Polymerization Solution
+material.methyltrichlorosilane=Methyltrichlorosilane
+material.methyltrimethyoxysilane=Methyltrimethyoxysilane
+material.polymethylsilesquioxane=Polymethylsilesquioxane
+material.oganessontetratennesside=Oganesson Tetratennesside
+material.tantalum_hafnium_seaborgium_carbonitide=Tantalum Hafnium Seaborgium Carbonitride
+material.tantalum_hafnium_seaborgium_carbide=Tantalum Hafnium Seaborgium Carbide
+material.seaborgium_carbide=Seaborgium Carbide
+material.tantalum_carbide=Tantalum Carbide
+material.hafnium_carbide=Hafnium Carbide
+material.pikyonium=Pikyonium
+material.high_durability_compound_steel_3=[HDCS:Vb] Heavy Vibranium Compound Steel
+material.high_durability_compound_steel_2=[HDCS:Ad] Heavy Adamantium Compound Steel
+material.high_durability_compound_steel_1=[HDCS:Nq] Heavy Naquadria Compound Steel
+material.high_entropy_alloy_1=High Entropy Alloy C-64
+material.high_entropy_alloy_2=High Entropy Alloy Z-87
+material.high_entropy_alloy_3=High Entropy Alloy Nitride T-63
+material.iridrhodruthenium=Iridrhodruthenium Alloy
+material.lutetium_tantalite=Lutetium Tantalate
+material.programmable_matter=Programmable Matter | Shape:
+material.peek=Polyetheretherketone
+material.galvanized_steel=Galvanized Steel
+material.argon_fluorine=Argon-Fluorine Mixture
+material.excited_neon_fluoride=Excitable Neon-Fluorine Mixture
+material.neon_fluoride=Neon-Fluorine Mixture
+material.suspended_pgqd=Suspended Photoluminsecent Graphene Quantum Dots
+material.terfenol_d_light=Terfenol-D [Light]
+material.terfenol_d_heavy=Terfenol-D [Heavy]
+material.xenon_hexafluoride=Xenon Hexafluoride
+material.xenon_dioxide=Xenon Dioxide
+material.xenon_oxytetrafluoride=Xenon Oxytetrafluoride
+material.xenon_fluoride_mix=Xenon Fluoride Superconductive Mixture
+material.lead_zirconate_titanate=Lead Zirconate Titanate
+material.trinium_steel=Trinium Steel
+material.sodium_potassium_niobate=Sodium Potassium Niobate
+material.enriched_naquadah_alloy=Enriched Naquadah Alloy
+material.indium_fluoride=Indium Fluoride
+material.bismuth_iridium_oxide=Bismuth Iridium Oxide
+material.heavy_quark_degenerate_matter=Heavy Quark Degenerate
+material.photoluminescent_graphene_quantum_dots=Photoluminsecent Graphene Quantum Dots
+material.synthetic_diamond=Synthetic Diamond
+material.bismuth_telluride=Bismuth Telluride
+material.heavy_quarks=Heavy Quark Mixture
+material.light_quarks=Light Quark Mixture
+material.gluons=Gluon Mixture
+material.leptons=Lepton Mixture
+material.nihonium_triiodide=Nihonium Triiodide
+material.carbon_nanotube_polymer=Carbon Nanotube Polymer
+material.hafnium_silicate=Hafnium Silicate
+material.fiberglass=Fiberglass
+material.cobalt_sixty=Cobalt-60
+material.seleniummonobromide=Selenium Monobromide
+
+
+item.polyacrylonitrile.dustTiny=Tiny Pile of Polyacrylonitrile Pulp
+item.polyacrylonitrile.dustSmall=Small Pile of Polyacrylonitrile Pulp
+item.polyacrylonitrile.dust=Pile of Polyacrylonitrile Pulp
+
+//machines
+tjcore.machine.primitive_tree_farmer.name=Primitive Tree Farm
+tjcore.machine.component_assembler.lv.name=Basic Component Assembler
+tjcore.machine.component_assembler.mv.name=Advanced Component Assembler I
+tjcore.machine.component_assembler.hv.name=Advanced Component Assembler II
+tjcore.machine.component_assembler.ev.name=Advanced Component Assembler III
+tjcore.machine.component_assembler.iv.name=Elite Component Assembler
+tjcore.machine.printer.lv.name=Basic 3d Printer
+tjcore.machine.printer.mv.name=Advanced 3D Printer I
+tjcore.machine.printer.hv.name=Advanced 3D Printer II
+tjcore.machine.printer.ev.name=Advanced 3D Printer III
+tjcore.machine.printer.iv.name=Elite 3D Printer
+tjcore.machine.laminator.lv.name=Basic Laminator
+tjcore.machine.laminator.mv.name=Advanced Laminator I
+tjcore.machine.laminator.hv.name=Advanced Laminator II
+tjcore.machine.laminator.ev.name=Advanced Laminator III
+tjcore.machine.laminator.iv.name=Elite Laminator I
+tjcore.machine.laminator.luv.name=Elite Laminator II
+tjcore.machine.laminator.zpm.name=Elite Laminator III
+tjcore.machine.laminator.uv.name=Elite Laminator IV
+tjcore.machine.laminator.uhv.name=Epic Laminator I
+tjcore.machine.laminator.uev.name=Epic Laminator II
+tjcore.machine.laminator.uiv.name=Epic Laminator III
+tjcore.machine.laminator.uxv.name=Epic Laminator IV
+tjcore.machine.laminator.opv.name=Legendary Laminator
+tjcore.machine.spinning_machine.lv.name=Basic Spoolinator
+tjcore.machine.spinning_machine.mv.name=Advanced Spoolinator I
+tjcore.machine.spinning_machine.hv.name=Advanced Spoolinator II
+tjcore.machine.spinning_machine.ev.name=Advanced Spoolinator III
+tjcore.machine.spinning_machine.iv.name=Elite Spoolinator
+tjcore.machine.steam_mixer_bronze.name=Steam Mixer
+tjcore.machine.steam_mixer_steel.name=High Pressure Steam Mixer
+tjcore.machine.steam_dryer_bronze.name=Steam Dryer
+tjcore.machine.steam_dryer_steel.name=High Pressure Steam Dryer
+tjcore.machine.armor_infuser.name=Armor Infuser
+tjcore.machine.steam_assembler.name=Steam Component Assembler
+tjcore.machine.tree_farmer.name=Advanced Tree Farmer
+tjcore.machine.surface_rock_drill.name=Surface Rock Drill
+tjcore.machine.loom.name=Precision Loom
+tjcore.machine.exposure_chamber.name=Exposure Chamber
+tjcore.machine.modular_steam_turbine.name=Modular Steam Turbine
+tjcore.modular_steam_turbine.description=The Modular Steam Turbine is your first means of generating power. Supports up to LuV generation through upgrades.
+tjcore.machine.armor_infuser.description=The armor infuser is an advanced machine capable of upgrading Draconic Evolution tools and armor.
+
+// Recipe Maps
+recipemap.component_assembler.name=Component Assembler
+recipemap.spinning_machine.name=Spooling Recipes
+recipemap.steam_assembler.name=Steam Component Assembler
+recipemap.tree_farmer.name=Tree Farmer
+recipemap.armor_infuser.name=Armor Infusion
+recipemap.laminator.name=Laminator
+
+tile.draconic_casing.draconic_casing_normal.name=Draconic Casing
+
+gregtech.machine.component_assembler.tooltip=Steady there
+
+// Metaitems
+metaitem.primitive_board.name=Primitive Point to Point PCB
+metaitem.electronic_board.name=Silicate Stenciled PCB
+metaitem.integrated_board.name=Machine Stenciled PCB
+metaitem.micro_board.name=Simple Etched PCB
+metaitem.nano_board.name=Reinforced Etched PCB
+metaitem.imc_board.name=Multi-Layered Etched PCB
+metaitem.optical_board.name=Optical Integrated PCB
+metaitem.crystal_board.name=Energy Modulus PCB
+metaitem.bioware_board.name=Bio-frothᵗᵐ Support Unit
+metaitem.wetware_board.name=Organic Neural Network Support Unit
+metaitem.quantum_board.name=Q-Bit Computational Framework
+metaitem.exotic_board.name=Exotic Particle Manipulation Support Framework
+metaitem.cosmic_board.name=Cosmic-Soupᵗᵐ Physical Calculation Support Framework
+metaitem.supra_board.name=Temporally Isolated Calculation Framework
+metaitem.primitive_preboard.name=Phenolic Substrate
+metaitem.electronic_preboard.name=Silicate-Ceramic Substrate
+metaitem.integrated_preboard.name=Plastic Substrate
+metaitem.micro_preboard.name=Simple Epoxy PCB Preparation
+metaitem.nano_preboard.name=Reinforced Epoxy PCB Preparation
+metaitem.imc_preboard.name=Multi-Layer Epoxy PCB Preparation
+metaitem.optical_preboard.name=Coated Optical PCB
+metaitem.crystal_preboard.name=Assembled Crystal PCB Sheet
+metaitem.bioware_preboard.name=Non-Equilibrium Reaction Chamber Base
+metaitem.wetware_preboard.name=Wetware Preparation
+metaitem.quantum_preboard.name=Q-Bit Data Transfer Board
+metaitem.exotic_preboard.name=Spintronic Logistics PCB
+metaitem.cosmic_preboard.name=Leptonic Energy Transfer PCB
+metaitem.supra_preboard.name=Discrete Minkowski Space Containment
+metaitem.wetphenolicpulp.name=Wet Phenolic Pulp
+metaitem.wetpressedphenolicpulp.name=Wet Phenolic Pulp
+metaitem.fiber_glass_mesh.name=Fiberglass Mesh
+metaitem.zblan_matrix.name=Non-Linear Optical Matrix
+metaitem.coated_sapphire_wafer.name=Coated Sapphire Wafer
+metaitem.dirty_coated_sapphire_wafer.name=Dirty Coated Sapphire Wafer
+metaitem.cleaned_coated_sapphire_wafer.name=Cleaned Coated Sapphire Wafer
+metaitem.sapphire_substrate_prep.name=Sapphire Substrate Preparation
+metaitem.etched_sapphire_wafer.name=Etched Sapphire Wafer
+metaitem.superheated_sapphire_wafer.name=Superheated Sapphire Wafer
+metaitem.viable_sapphire_wafer.name=Viable Sapphire Wafer
+metaitem.non_viable_sapphire_wafer.name=Non-Viable Sapphire Wafer
+metaitem.recycled_sapphire_wafer.name=Recycled Sapphire Wafer
+metaitem.sintered_sapphire_wafer.name=Sintered Sapphire Wafer
+metaitem.wired_sapphire_wafer.name=Wired Sapphire Wafer
+metaitem.sapphire_wafer.name=Sapphire Wafer
+metaitem.raw_crystal_chip.name=Raw Crystal Chip
+metaitem.sapphire_chip.name=Sealed Crystal Chip
+metaitem.processed_crystal_wafer.name=Processed Crystal Wafer
+metaitem.crsytal_wafer_prep.name=Crystal Wafer (Prepared)
+metaitem.ruth_coated_crystal_wafer.name=Rutherfordium Wrapped Crystal Wafer
+metaitem.crystal_sfet_bundle.name=Crystal SFET Bundle
+metaitem.crystal_sfet_wafer.name=Crystal SFET Wafer
+metaitem.clean_crystal_sfet_wafer.name=Clean Crystal SFET Wafer
+metaitem.refracting_sheet.name=Refracting Sheet
+metaitem.reflecting_sheet.name=Reflecting Sheet
+metaitem.laminated_crystal_pcb_sheet.name=Laminated Crystal PCB Sheet
+metaitem.gamma_emitting_diode.name=GED (Gamma Emitting Diode)
+metaitem.ferrousinductorcore.name=Ferrous Inductor Core
+metaitem.tungsteninductorcore.name=Tungsten Inductor Core
+metaitem.spun_polyacrylonitrile.name=Spun Polyacrylonitrile
+metaitem.washed_polyacrylonitrile.name=Washed Polyacrylonitrile
+metaitem.baked_polyacrylonitrile.name=Crystalized Polyacrylonitrile Thread
+metaitem.oxidized_carbon_thread.name=Oxidized Carbon Thread
+metaitem.etched_carbon_thread.name=Etched Carbon Thread
+metaitem.coated_carbon_thread.name=Coated Carbon Thread
+metaitem.thin_woven_carbon_fiber.name=Thin Woven Carbon Threads
+metaitem.woven_carbon_fiber.name=Woven Carbon Threads
+metaitem.carbon_fiber_foil.name=Thin Carbon Fiber Sheet
+metaitem.carbon_fiber_plate.name=Carbon Fiber Plate
+metaitem.steam_motor.name=Steam Motor
+metaitem.steam_piston.name=Steam Piston
+metaitem.steam_pump.name=Steam Pump
+metaitem.alumina_mold.name=Aluminium Casting Mold [Empty]
+metaitem.full_alumina_mold.name=Aluminium Casting Mold [Full]
+metaitem.hot_alumina_mold.name=Aluminium Casting Mold [Hot]
+metaitem.stencil_cutting_head.name=PCB Stenciling Cut Head
+metaitem.ferrous_inductor_core.name=Ferrous Inductor Core
+metaitem.tungsten_inductor_core.name=Tungsten Inductor Core
+metaitem.langmuir_wave_oscilator.name=Langmuir Wave Oscilator
+metaitem.langmuir_qbit_housing.name=Langmuir Q-Bit Housing
+metaitem.squid_base.name=S.Q.U.I.D. Base
+metaitem.transmon_support_system.name=Transmon Support System
+metaitem.graphene_aluminosilicate_aerogel.name=Graphene Aluminosilicate Aerogel
+metaitem.layered_polyer_foil.name=Layered Polymer Foil
+metaitem.sterile_polymer_foil.name=Sterile Polymer Foil
+metaitem.copper_laminated_epoxid.name=Copper Laminated Epoxy Sheet
+metaitem.electrum_laminated_epoxid.name=Electrum Laminated Epoxy Sheet
+metaitem.germanium_laminated_epoxid.name=Germanium Laminated Epoxy Sheet
+metaitem.laminated_optical_base.name=Laminated Optical Circuit Base
+metaitem.optical_base.name=Optical Circuit Base
+metaitem.
+
+//circuit lang
+metaitem.circuit.primitive_ulv.name=Primitive Assembly
+metaitem.circuit.primitive_ulv.tooltip=First ULV Circuit
+metaitem.circuit.primitive_lv.name=Primitive Computer
+metaitem.circuit.primitive_lv.tooltip=First LV Circuit
+metaitem.circuit.primitive_mv.name=Primitive Mainframe
+metaitem.circuit.primitive_mv.tooltip=First MV Circuit
+
+metaitem.circuit.electronic_ulv.name=Electronic Processor
+metaitem.circuit.electronic_ulv.tooltip=Second ULV Circuit
+metaitem.circuit.electronic_lv.name=Electronic Assembly
+metaitem.circuit.electronic_lv.tooltip=Second LV Circuit
+metaitem.circuit.electronic_mv.name=Electronic Computer
+metaitem.circuit.electronic_mv.tooltip=Second MV Circuit
+metaitem.circuit.electronic_hv.name=Electronic Mainframe
+metaitem.circuit.electronic_hv.tooltip=First HV Circuit
+
+metaitem.circuit.integrated_lv.name=Integrated Processor
+metaitem.circuit.integrated_lv.tooltip=Third and Final LV Circuit
+metaitem.circuit.integrated_mv.name=Integrated Assembly
+metaitem.circuit.integrated_mv.tooltip=Third MV Circuit
+metaitem.circuit.integrated_hv.name=Integrated Computer
+metaitem.circuit.integrated_hv.tooltip=Second HV Circuit
+metaitem.circuit.integrated_ev.name=Integrated Mainframe
+metaitem.circuit.integrated_ev.tooltip=First EV Circuit
+
+metaitem.circuit.micro_mv.name=Micro Processor
+metaitem.circuit.micro_mv.tooltip=Fourth and Final MV Circuit
+metaitem.circuit.micro_hv.name=Micro Assembly
+metaitem.circuit.micro_hv.tooltip=Third HV Circuit
+metaitem.circuit.micro_ev.name=Micro Computer
+metaitem.circuit.micro_ev.tooltip=Second EV Circuit
+metaitem.circuit.micro_iv.name=Micro Mainframe
+metaitem.circuit.micro_iv.tooltip=First IV Circuit
+
+metaitem.circuit.nano_hv.name=Nano Processor
+metaitem.circuit.nano_hv.tooltip=Fourth and Final HV Circuit
+metaitem.circuit.nano_ev.name=Nano Assembly
+metaitem.circuit.nano_ev.tooltip=Third EV Circuit
+metaitem.circuit.nano_iv.name=Nano Computer
+metaitem.circuit.nano_iv.tooltip=Second IV Circuit
+metaitem.circuit.nano_luv.name=Nano Mainframe
+metaitem.circuit.nano_luv.tooltip=First LuV Circuit
+
+metaitem.circuit.imc_ev.name=In-Memory Computation (IMC) Processor
+metaitem.circuit.imc_ev.tooltip=Fourth and Final EV Circuit
+metaitem.circuit.imc_iv.name=In-Memory Computation (IMC) Assembly
+metaitem.circuit.imc_iv.tooltip=Third IV Circuit
+metaitem.circuit.imc_luv.name=In-Memory Computation (IMC) Computer
+metaitem.circuit.imc_luv.tooltip=Second LuV Circuit
+metaitem.circuit.imc_zpm.name=In-Memory Computation (IMC) Mainframe
+metaitem.circuit.imc_zpm.tooltip=First ZPM Circuit
+
+metaitem.circuit.optical_iv.name=Optical Processor
+metaitem.circuit.optical_iv.tooltip=Fourth and Final IV Circuit
+metaitem.circuit.optical_luv.name=Optical Assembly
+metaitem.circuit.optical_luv.tooltip=Third LuV Circuit
+metaitem.circuit.optical_zpm.name=Optical Computer
+metaitem.circuit.optical_zpm.tooltip=Second ZPM Circuit
+metaitem.circuit.optical_uv.name=Optical Mainframe
+metaitem.circuit.optical_uv.tooltip=First UV Circuit
+
+metaitem.circuit.crystal_luv.name=Crystal Processor
+metaitem.circuit.crystal_luv.tooltip=Fourth and Final LuV Circuit
+metaitem.circuit.crystal_zpm.name=Crystal Assembly
+metaitem.circuit.crystal_zpm.tooltip=Third ZPM Circuit
+metaitem.circuit.crystal_uv.name=Crystal Computer
+metaitem.circuit.crystal_uv.tooltip=Second UV Circuit
+metaitem.circuit.crystal_uhv.name=Crystal Mainframe
+metaitem.circuit.crystal_uhv.tooltip=First UHV Circuit
+
+metaitem.circuit.quantum_zpm.name=Quantum Processor
+metaitem.circuit.quantum_zpm.tooltip=Fourth and Final ZPM Circuit
+metaitem.circuit.quantum_uv.name=Quantum Assembly
+metaitem.circuit.quantum_uv.tooltip=Third UV Circuit
+metaitem.circuit.quantum_uhv.name=Quantum Computer
+metaitem.circuit.quantum_uhv.tooltip=Second UHV Circuit
+metaitem.circuit.quantum_uev.name=Quantum Mainframe
+metaitem.circuit.quantum_uev.tooltip=First UEV Circuit
+
+metaitem.circuit.wetware_uv.name=Wetware Processor
+metaitem.circuit.wetware_uv.tooltip=Fourth and Final UV Circuit
+metaitem.circuit.wetware_uhv.name=Wetware Assembly
+metaitem.circuit.wetware_uhv.tooltip=Third UHV Circuit
+metaitem.circuit.wetware_uev.name=Wetware Computer
+metaitem.circuit.wetware_uev.tooltip=Second UEV Circuit
+metaitem.circuit.wetware_uiv.name=Wetware Mainframe
+metaitem.circuit.wetware_uiv.tooltip=First UIV Circuit
+
+metaitem.circuit.bioware_uhv.name=Bioware Processor
+metaitem.circuit.bioware_uhv.tooltip=Fourth and Final UHV Circuit
+metaitem.circuit.bioware_uev.name=Bioware Assembly
+metaitem.circuit.bioware_uev.tooltip=Third UEV Circuit
+metaitem.circuit.bioware_uiv.name=Bioware Computer
+metaitem.circuit.bioware_uiv.tooltip=Second UIV Circuit
+metaitem.circuit.bioware_uxv.name=Bioware Mainframe
+metaitem.circuit.bioware_uxv.tooltip=First UXV Circuit
+
+metaitem.circuit.exotic_uev.name=Exotic Processor
+metaitem.circuit.exotic_uev.tooltip=Fourth and Final UEV Circuit
+metaitem.circuit.exotic_uiv.name=Exotic Assembly
+metaitem.circuit.exotic_uiv.tooltip=Third UIV Circuit
+metaitem.circuit.exotic_uxv.name=Exotic Computer
+metaitem.circuit.exotic_uxv.tooltip=Second UXV Circuit
+metaitem.circuit.exotic_opv.name=Exotic Mainframe
+metaitem.circuit.exotic_opv.tooltip=First OpV Circuit
+
+metaitem.circuit.cosmic_uiv.name=Cosmic Processor
+metaitem.circuit.cosmic_uiv.tooltip=Fourth and Final UIV Circuit
+metaitem.circuit.cosmic_uxv.name=Cosmic Assembly
+metaitem.circuit.cosmic_uxv.tooltip=Third UXV Circuit
+metaitem.circuit.cosmic_opv.name=Cosmic Computer
+metaitem.circuit.cosmic_opv.tooltip=Second OpV Circuit
+metaitem.circuit.cosmic_max.name=Cosmic Mainframe
+metaitem.circuit.cosmic_max.tooltip=First MAX Circuit
+
+metaitem.circuit.supra_uxv.name=Supra-Causal Processor
+metaitem.circuit.supra_uxv.tooltip=Fourth and Final UXV Circuit
+metaitem.circuit.supra_opv.name=Supra-Causal Assembly
+metaitem.circuit.supra_opv.tooltip=Third and Final OpV Circuit
+metaitem.circuit.supra_max.name=Supra-Causal Computer
+metaitem.circuit.supra_max.tooltip=Second and Final MAX Circuit
+metaitem.circuit.supra_all.name=Supra-Causal Mainframe
+metaitem.circuit.supra_all.tooltip=Meme Circuit Lol
+
+//smd lang
+metaitem.component.smd_capacitor_1.name=Basic SMD Capacitor
+metaitem.component.smd_capacitor_1.tooltip=Basic Energy Storage
+metaitem.component.smd_capacitor_2.name=Good SMD Capacitor
+metaitem.component.smd_capacitor_2.tooltip=Magnetically Activated
+metaitem.component.smd_capacitor_3.name=Advanced SMD Capacitor
+metaitem.component.smd_capacitor_3.tooltip=Advanced Q-Bit Holding Cell
+metaitem.component.smd_capacitor_4.name=Extreme SMD Capacitor
+metaitem.component.smd_capacitor_4.tooltip=Bacteria Truck Stop
+metaitem.component.smd_capacitor_5.name=Ultimate SMD Capacitor
+metaitem.component.smd_capacitor_5.tooltip=Storing Energy in Space
+
+metaitem.component.smd_transistor_1.name=Basic SMD Transistor
+metaitem.component.smd_transistor_1.tooltip=A Smaller Logic Gate
+metaitem.component.smd_transistor_2.name=Good SMD Transistor
+metaitem.component.smd_transistor_2.tooltip=Now Even Smaller
+metaitem.component.smd_transistor_3.name=Advanced SMD Transistor
+metaitem.component.smd_transistor_3.tooltip=Moderately Radioactive
+metaitem.component.smd_transistor_4.name=Extreme SMD Transistor
+metaitem.component.smd_transistor_4.tooltip=Microenvironment Motivation
+metaitem.component.smd_transistor_5.name=Ultimate SMD Transistor
+metaitem.component.smd_transistor_5.tooltip=Fundamental Force Redirection
+
+metaitem.component.smd_resistor_1.name=Basic SMD Resistor
+metaitem.component.smd_resistor_1.tooltip=Current Control, Now Smaller
+metaitem.component.smd_resistor_2.name=Good SMD Resistor
+metaitem.component.smd_resistor_2.tooltip=High Current Resistance
+metaitem.component.smd_resistor_3.name=Advanced SMD Resistor
+metaitem.component.smd_resistor_3.tooltip=Bartworks Energy Flow Control
+metaitem.component.smd_resistor_4.name=Extreme SMD Resistor
+metaitem.component.smd_resistor_4.tooltip=Forced Rapid Evolution
+metaitem.component.smd_resistor_5.name=Ultimate SMD Resistor
+metaitem.component.smd_resistor_5.tooltip=Spin Propagation Delay
+
+metaitem.component.smd_diode_1.name=Basic SMD Diode
+metaitem.component.smd_diode_1.tooltip=Current Restriction
+metaitem.component.smd_diode_2.name=Good SMD Diode
+metaitem.component.smd_diode_2.tooltip=One Way Mirror (Very Small)
+metaitem.component.smd_diode_3.name=Advanced SMD Diode
+metaitem.component.smd_diode_3.tooltip=Unidirectionally Trained Neurons
+metaitem.component.smd_diode_4.name=Extreme SMD Diode
+metaitem.component.smd_diode_4.tooltip=Subatomic Particle Filter
+
+
+metaitem.component.smd_inductor_1.name=Basic SMD Inductor
+metaitem.component.smd_inductor_1.tooltip=Ferrous Inductor
+metaitem.component.smd_inductor_2.name=Good SMD Inductor
+metaitem.component.smd_inductor_2.tooltip=Improved Induction
+metaitem.component.smd_inductor_3.name=Advanced SMD Inductor
+metaitem.component.smd_inductor_3.tooltip=Pseudorandom Optical Interaction
+metaitem.component.smd_inductor_4.name=Extreme SMD Inductor
+metaitem.component.smd_inductor_4.tooltip=Superconducting Electron Excitation
+metaitem.component.smd_inductor_5.name=Ultimate SMD Inductor
+metaitem.component.smd_inductor_5.tooltip=Virtual Particle Absorption
+metaitem.simple_cpu_wafer.name=Simple CPU Wafer
+metaitem.simple_cpu_wafer.tooltip=Clumsy Engraving
+metaitem.simple_cpu.name=Simple CPU
+metaitem.simple_cpu.tooltip=Good Enough
+metaitem.simple_silicon_wafer.name=Simple Silicon Wafer
+
+//Lithogrpahy
+metaitem.silicon_boule.name=Silicon Boule
+metaitem.antimony_doped_silicon_boule.name=Antimony Doped Silicon Boule
+metaitem.boron_doped_silicon_boule.name=Boron Doped Silicon Boule
+metaitem.gallium_arsenide_boule.name=Gallium Arsenide Boule
+metaitem.silver_gallium_selenide_boule.name=Silver Gallium Selenide Boule
+
+metaitem.silicon_wafer.name=Silicon Wafer
+metaitem.antimony_doped_silicon_wafer.name=Antimony Doped Silicon Wafer
+metaitem.boron_doped_silicon_wafer.name=Boron Doped Silicon Wafer
+metaitem.gallium_arsenide_wafer.name=Gallium Arsenide Wafer
+metaitem.silver_gallium_selenide_wafer.name=Silver Gallium Selenide Wafer
+
+metaitem.layered_silicon_wafer.name=Layered Silicon Wafer
+metaitem.layered_antimony_doped_silicon_wafer.name=Layered Antimony Doped Silicon Wafer
+metaitem.layered_boron_doped_silicon_wafer.name=Layered Boron Doped Silicon Wafer
+metaitem.layered_gallium_arsenide_wafer.name=Layered Gallium Arsenide Wafer
+metaitem.layered_silver_gallium_selenide_wafer.name=Layered Silver Gallium Selenide Wafer
+
+metaitem.prepared_silicon_wafer.name=Polymer Wrapped Silicon Wafer
+metaitem.prepared_antimony_doped_silicon_wafer.name=Polymer Wrapped Antimony Doped Silicon Wafer
+metaitem.prepared_boron_doped_silicon_wafer.name=Polymer Wrapped Boron Doped Silicon Wafer
+metaitem.prepared_gallium_arsenide_wafer.name=Polymer Wrapped Gallium Arsenide Wafer
+metaitem.prepared_silver_gallium_selenide_wafer.name=Polymer Wrapped Silver Gallium Selenide Wafer
+
+metaitem.integrated_wafer_lithography_prep.name=Integrated Wafer (Lithography Prepared)
+metaitem.micro_wafer_lithography_prep.name=Micro Wafer (Lithography Prepared)
+metaitem.nano_wafer_lithography_prep.name=Nano Wafer (Lithography Prepared)
+metaitem.imc_wafer_lithography_prep.name=IMC Wafer (Lithography Prepared)
+metaitem.optical_wafer_lithography_prep.name=Optical Wafer (Lithography Prepared)
+
+metaitem.prebaked_integrated_wafer.name=Prebaked Integrated Wafer
+metaitem.prebaked_micro_wafer.name=Prebaked Micro Wafer
+metaitem.prebaked_nano_wafer.name=Prebaked Nano Wafer
+metaitem.prebaked_imc_wafer.name=Prebaked IMC Wafer
+metaitem.prebaked_optical_wafer.name=Prebaked Optical Wafer
+
+metaitem.treated_integrated_wafer.name=Treated Integrated Wafer
+metaitem.treated_micro_wafer.name=Treated Micro Wafer
+metaitem.treated_nano_wafer.name=Treated Nano Wafer
+metaitem.treated_imc_wafer.name=Treated IMC Wafer
+metaitem.treated_optical_wafer.name=Treated Optical Wafer
+
+metaitem.raw_integrated_wafer.name=Raw Integrated Wafer
+metaitem.raw_micro_wafer.name=Raw Micro Wafer
+metaitem.raw_nano_wafer.name=Raw Nano Wafer
+metaitem.raw_imc_wafer.name=Raw IMC Wafer
+metaitem.raw_optical_wafer.name=Raw Optical Wafer
+
+metaitem.baked_integrated_wafer.name=Baked Integrated Wafer
+metaitem.baked_micro_wafer.name=Baked Micro Wafer
+metaitem.baked_nano_wafer.name=Baked Nano Wafer
+metaitem.baked_imc_wafer.name=Baked IMC Wafer
+metaitem.baked_optical_wafer.name=Baked Optical Wafer
+
+metaitem.integrated_wafer.name=Integrated CPU Wafer
+metaitem.micro_wafer.name=Micro CPU Wafer
+metaitem.nano_wafer.name=Nano CPU Wafer
+metaitem.imc_wafer.name=IMC CPU Wafer
+metaitem.optical_wafer.name=Optical CPU Wafer
+
+metaitem.etched_integrated_wafer.name=Etched Integrated CPU Wafer
+metaitem.etched_micro_wafer.name=Etched Micro CPU Wafer
+metaitem.etched_nano_wafer.name=Etched Nano CPU Wafer
+metaitem.etched_imc_wafer.name=Etched IMC CPU Wafer
+metaitem.etched_optical_wafer.name=Etched Optical CPU Wafer
+
+metaitem.integrated_chip.name=Integrated CPU
+metaitem.micro_chip.name=Micro CPU
+metaitem.nano_chip.name=Nano CPU
+metaitem.imc_chip.name=IMC CPU
+metaitem.optical_chip.name=Optical CPU
+
+metaitem.integrated_chip.tooltip=Integrated Computation
+metaitem.micro_chip.tooltip=Microscopic Computation
+metaitem.nano_chip.tooltip=Nanoscale Computation
+metaitem.imc_chip.tooltip=In Memory Computation
+metaitem.optical_chip.tooltip=Lightspeed Computation
+
+metaitem.integrated_hard_mask.name=Grating Lithography Mask (Integrated CPU)
+metaitem.micro_hard_mask.name=Grating Lithography Mask (Micro CPU)
+metaitem.nano_hard_mask.name=Grating Lithography Mask (Nano CPU)
+metaitem.imc_hard_mask.name=Grating Lithography Mask (IMC CPU)
+metaitem.optical_hard_mask.name=Grating Lithography Mask (Optical CPU)
+
+metaitem.uvemitter_a.name=Mercury Vapor Fluorescent Tube
+metaitem.uvemitter_a.tooltip=Ultraviolet Emitter 1
+metaitem.uvemitter_b.name=Hydrogen Arc Lamp
+metaitem.uvemitter_b.tooltip=Ultraviolet Emitter 2
+metaitem.uvemitter_c.name=Deuterium Arc Lamp
+metaitem.uvemitter_c.tooltip=Ultraviolet Emitter 3
+metaitem.uvemitter_d.name=Neon-Fluorine Excimer Lamp
+metaitem.uvemitter_d.tooltip=Ultraviolet Emitter 4
+metaitem.uvemitter_e.name=Argon-Fluorine Ultraviolet Laser
+metaitem.uvemitter_e.tooltip=Ultraviolet Emitter 5
+metaitem.ballast.name=Fluorescent Tube Ballast
+metaitem.empty_geissler_tube.name=Empty Geissler Tube
+metaitem.empty_arc_lamp.name=Empty Arc Lamp
+metaitem.empty_excimer_lamp.name=Empty Excimer Lamp
+metaitem.laser_tube.name=Empty Laser Tube
+
+
+

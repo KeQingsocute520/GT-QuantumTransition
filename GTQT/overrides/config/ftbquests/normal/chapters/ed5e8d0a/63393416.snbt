@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -9.0d,
+	dependencies: [
+		"8059616b"
+	],
+	tasks: [{
+		uid: "f46e77cb",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 120"
+		}]
+	}],
+	rewards: [{
+		uid: "f56f23a7",
+		type: "loot",
+		table: 9
+	}]
+}

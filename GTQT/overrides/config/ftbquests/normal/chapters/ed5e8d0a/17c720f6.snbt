@@ -1,0 +1,26 @@
+{
+	title: "SU8生产part1",
+	x: -2.0d,
+	y: -9.0d,
+	description: "硝基苯",
+	text: [
+		""
+	],
+	dependencies: [
+		"20888665",
+		"f8be66cc"
+	],
+	tasks: [{
+		uid: "2c939fda",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "nitrobenzene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

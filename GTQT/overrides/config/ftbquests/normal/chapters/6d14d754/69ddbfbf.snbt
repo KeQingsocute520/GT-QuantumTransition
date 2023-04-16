@@ -1,0 +1,32 @@
+{
+	title: "羊羊这么可爱，为什么要杀羊羊。",
+	x: 12.5d,
+	y: 3.0d,
+	dependencies: [
+		"1800d419"
+	],
+	tasks: [{
+		uid: "9a2616f1",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockWool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockWool"
+				}
+			}
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "bd36cae6",
+		type: "loot",
+		table: 9
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "欢迎来到微电子",
+	x: 4.5d,
+	y: 11.5d,
+	description: "珍惜手搓电路板的美好时光吧，这么简单的电路板可不多了。",
+	dependencies: [
+		"173b2058"
+	],
+	tasks: [{
+		uid: "cd144964",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 519"
+		}],
+		count: 2L
+	}]
+}

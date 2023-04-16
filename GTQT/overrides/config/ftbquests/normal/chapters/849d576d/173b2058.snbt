@@ -1,0 +1,43 @@
+{
+	title: "热带火爆经济",
+	x: 4.5d,
+	y: 5.0d,
+	description: "香蕉？橡胶！",
+	text: [
+		"难以置信，你需要找到一些GT的橡胶树，尽管不是那么常见，你还需要收集大量的橡胶树树苗来建造橡胶农场，至少在往后的一段时间里，你需要大量橡胶。",
+		"值得注意的，世界拥有两种橡胶树，GT的橡胶树需要离心机提取树脂，不适合林业或者EIO树场。",
+		"IC的树脂需要木龙头提取，但是支持树场工作。并且提取的树脂需要转化才能作为GT橡胶使用。",
+		"",
+		"你需要权衡"
+	],
+	dependencies: [
+		"7ccf9a0c"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "b37da367",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 438"
+		}],
+		count: 16L
+	},
+	{
+		uid: "36133fc0",
+		type: "item",
+		items: [{
+			item: "gregtech:rubber_sapling"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "b45a315c",
+		type: "item",
+		item: "extrautils2:fireaxe"
+	},
+	{
+		uid: "9030a0c3",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

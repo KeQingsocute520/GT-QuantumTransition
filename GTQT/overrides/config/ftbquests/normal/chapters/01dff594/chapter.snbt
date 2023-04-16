@@ -1,0 +1,7 @@
+{
+	title: "魔法少女—法术的邂逅",
+	icon: "ebwizardry:wizard_hat_ice",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

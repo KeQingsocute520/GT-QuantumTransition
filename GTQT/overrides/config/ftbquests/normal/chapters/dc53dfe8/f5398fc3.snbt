@@ -1,0 +1,23 @@
+{
+	x: 25.0d,
+	y: 10.0d,
+	text: [
+		"组装你的马达，传送带以及机械臂"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4a6c184b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 12001"
+		}]
+	}],
+	rewards: [{
+		uid: "6f712c18",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

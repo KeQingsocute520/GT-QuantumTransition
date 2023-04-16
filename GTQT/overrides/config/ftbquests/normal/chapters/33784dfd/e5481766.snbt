@@ -1,0 +1,39 @@
+{
+	title: "聚乙烯&氯",
+	x: -6.0d,
+	y: 14.5d,
+	description: "塑料塑料part",
+	text: [
+		""
+	],
+	dependencies: [
+		"e348a67a",
+		"a7178144"
+	],
+	tasks: [{
+		uid: "e0ab08ee",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "chlorine",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "f84217e1",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "plastic",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

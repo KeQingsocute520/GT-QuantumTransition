@@ -1,0 +1,329 @@
+{
+  "name": "04_14",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "518bd4fb-336a-4e4e-a030-7252450e5ef6",
+      "duration": 580,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:3103s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"heavy_taranium_fuel\",Amount:300}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"heavy_enriched_taranium_fuel\",Amount:400}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"energetic_naquadria\",Amount:300}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"plutonium\",Amount:144}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 855244560
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:125s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"heavy_hyper_fuel\",Amount:2000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d526dd71-faba-4eaa-8ae3-d14f3f405821",
+      "duration": 520,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:3s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"uranium_235\",Amount:144}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"energetic_naquadria\",Amount:250}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"medium_enriched_taranium_fuel\",Amount:350}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"medium_taranium_fuel\",Amount:400}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 255590400
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:125s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"medium_hyper_fuel\",Amount:2000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "53f968e7-3681-4342-981e-c139a1801b07",
+      "duration": 900,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:126s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sulfuric_acid\",Amount:500}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nitrogen_dioxide\",Amount:500}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 19660880
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:58s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:116s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:82s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:125s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"energetic_naquadria\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "21829c2b-7fbe-4510-90f1-570481a771b4",
+      "duration": 460,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:33s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"uranium\",Amount:144}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"light_taranium_fuel\",Amount:300}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"light_enriched_taranium_fuel\",Amount:500}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"energetic_naquadria\",Amount:200}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 90439680
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:124s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"light_hyper_fuel\",Amount:2000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "7f1107f7-e14a-4f7e-8828-de6d93d14c98",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:10,Damage:3105s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 400000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:3618s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:5,Damage:3619s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:2,Damage:124s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:2,Damage:75s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

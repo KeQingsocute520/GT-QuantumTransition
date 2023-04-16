@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: -3.0d,
+	dependencies: [
+		"119dcb5d"
+	],
+	tasks: [{
+		uid: "20535d11",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:infusion_provider"
+		}]
+	}]
+}

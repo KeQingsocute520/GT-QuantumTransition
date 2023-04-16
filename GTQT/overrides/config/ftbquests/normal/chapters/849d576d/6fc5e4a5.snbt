@@ -1,0 +1,18 @@
+{
+	x: 8.5d,
+	y: 6.5d,
+	description: "第一种电路基板",
+	text: [
+		"难以置信，杂酚油还是有用的"
+	],
+	dependencies: [
+		"2badc3c4"
+	],
+	tasks: [{
+		uid: "78a1ff94",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 50"
+		}]
+	}]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "01_07",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "b3658b2f-85b5-4f5b-a928-84b0c96378a6",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"gregtech:meta_ingot\",Count:32,Damage:127s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 256000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:6s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

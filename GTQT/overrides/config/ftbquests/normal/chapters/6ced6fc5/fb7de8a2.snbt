@@ -1,0 +1,24 @@
+{
+	title: "溴",
+	x: 6.0d,
+	y: 0.5d,
+	text: [
+		"制备 一溴化硒，苯基溴化镁"
+	],
+	dependencies: [
+		"a57ded3f"
+	],
+	tasks: [{
+		uid: "e12a9214",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "bromine",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "UIV",
+	icon: "gregtech:machine 1 996",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square"
+}

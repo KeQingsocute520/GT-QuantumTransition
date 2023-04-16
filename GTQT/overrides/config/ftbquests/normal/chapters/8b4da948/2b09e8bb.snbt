@@ -1,0 +1,25 @@
+{
+	title: "略微套一套",
+	x: -1.0d,
+	y: -6.0d,
+	text: [
+		"当然不代表可以不用一直套"
+	],
+	dependencies: [
+		"26823913",
+		"84b321a9"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "21edc36b",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 116"
+		}]
+	}],
+	rewards: [{
+		uid: "a0da485d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	}]
+}

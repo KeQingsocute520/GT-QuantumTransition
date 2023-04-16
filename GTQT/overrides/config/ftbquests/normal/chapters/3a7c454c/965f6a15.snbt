@@ -1,0 +1,23 @@
+{
+	title: "四氟乙烯",
+	x: -14.0d,
+	y: 0.5d,
+	dependencies: [
+		"034a51e3",
+		"089cf025",
+		"6231a182"
+	],
+	tasks: [{
+		uid: "6e7b19a2",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "tetrafluoroethylene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

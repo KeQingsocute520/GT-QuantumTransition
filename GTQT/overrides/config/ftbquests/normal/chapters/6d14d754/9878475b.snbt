@@ -1,0 +1,25 @@
+{
+	title: "任务书",
+	icon: "ftbquests:book",
+	x: 8.0d,
+	y: 0.0d,
+	description: "如你所见，你在看任务书。什么，书丢了？？？？按下~键吧，他会回来的。",
+	text: [
+		"注意，如果你修改了按键，请记住你修改的是哪个按键",
+		"",
+		"送给你的阿喀什宝典是个好东西，你可以把你的书都塞进去，这样就不会占用太多背包格子了",
+		"使用方法：在合成界面与任意书无序合成即可"
+	],
+	dependencies: [
+		"b8136e47"
+	],
+	tasks: [{
+		uid: "e8c5ec82",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "e8a21b92",
+		type: "item",
+		item: "akashictome:tome"
+	}]
+}

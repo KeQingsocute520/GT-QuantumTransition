@@ -1,0 +1,178 @@
+{
+  "name": "04_02",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "90b6039e-e21e-416e-9162-ef4aa2a4e77b",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:4,Damage:708s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"tjcore:meta_item_1\",Count:2,Damage:200s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:6,Damage:995s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "9dbd69c3-5576-4b1b-a69e-b5968e7e82ef",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:16,Damage:709s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:2,Damage:73s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sterilized_growth_medium\",Amount:100}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:8,Damage:708s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e8fbdb83-58af-44c6-bae6-fd10493601e4",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_stick\",Count:4,Damage:3592s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:4,Damage:342s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:1,Damage:73s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "37c52d87-ed4b-4020-a933-659621643889",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_plate\",Count:4,Damage:3592s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:1,Damage:73s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:4,Damage:709s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:2,Damage:59s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: 16.0d,
+	text: [
+		"同坎达尔i线圈的处理一样，但是需要2700K才能获得不锈钢，也就是说，你必须拥有一台坎达尔线圈高炉"
+	],
+	dependencies: [
+		"eb45140f"
+	],
+	tasks: [{
+		uid: "ef743f6c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 323"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	dependencies: [
+		"fc0e2af8"
+	],
+	tasks: [{
+		uid: "dad79cf6",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}]
+	}]
+}

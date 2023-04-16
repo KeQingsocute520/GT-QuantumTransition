@@ -1,0 +1,14 @@
+{
+	x: 12.5d,
+	y: 3.0d,
+	dependencies: [
+		"585211e1"
+	],
+	tasks: [{
+		uid: "9e7e808a",
+		type: "item",
+		items: [{
+			item: "mbd:fish"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "不再需要电池",
+	x: 5.5d,
+	y: 2.5d,
+	text: [
+		"由于提供了RF转GTCEu电的方法，比起造价高昂的电池箱，为什么不试试这个电容库"
+	],
+	dependencies: [
+		"5b2b322e"
+	],
+	tasks: [{
+		uid: "d02a5256",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "70bbea17",
+		type: "choice",
+		table: 3
+	},
+	{
+		uid: "806da13a",
+		type: "random",
+		table: 9
+	}]
+}

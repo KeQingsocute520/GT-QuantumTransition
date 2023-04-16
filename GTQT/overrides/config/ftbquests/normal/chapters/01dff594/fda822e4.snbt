@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"https://www.mcmod.cn/post/1867.html"
+	],
+	tasks: [{
+		uid: "6e53bb22",
+		type: "item",
+		items: [{
+			item: "ebwizardry:oak_lectern"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "硅处理PART1",
+	x: 0.0d,
+	y: 5.5d,
+	text: [
+		"四氯化硅是硅处理的第一步，你需要用氯气提纯这些粗硅"
+	],
+	dependencies: [
+		"f7bf0f78"
+	],
+	tasks: [{
+		uid: "1a4c8584",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "sicl4",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

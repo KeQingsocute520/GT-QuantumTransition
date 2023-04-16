@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 3.0d,
+	description: "钛的一种化合物",
+	text: [
+		"从中提取四氯化钛",
+		"关于它的获取，也可以使用电力高炉烧制混合钛铁矿和煤粉获得"
+	],
+	dependencies: [
+		"387e8cde"
+	],
+	tasks: [{
+		uid: "f363b0d7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 285"
+		}]
+	}]
+}

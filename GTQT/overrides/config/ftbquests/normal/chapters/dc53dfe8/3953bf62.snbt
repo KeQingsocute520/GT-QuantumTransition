@@ -1,0 +1,32 @@
+{
+	title: "咕咕矿",
+	x: 12.0d,
+	y: 8.5d,
+	description: "咕咕在哪里？咕咕在下界。",
+	text: [
+		"咕咕矿是一种及其重要的矿物，无论是在匠魂又或者是GT里。",
+		"当然你需要开采等级为咕的镐子去开采它。",
+		"此外，咕并不是以矿脉的形式存在的，它随机生成在地狱的每一个角落。"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "935dc96c",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreNetherrackCobalt"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreNetherrackCobalt"
+				}
+			}
+		}]
+	}]
+}

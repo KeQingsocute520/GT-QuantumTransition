@@ -1,0 +1,24 @@
+{
+	title: "你的钢在哪",
+	x: -1.0d,
+	y: 5.0d,
+	description: "貌似你需要给你的锅炉升级了，不过你没有钢。",
+	text: [
+		""
+	],
+	dependencies: [
+		"7ccf9a0c"
+	],
+	tasks: [{
+		uid: "59dd08bd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "0cccd343",
+		type: "random",
+		table: 9
+	}]
+}

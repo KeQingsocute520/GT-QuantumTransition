@@ -1,0 +1,51 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b7078376",
+		type: "item",
+		items: [{
+			item: "harvestcraft:aridgarden"
+		}]
+	},
+	{
+		uid: "5802fb1f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:frostgarden"
+		}]
+	},
+	{
+		uid: "7d667f95",
+		type: "item",
+		items: [{
+			item: "harvestcraft:shadedgarden"
+		}]
+	},
+	{
+		uid: "7ccf8475",
+		type: "item",
+		items: [{
+			item: "harvestcraft:soggygarden"
+		}]
+	},
+	{
+		uid: "cda475a8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tropicalgarden"
+		}]
+	},
+	{
+		uid: "74b6607d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:windygarden"
+		}]
+	}],
+	rewards: [{
+		uid: "9b7eb391",
+		type: "item",
+		item: "ebwizardry:charm_feeding"
+	}]
+}

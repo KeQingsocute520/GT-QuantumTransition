@@ -1,0 +1,24 @@
+{
+	x: 17.5d,
+	y: -8.0d,
+	dependencies: [
+		"a74a91f4"
+	],
+	tasks: [{
+		uid: "2ff3de77",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "135ccef2",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "047d9902",
+		type: "loot",
+		table: 9
+	}]
+}

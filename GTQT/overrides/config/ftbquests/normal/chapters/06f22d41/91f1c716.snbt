@@ -1,0 +1,15 @@
+{
+	icon: "tjcore:meta_item_1 1 422",
+	x: 3.0d,
+	y: 13.0d,
+	tasks: [{
+		uid: "fc00a82b",
+		type: "ftbmoney:money",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d9de43a4",
+		type: "item",
+		item: "tjcore:meta_item_1 1 422"
+	}]
+}

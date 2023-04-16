@@ -1,0 +1,19 @@
+{
+	title: "这算是什么",
+	x: -6.5d,
+	y: 11.0d,
+	text: [
+		"电解红宝石，镉不仅仅可以用来制作电池，还可以混合为坎塔尔合金粉"
+	],
+	dependencies: [
+		"88396008",
+		"c892fbe9"
+	],
+	tasks: [{
+		uid: "6bbf87c2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 22"
+		}]
+	}]
+}

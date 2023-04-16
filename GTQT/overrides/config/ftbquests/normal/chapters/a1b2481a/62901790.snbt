@@ -1,0 +1,26 @@
+{
+	title: "钾钠合金",
+	x: -11.5d,
+	y: -2.5d,
+	text: [
+		"可以作为合成机器的材料使用",
+		"也可以组我欸核反应的冷却材料使用"
+	],
+	dependencies: [
+		"d0ee54ea",
+		"a7178144"
+	],
+	tasks: [{
+		uid: "6e58b8df",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "sodium_potassium",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

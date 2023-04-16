@@ -1,0 +1,24 @@
+{
+	title: "氦",
+	x: -5.0d,
+	y: -1.5d,
+	text: [
+		"分馏末地空气"
+	],
+	dependencies: [
+		"d6809a47"
+	],
+	tasks: [{
+		uid: "8c8f369f",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "helium",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

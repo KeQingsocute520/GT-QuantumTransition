@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: 5.5d,
+	dependencies: [
+		"1303a393"
+	],
+	tasks: [{
+		uid: "d5265d61",
+		type: "item",
+		items: [{
+			id: "reactor_stuff:thorium_rod_quad",
+			tag: {
+				advDmg: 0
+			}
+		}]
+	}]
+}

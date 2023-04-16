@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: -0.5d,
+	description: "在火星！",
+	text: [
+		"白钨矿是你提取钨的主要原料。"
+	],
+	dependencies: [
+		"32311145"
+	],
+	tasks: [{
+		uid: "08f8570c",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_scheelite_0"
+		}]
+	}]
+}

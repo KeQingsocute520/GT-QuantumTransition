@@ -1,0 +1,30 @@
+{
+	title: "软锰矿",
+	x: 6.5d,
+	y: 5.5d,
+	description: "末地",
+	text: [
+		"末地分布着一些"
+	],
+	dependencies: [
+		"b99e49f8"
+	],
+	tasks: [{
+		uid: "369ecbb9",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreEndstonePyrolusite"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreEndstonePyrolusite"
+				}
+			}
+		}]
+	}]
+}

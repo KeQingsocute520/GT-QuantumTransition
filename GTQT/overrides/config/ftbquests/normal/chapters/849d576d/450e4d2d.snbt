@@ -1,0 +1,31 @@
+{
+	title: "被撅了（悲",
+	x: 14.0d,
+	y: 6.5d,
+	description: "将机器或者管道里不需要的残留液体撅出来~",
+	dependencies: [
+		"18015dcf"
+	],
+	tasks: [{
+		uid: "28e6924e",
+		type: "item",
+		items: [{
+			id: "gregtech:plunger",
+			tag: {
+				GT.Tool: {
+					Material: "rubber",
+					MaxDurability: 256,
+					HarvestLevel: 1,
+					ToolSpeed: 4.0f,
+					AttackDamage: 0.0f,
+					Durability: 0,
+					AttackSpeed: -2.4f
+				},
+				GT.Behaviours: {},
+				HideFlags: 2
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

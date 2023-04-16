@@ -1,0 +1,21 @@
+{
+	x: 3.5d,
+	y: -1.0d,
+	dependencies: [
+		"65257cf8"
+	],
+	tasks: [{
+		uid: "b0d04bd4",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	},
+	{
+		uid: "e504dfb3",
+		type: "item",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		}]
+	}]
+}

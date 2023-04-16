@@ -1,0 +1,51 @@
+{
+  "name": "04_10",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "13918e36-2e82-4810-80de-144e4b03996a",
+      "duration": 1
+    },
+    {
+      "uid": "b56ea73b-6dad-47e1-aa60-d5783941cb9a",
+      "duration": 1,
+      "inputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1966080
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:18028s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"bedrock_smoke\",Amount:1}"
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "pos_y",
+          "condition": {
+            "min": 0,
+            "max": 10
+          }
+        }
+      ]
+    }
+  ]
+}

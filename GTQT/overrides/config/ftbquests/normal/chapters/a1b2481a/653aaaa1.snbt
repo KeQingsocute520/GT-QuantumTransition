@@ -1,0 +1,19 @@
+{
+	title: "凡事都有意外",
+	x: 7.5d,
+	y: 1.0d,
+	description: "比如这个钒",
+	text: [
+		"你需要大量的钒"
+	],
+	dependencies: [
+		"7743eb4b"
+	],
+	tasks: [{
+		uid: "c2f5ef1b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 118"
+		}]
+	}]
+}

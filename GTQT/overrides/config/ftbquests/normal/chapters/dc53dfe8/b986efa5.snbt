@@ -1,0 +1,33 @@
+{
+	title: "有辐射？",
+	x: 12.0d,
+	y: 21.0d,
+	description: "地狱大勘探",
+	text: [
+		"黝铜矿或者辉锑矿都可以提炼锑。"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "639c60f4",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreNetherrackTetrahedrite"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreNetherrackTetrahedrite"
+				}
+			}
+		},
+		{
+			item: "gregtech:ore_stibnite_0 1 1"
+		}]
+	}]
+}

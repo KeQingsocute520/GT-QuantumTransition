@@ -1,0 +1,46 @@
+{
+  "name": "04_04",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "dbe6cb12-febd-4dcd-bc45-b679be10cd9b",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:64,Damage:33s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:4,Damage:3542s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:meta_item_1\",Count:1,Damage:130s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

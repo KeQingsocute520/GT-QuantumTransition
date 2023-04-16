@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 4.5d,
+	dependencies: [
+		"6229661c"
+	],
+	tasks: [{
+		uid: "a0db2268",
+		type: "item",
+		items: [{
+			item: "forestry:arboretum"
+		}]
+	}]
+}

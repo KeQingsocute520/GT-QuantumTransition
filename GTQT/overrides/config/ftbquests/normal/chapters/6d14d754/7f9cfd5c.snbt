@@ -1,0 +1,21 @@
+{
+	title: "焦炉的自动化",
+	x: 30.5d,
+	y: -2.0d,
+	description: "你在寻找漏斗嘛",
+	dependencies: [
+		"3ba748c1"
+	],
+	tasks: [{
+		uid: "6fada493",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1018"
+		}]
+	}],
+	rewards: [{
+		uid: "4cf4c603",
+		type: "random",
+		table: 9
+	}]
+}

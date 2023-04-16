@@ -1,0 +1,20 @@
+{
+	title: "左上角的小字",
+	icon: "minecraft:sign",
+	x: 0.0d,
+	y: 4.0d,
+	description: "/igi disable 来关闭他，当然我建议你只是缩小他们/igi config。",
+	dependencies: [
+		"2e7b437e"
+	],
+	tasks: [{
+		uid: "5ff3f74f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "f7197b82",
+		type: "item",
+		item: "harvestcraft:nopalessaladitem",
+		count: 8
+	}]
+}

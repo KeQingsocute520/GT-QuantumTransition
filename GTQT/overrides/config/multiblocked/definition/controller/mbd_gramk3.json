@@ -1,0 +1,387 @@
+{
+  "version": 2,
+  "location": "mbd:gramk3",
+  "traits": {
+    "ta_impetus": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 300,
+      "maxReceive": 50,
+      "maxExtract": 50,
+      "maxInputs": 1,
+      "maxOutputs": 1,
+      "beamEndpointXOffset": 0.5,
+      "beamEndpointYOffset": 0.5,
+      "beamEndpointZOffset": 0.5
+    },
+    "gtce_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 10000
+    },
+    "item": [],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblock:control_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "03_2",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "AAAAAAAAAAA",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "AAAAAAAAAAA",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "AAAAAAAAAAA",
+        "  BCCCCCB  ",
+        "  B     B  ",
+        "  B     B  ",
+        "  B     B  ",
+        "  BCCCCCB  ",
+        "  AAAAAAA  "
+      ],
+      [
+        "AAADDDDDAAA",
+        "  CEEEEEC  ",
+        "   EEEEE   ",
+        "   EEEEE   ",
+        "   EEEEE   ",
+        "  CDDDDDC  ",
+        "  AAAAAAA  "
+      ],
+      [
+        "AAADDDDDAAA",
+        "  CE   EC  ",
+        "   E   E   ",
+        "   E   E   ",
+        "   E   E   ",
+        "  CDDDDDC  ",
+        "  AAAAAAA  "
+      ],
+      [
+        "AAADDDDDAAA",
+        "  CE F EC  ",
+        "   E G E   ",
+        "   E G E   ",
+        "   E G E   ",
+        "  CDDDDDC  ",
+        "  AAAAAAA  "
+      ],
+      [
+        "AAADDDDDAAA",
+        "  CE   EC  ",
+        "   E   E   ",
+        "   E   E   ",
+        "   E   E   ",
+        "  CDDDDDC  ",
+        "  AAAAAAA  "
+      ],
+      [
+        "AAADDDDDAAA",
+        "  CEEEEEC  ",
+        "   EEEEE   ",
+        "   EEEEE   ",
+        "   EEEEE   ",
+        "  CDDDDDC  ",
+        "  AAAAAAA  "
+      ],
+      [
+        "AAAAAAAAAAA",
+        "  BCHCICB  ",
+        "  BCJCICB  ",
+        "  BCCCCCB  ",
+        "  BCKKKCB  ",
+        "  BCCCCCB  ",
+        "  AAAAAAA  "
+      ],
+      [
+        "AAAAAAAAAAA",
+        "   C   C   ",
+        "   C   C   ",
+        "   C   C   ",
+        "   C   C   ",
+        "   CCCCC   ",
+        "           "
+      ],
+      [
+        "AAAAAAAAAAA",
+        "   C   C   ",
+        "   @   C   ",
+        "   C   C   ",
+        "   C   C   ",
+        "   CCCCC   ",
+        "           "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:machine_casing",
+            "meta": 9
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:gramk3",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_frame_7",
+            "meta": 15
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "gregtech:fusion_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "draconicevolution:draconic_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "gregtech:transparent_casing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "draconicadditions:chaos_crystal_stable",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "avaritia:block_resource",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "gregtech:machine",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "multiblocked:item_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "multiblocked:ta_auto",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

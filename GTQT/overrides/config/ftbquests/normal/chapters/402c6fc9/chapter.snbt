@@ -1,0 +1,7 @@
+{
+	title: "基地建设",
+	icon: "extrautils2:itembuilderswand",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square"
+}

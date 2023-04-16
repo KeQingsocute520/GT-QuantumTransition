@@ -1,0 +1,11 @@
+{
+	x: -8.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "9b16ef27",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 102"
+		}]
+	}]
+}

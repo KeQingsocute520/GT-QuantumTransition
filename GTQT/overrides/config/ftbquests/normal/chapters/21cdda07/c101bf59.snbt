@@ -1,0 +1,19 @@
+{
+	x: 10.5d,
+	y: 0.0d,
+	dependencies: [
+		"ab52ae47"
+	],
+	tasks: [{
+		uid: "85ec8e0f",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "8efdf6df",
+		type: "item",
+		item: "ironchest:iron_chest 1 5"
+	}]
+}

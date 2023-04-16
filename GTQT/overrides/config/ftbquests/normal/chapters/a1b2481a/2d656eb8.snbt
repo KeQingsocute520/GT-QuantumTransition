@@ -1,0 +1,19 @@
+{
+	title: "变得值钱了",
+	x: -7.5d,
+	y: -9.0d,
+	text: [
+		"第二步，通过强酸进一步提纯"
+	],
+	dependencies: [
+		"86bd543c",
+		"db3ba390"
+	],
+	tasks: [{
+		uid: "4277018e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 299"
+		}]
+	}]
+}

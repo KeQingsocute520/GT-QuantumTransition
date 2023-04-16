@@ -1,0 +1,16 @@
+{
+	title: "你需要更多欸",
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"ffd1d36e"
+	],
+	tasks: [{
+		uid: "121d49e0",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 16L
+	}]
+}

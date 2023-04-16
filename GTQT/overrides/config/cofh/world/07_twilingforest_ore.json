@@ -1,0 +1,901 @@
+{
+    "priority": 1,
+	"populate": {
+		"apatite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_apatite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 60
+					},
+					{
+						"name": "gregtech:ore_tricalcium_phosphate_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pyrochlore_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 40,
+			"max-height": 60,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"cassiterite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_tin_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 60
+					},
+					{
+						"name": "gregtech:ore_tin_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_cassiterite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 40,
+			"max-height": 60,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"coal_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_coal_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 300
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 30,
+			"max-height": 80,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"copper_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_chalcopyrite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_zeolite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_cassiterite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_realgar_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 40,
+			"max-height": 160,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"copper_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_chalcopyrite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_iron_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pyrite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_copper_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 5,
+			"max-height": 60,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"diamond_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_graphite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_graphite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_diamond_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_coal_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 5,
+			"max-height": 20,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+				"copper_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_chalcopyrite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_zeolite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_cassiterite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_realgar_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 40,
+			"max-height": 160,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"galena_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_galena_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_galena_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_silver_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_lead_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 5,
+			"max-height": 45,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"asbestos_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_cassiterite_sand_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_garnet_sand_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_adiatomite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_diatomite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 50,
+			"max-height": 60,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"garnet_red_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_garnet_red_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_garnet_yellow_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_amethyst_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_opal_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 10,
+			"max-height": 30,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"banded_iron_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_brown_limonite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_yellow_limonite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_banded_iron_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_malachite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 10,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"lapis_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_lazurite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_sodalite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_lapis_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_calcite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 50,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"soapstone_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_soapstone_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_talc_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_glauconite_sand_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pentlandite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 2,
+			"max-height": 50,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+        "molybdenite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_wulfenite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_molybdenite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_molybdenum_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_powellite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 2,
+			"max-height": 50,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"nickel_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_garnierite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_nickel_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_cobaltite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pentlandite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"olivine_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_bentonite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_magnesite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_olivine_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_glauconite_sand_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"redstone_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_redstone_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_redstone_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_ruby_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_cinnabar_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"sapphire_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_almandine_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pyrope_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_sapphire_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_green_sapphire_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		},
+		"chalcocite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_blue_topaz_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_topaz_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_chalcocite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_bornite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 120,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7				
+				]
+			}
+		}
+	}
+}

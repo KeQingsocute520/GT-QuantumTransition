@@ -1,0 +1,20 @@
+{
+	x: 16.5d,
+	y: 0.5d,
+	dependencies: [
+		"ed1cef1b"
+	],
+	tasks: [{
+		uid: "df29b027",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "hydrazine",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

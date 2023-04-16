@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -10.0d,
+	dependencies: [
+		"8cf460cc"
+	],
+	tasks: [{
+		uid: "0dc03771",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 708"
+		}]
+	}],
+	rewards: [{
+		uid: "1f8bccbe",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "bio"
+	}]
+}

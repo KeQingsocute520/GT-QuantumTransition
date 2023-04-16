@@ -1,0 +1,20 @@
+{
+	title: "收集常见的矿物part2",
+	x: 28.0d,
+	y: 5.0d,
+	dependencies: [
+		"2a4123c2"
+	],
+	tasks: [{
+		uid: "fbdc0df0",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "5119d245",
+		type: "random",
+		table: 9
+	}]
+}

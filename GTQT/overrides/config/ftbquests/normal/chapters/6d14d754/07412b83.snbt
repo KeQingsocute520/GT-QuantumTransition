@@ -1,0 +1,23 @@
+{
+	x: 25.5d,
+	y: 5.0d,
+	text: [
+		"金子多少钱一斤？什么，你有一组！"
+	],
+	dependencies: [
+		"2a4123c2"
+	],
+	tasks: [{
+		uid: "ed61d9a4",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "cc954046",
+		type: "random",
+		table: 9
+	}]
+}

@@ -1,0 +1,394 @@
+{
+  "version": 2,
+  "location": "mbd:guiyanmk3",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0
+    },
+    "fluid": [],
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 999999999,
+      "maxReceive": 999999999,
+      "maxExtract": 999999999
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblock:control_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "05_5",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "               ",
+        "               ",
+        "               ",
+        "      AAA      ",
+        "               ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "      AAA      ",
+        "    BB   BB    ",
+        "      AAA      ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "    BB   BB    ",
+        "   B  AAA  B   ",
+        "    BB C BBC   ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "   B       B   ",
+        "  BDBBEEEBBDB  ",
+        "   B       B   ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "  B FFFFFFF B  ",
+        " B B   E   B B ",
+        "  B FFFFFFF BC ",
+        "               ",
+        "               "
+      ],
+      [
+        "     BBBBB     ",
+        "     G   G     ",
+        "  B FG   GF B  ",
+        " B B G E G B B ",
+        "  B FG   GF B  ",
+        "     G   G     ",
+        "     BBBBB     "
+      ],
+      [
+        "     BBBBB     ",
+        "      HHH      ",
+        " A  F HHH F  A ",
+        "A AE  HHH  EA A",
+        " A  F HHH F  AI",
+        " C    HHH      ",
+        "     BBBBB     "
+      ],
+      [
+        "     BBBBB     ",
+        "      HJH      ",
+        " A  F HJH F  A ",
+        "A AEEEHJHEEEA A",
+        " A  F HJH F  AI",
+        "      HJH     C",
+        "     BBBBB     "
+      ],
+      [
+        "     BBBBB     ",
+        "      HHH      ",
+        " A  F HHH F  A ",
+        "A AE  HHH  EA A",
+        " A  F HHH F  A@",
+        "      HHH      ",
+        "     BBBBB     "
+      ],
+      [
+        "     BBBBB     ",
+        "     G   G     ",
+        "  B FG   GF B  ",
+        " B B G E G B B ",
+        "  B FG   GF B  ",
+        "     G   G     ",
+        "     BBBBB     "
+      ],
+      [
+        "               ",
+        "               ",
+        "  B FFFFFFF B  ",
+        " B B   E   B B ",
+        "  B FFFFFFFCB  ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "   B       B   ",
+        "  BDBBEEEBBDB  ",
+        "   B       BC  ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "    BB   BB    ",
+        "   B  AAA  B   ",
+        "    BB   BB    ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "      AAA      ",
+        "    BB   BB    ",
+        "      AAA      ",
+        "               ",
+        "               "
+      ],
+      [
+        "               ",
+        "               ",
+        "               ",
+        "      AAA      ",
+        "               ",
+        "               ",
+        "               "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:wire_coil",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:guiyanmk3",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:fusion_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "gregtech:fusion_casing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_frame_7",
+            "meta": 15
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "gregtech:boiler_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_compressed_27",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "gregtech:wire_coil",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_compressed_7",
+            "meta": 15
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ]
+    }
+  }
+}

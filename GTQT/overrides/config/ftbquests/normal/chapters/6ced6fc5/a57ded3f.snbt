@@ -1,0 +1,26 @@
+{
+	title: "氯化盐水？？",
+	x: 6.0d,
+	y: 2.5d,
+	description: "是谁往盐水里瞎丢东西",
+	text: [
+		"使用钠粉与氯化盐水反应可以得到少量的溴",
+		"当然你也可以使用其他的制备方法"
+	],
+	dependencies: [
+		"6231a182"
+	],
+	tasks: [{
+		uid: "9e6410bf",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "chlorinated_brine",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

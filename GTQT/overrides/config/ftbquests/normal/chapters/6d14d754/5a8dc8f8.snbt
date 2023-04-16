@@ -1,0 +1,52 @@
+{
+	x: 28.0d,
+	y: 7.0d,
+	dependencies: [
+		"2cb18d1d"
+	],
+	tasks: [{
+		uid: "34cd7a3f",
+		type: "item",
+		items: [{
+			id: "gregtech:mortar",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "iron",
+					MaxDurability: 256,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.4f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8641ae2",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "c4a03df0",
+		type: "item",
+		item: {
+			id: "gregtech:mortar",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "damascus_steel",
+					MaxDurability: 1024,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.1000001f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	}]
+}

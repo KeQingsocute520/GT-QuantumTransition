@@ -1,0 +1,323 @@
+{
+	x: 8.5d,
+	y: 2.0d,
+	text: [
+		"他会告诉你今天该干什么"
+	],
+	dependencies: [
+		"35cb4d03"
+	],
+	tasks: [{
+		uid: "dfc7beec",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 464s,
+			tag: {
+				PageIndex: 0s,
+				TotalPages: 0s,
+				Page0: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page1: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page2: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page3: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page4: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page5: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page6: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page7: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page8: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page9: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page10: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page11: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page12: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page13: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page14: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page15: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page16: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page17: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page18: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page19: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page20: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page21: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page22: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page23: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				},
+				Page24: {
+					ButStat: 0s,
+					Title: "",
+					Task0: "",
+					Task1: "",
+					Task2: "",
+					Task3: "",
+					Task4: "",
+					Task5: "",
+					Task6: "",
+					Task7: ""
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

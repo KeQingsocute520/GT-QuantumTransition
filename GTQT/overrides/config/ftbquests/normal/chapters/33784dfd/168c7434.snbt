@@ -1,0 +1,37 @@
+{
+	title: "氧气&氢气",
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a6e1f1e1"
+	],
+	tasks: [{
+		uid: "d48c92be",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2oxygen",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "4c203b7c",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2hydrogen",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

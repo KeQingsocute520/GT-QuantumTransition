@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 2.0d,
+	dependencies: [
+		"f7a73efd"
+	],
+	tasks: [{
+		uid: "9f6ed357",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:fluid_interface"
+		}]
+	}]
+}

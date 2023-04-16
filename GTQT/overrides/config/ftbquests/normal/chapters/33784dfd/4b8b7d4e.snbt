@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 9.5d,
+	text: [
+		"如坎达尔一样，你需要冷却液冷却它，这样你才能得到可以使用的太阳能级硅"
+	],
+	dependencies: [
+		"55dcaad8"
+	],
+	tasks: [{
+		uid: "89322367",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hotsilicon_item"
+		}]
+	}]
+}

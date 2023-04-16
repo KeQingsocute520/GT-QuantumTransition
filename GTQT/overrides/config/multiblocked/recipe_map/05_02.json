@@ -1,0 +1,27 @@
+{
+  "name": "05_02",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "2cf86627-cb09-4185-b0f6-24195cafd5a6",
+      "duration": 1,
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 32768
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "rain",
+          "condition": {
+            "level": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

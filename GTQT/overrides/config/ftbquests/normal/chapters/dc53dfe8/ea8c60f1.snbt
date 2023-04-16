@@ -1,0 +1,27 @@
+{
+	x: 16.0d,
+	y: 16.5d,
+	description: "电解粘土",
+	text: [
+		"你需要很多很多的铝来进入MV，直到找到铝土矿之前，电解粘土粉是你唯一的选择",
+		"其次，氟化钠作为助熔剂可以帮助你在LV阶段炼铝",
+		"关于氟化钠，电解花岗岩即可"
+	],
+	dependencies: [
+		"361d5233"
+	],
+	tasks: [{
+		uid: "787f5ef3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2"
+		}]
+	},
+	{
+		uid: "8b661b73",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:compound 1 3"
+		}]
+	}]
+}

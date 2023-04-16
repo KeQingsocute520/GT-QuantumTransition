@@ -1,0 +1,12 @@
+{
+	icon: "tjcore:meta_item_1 1 421",
+	x: 6.0d,
+	y: 13.0d,
+	tasks: [{
+		uid: "b6176863",
+		type: "item",
+		items: [{
+			item: "tjcore:meta_item_1 1 421"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -13.0d,
+	y: 14.5d,
+	text: [
+		"用于制作下一个等级的电路基板"
+	],
+	dependencies: [
+		"be5a2c9d"
+	],
+	tasks: [{
+		uid: "1733445b",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 52"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "酚醛基板",
+	x: 8.5d,
+	y: 3.5d,
+	dependencies: [
+		"35cb4d03",
+		"50d6c2c9"
+	],
+	tasks: [{
+		uid: "93479ef8",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 301"
+		}]
+	}]
+}

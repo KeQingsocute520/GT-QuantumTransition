@@ -1,0 +1,25 @@
+{
+	title: "自定义大小的储罐",
+	x: 4.0d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fbdc0df0"
+	],
+	tasks: [{
+		uid: "1c86ce0f",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_iron_wall"
+		}]
+	},
+	{
+		uid: "b5bbe521",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_iron_valve"
+		}]
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "石英？",
+	x: 9.0d,
+	y: 15.0d,
+	text: [
+		"石英矿脉里通常夹杂着赛特斯，赛特斯的重要性不言而喻，如果你熟知AE的话。"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "8db3acec",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreQuartzite"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreQuartzite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "ef64707a",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCertusQuartz"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreCertusQuartz"
+				}
+			}
+		}]
+	}]
+}

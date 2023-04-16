@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -5.0d,
+	text: [
+		"详见 多方块 部分"
+	],
+	dependencies: [
+		"585211e1"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "662df7ff",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1035"
+		}]
+	}],
+	rewards: [{
+		uid: "1e8d1a25",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	}]
+}

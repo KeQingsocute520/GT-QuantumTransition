@@ -1,0 +1,15 @@
+{
+	x: 9.5d,
+	y: 0.0d,
+	description: "目前获得锻铁锭的方法是压缩9个锻铁粒，至于锻铁粒只需要熔炼铁粒即可。",
+	dependencies: [
+		"35cb4d03"
+	],
+	tasks: [{
+		uid: "7c9d2f32",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 335"
+		}]
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: -9.5d,
+	y: -12.0d,
+	text: [
+		"铂系处理的一些重要副产物，铂系的其他贵金属都需要在在这些原料里提取。",
+		"你将会接触一整条铂系处理产线，当然在这里，你只需要提取出铂而已。",
+		"祝你开心"
+	],
+	dependencies: [
+		"2d656eb8"
+	],
+	tasks: [{
+		uid: "211360e4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2058"
+		}]
+	},
+	{
+		uid: "4983683b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 433"
+		}]
+	},
+	{
+		uid: "51e01b4e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2059"
+		}]
+	},
+	{
+		uid: "b28d291f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2057"
+		}]
+	}]
+}

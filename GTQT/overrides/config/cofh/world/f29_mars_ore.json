@@ -1,0 +1,740 @@
+{
+    "priority": 1,
+	"populate": {
+		"barite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_quartzite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 60
+					},
+					{
+						"name": "gregtech:ore_certus_quartz_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_certus_quartz_0",
+						"properties": {
+							"stone_type": "barite"
+						},
+						"weight": 10
+					},
+					{
+						"name": "gregtech:ore_barite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 80,
+			"max-height": 120,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"drag_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "draconicevolution:draconium_ore",
+						"properties": {
+							"type": "end"
+						},
+						"weight": 60
+					},
+					{
+						"name": "gregtech:ore_bastnasite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					},
+					{
+						"name": "gregtech:ore_monazite_0",
+						"properties": {
+							"stone_type": "barite"
+						},
+						"weight": 10
+					},
+					{
+						"name": "gregtech:ore_neodymium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:end_stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 0,
+			"max-height": 60,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"galena_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_galena_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 60
+					},
+					{
+						"name": "gregtech:ore_galena_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_silver_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					},
+					{
+						"name": "gregtech:ore_lead_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 5,
+			"max-height": 45,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"banded_iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_brown_limonite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_yellow_limonite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_banded_iron_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_malachite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 10,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"aluminium_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_bauxite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_ilmenite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_aluminium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_ilmenite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 10,
+			"max-height": 80,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"beryllium_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_beryllium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_beryllium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_emerald_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_thorium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 5,
+			"max-height": 30,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"grossular_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_grossular_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pyrolusite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pyrochlore_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_tantalite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 30,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"molybdenite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_wulfenite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_molybdenite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_molybdenum_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_powellite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 5,
+			"max-height": 45,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"nickel_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_garnierite_sand_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_nickel_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_cobaltite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pentlandite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 10,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"uraninite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_pitchblende_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pitchblende_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_uraninite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_uraninite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 30,
+			"max-height": 60,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"redstone_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_redstone_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_redstone_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_ruby_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_cinnabar_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 10,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"salt_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_rock_salt_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_salt_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_lepidolite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_spodumene_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 50,
+			"max-height": -290,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"lithium_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_scheelite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_scheelite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_tungstate_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_lithium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": -290,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+        "sphalerite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_sulfur_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_sulfur_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pyrite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_sphalerite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 50,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		},
+		"tetrahedrite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_tetrahedrite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_tetrahedrite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_copper_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_stibnite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 80
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 80,
+			"max-height": 120,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29				
+				]
+			}
+		}
+	}
+}

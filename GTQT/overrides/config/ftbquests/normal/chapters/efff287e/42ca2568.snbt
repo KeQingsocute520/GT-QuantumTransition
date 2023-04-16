@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"0dded7a1"
+	],
+	tasks: [{
+		uid: "2eeb31fe",
+		type: "item",
+		items: [{
+			item: "forestry:peat_bog"
+		}]
+	}]
+}

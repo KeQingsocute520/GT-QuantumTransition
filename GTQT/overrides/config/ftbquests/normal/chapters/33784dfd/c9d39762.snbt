@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 9.5d,
+	text: [
+		"另一种晶片，比前边看到的那种纯度更高，用于制作更加精细的部件"
+	],
+	dependencies: [
+		"0dca7193"
+	],
+	tasks: [{
+		uid: "d7f196de",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 600"
+		}]
+	}]
+}

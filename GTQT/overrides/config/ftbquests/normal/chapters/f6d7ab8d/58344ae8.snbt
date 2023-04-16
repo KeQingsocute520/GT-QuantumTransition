@@ -1,0 +1,15 @@
+{
+	x: -4.0d,
+	y: 12.0d,
+	dependencies: [
+		"e20dce56"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "21ad3c9d",
+		type: "item",
+		items: [{
+			item: "mbd:fenzyanwaishu"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "如果你不想去暮色挖铝",
+	x: -4.5d,
+	y: 3.0d,
+	description: "也可以选择电解粘土粉，以及得到大量的水",
+	text: [
+		""
+	],
+	dependencies: [
+		"c892fbe9"
+	],
+	tasks: [{
+		uid: "8d04b625",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2063"
+		}],
+		count: 16L
+	}]
+}

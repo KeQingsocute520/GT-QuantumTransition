@@ -1,0 +1,21 @@
+{
+	x: 14.0d,
+	y: 17.0d,
+	description: "不幸的消息，在这个整合包里，你貌似无法手搓机器配件，而需要一种叫装配机的机器。毕竟机器原件需要精确，你说呢",
+	dependencies: [
+		"b0a97686"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c7b9fe55",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 12030"
+		}]
+	}],
+	rewards: [{
+		uid: "ee4d8aa0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

@@ -1,0 +1,107 @@
+{
+	title: "gj",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "nuclearcraft:spaxelhoe_boron_nitride",
+			tag: {
+				Gem: 3,
+				display: {
+					Name: "萌新快乐工具",
+					color: 13122921,
+					Lore: [
+						"采取先进的加工技术",
+						"只为了帮助你"
+					]
+				},
+				ench: [{
+					id: 35,
+					lvl: 1s
+				},
+				{
+					id: 32,
+					lvl: 3s
+				},
+				{
+					id: 34,
+					lvl: 5s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:pickaxe",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"terrasteel",
+						"terrasteel",
+						"terrasteel"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Stats: {
+					Durability: 1950,
+					HarvestLevel: 4,
+					Attack: 7.5f,
+					MiningSpeed: 8.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				StatsOriginal: {
+					Durability: 1950,
+					HarvestLevel: 4,
+					Attack: 7.5f,
+					MiningSpeed: 8.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"tool",
+						"aoe"
+					]
+				},
+				Modifiers: [{
+					identifier: "tconevo.mortal_wounds",
+					color: -13048576,
+					level: 1
+				},
+				{
+					identifier: "tconevo.mana_infused",
+					color: -13048576,
+					level: 1
+				},
+				{
+					identifier: "tconevo.gaia_wrath",
+					color: -13048576,
+					level: 1
+				},
+				{
+					identifier: "tconevo.staggering",
+					color: -13048576,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"tconevo.mortal_wounds",
+					"tconevo.mana_infused",
+					"tconevo.gaia_wrath",
+					"tconevo.staggering",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: "keletupack:ichorium_pick"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "镥",
+	x: -4.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3784230f"
+	],
+	tasks: [{
+		uid: "37df26da",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "lutetium",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

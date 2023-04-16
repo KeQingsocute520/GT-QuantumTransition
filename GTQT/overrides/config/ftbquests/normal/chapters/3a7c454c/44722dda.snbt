@@ -1,0 +1,29 @@
+{
+	title: "这一级电路板需要的材料",
+	x: 6.0d,
+	y: -8.0d,
+	dependencies: [
+		"44a462f3"
+	],
+	tasks: [{
+		uid: "af11cf52",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 1"
+		}]
+	},
+	{
+		uid: "a9d7963b",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 2"
+		}]
+	},
+	{
+		uid: "f94be0c9",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 66"
+		}]
+	}]
+}

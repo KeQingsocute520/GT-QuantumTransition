@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"你的焦炉需要大量的木头，为什么不看看这台全自动树场"
+	],
+	dependencies: [
+		"9093a733"
+	],
+	tasks: [{
+		uid: "6af4b8d0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 12044"
+		}]
+	}]
+}

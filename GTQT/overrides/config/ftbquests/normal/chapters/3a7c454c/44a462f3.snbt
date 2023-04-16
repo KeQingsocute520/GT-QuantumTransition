@@ -1,0 +1,24 @@
+{
+	title: "聚乙烯",
+	x: 8.5d,
+	y: -8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e348a67a"
+	],
+	tasks: [{
+		uid: "e3a05cbe",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "plastic",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,54 @@
+{
+    "priority": 1,
+	"populate": {
+		"drag_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "draconicevolution:draconium_ore",
+						"properties": {
+							"type": "end"
+						},
+						"weight": 60
+					},
+					{
+						"name": "gregtech:ore_bastnasite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					},
+					{
+						"name": "gregtech:ore_monazite_0",
+						"properties": {
+							"stone_type": "barite"
+						},
+						"weight": 10
+					},
+					{
+						"name": "gregtech:ore_neodymium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:end_stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 0,
+			"max-height": 60,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1				
+				]
+			}
+		}
+	}
+}

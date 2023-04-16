@@ -1,0 +1,39 @@
+{
+	title: "燧石工具",
+	x: 10.0d,
+	y: 0.0d,
+	description: "比手好用114514倍，这该死的效率。",
+	dependencies: [
+		"9878475b"
+	],
+	tasks: [{
+		uid: "fbc7782b",
+		type: "item",
+		items: [{
+			id: "gregtech:pickaxe",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "flint",
+					MaxDurability: 64,
+					Durability: 0,
+					ToolSpeed: 4.0f,
+					HarvestLevel: 1,
+					AttackDamage: 2.0f,
+					AttackSpeed: -2.8f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					TorchPlacing: 1b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c7eadd0",
+		type: "random",
+		table: 9
+	}]
+}

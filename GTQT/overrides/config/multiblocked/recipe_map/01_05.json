@@ -1,0 +1,95 @@
+{
+  "name": "01_05",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "de1e06df-cc8b-4180-94df-3fe1006e1f1a",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"steam\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c305e745-bbb5-49bc-82f5-fbe0732d62e7",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:5000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"steam\",Amount:5000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a7155d93-fde5-446d-ada6-c4089a4d1e97",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:10000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"steam\",Amount:10000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f4176402-559c-4493-98c9-e0530e7327fb",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:500000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"steam\",Amount:500000}"
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "rain",
+          "condition": {
+            "level": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

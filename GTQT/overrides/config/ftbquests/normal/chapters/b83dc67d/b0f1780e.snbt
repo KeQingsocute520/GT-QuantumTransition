@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	dependencies: [
+		"218ce5c8"
+	],
+	tasks: [{
+		uid: "566bb329",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:fuel_loader"
+		}]
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "稳定的食物供给",
+	x: 15.0d,
+	y: 0.0d,
+	description: "刚刚送的马铃薯应该还有剩余，种下他们吧。",
+	text: [
+		"本包采取潘马斯+生活调味料+饥饿改革 的组合，你需要摄取大量不同的食物来保证高效饮食"
+	],
+	dependencies: [
+		"02a914a5"
+	],
+	tasks: [{
+		uid: "2f1dbcfa",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}],
+		count: 64L
+	},
+	{
+		uid: "77f9e36e",
+		type: "item",
+		items: [{
+			id: "gregtech:hoe",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "flint",
+					MaxDurability: 64,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -1.0f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5742ba7a",
+		type: "random",
+		table: 9
+	}]
+}

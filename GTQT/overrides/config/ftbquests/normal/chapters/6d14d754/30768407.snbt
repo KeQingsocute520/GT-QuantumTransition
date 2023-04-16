@@ -1,0 +1,17 @@
+{
+	title: "萌新最爱的",
+	x: 4.0d,
+	y: 4.0d,
+	dependencies: [
+		"2e7b437e"
+	],
+	tasks: [{
+		uid: "c777a5ee",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6f42a11d",
+		type: "command",
+		command: "/gamerule keepInventory true"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "石头，嘿嘿嘿我的石头",
+	x: 10.0d,
+	y: -2.0d,
+	description: "无需太多",
+	dependencies: [
+		"2b5c2513"
+	],
+	tasks: [{
+		uid: "f5d36ac3",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b564eb24",
+		type: "random",
+		table: 9
+	}]
+}

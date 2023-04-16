@@ -1,0 +1,24 @@
+{
+	title: "三氯化磷",
+	x: 13.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c66e90b0"
+	],
+	tasks: [{
+		uid: "a3c7b409",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "phosphorus_trichloride",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

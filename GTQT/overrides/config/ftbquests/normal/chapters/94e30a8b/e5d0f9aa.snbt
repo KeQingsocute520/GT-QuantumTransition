@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "9b1bffad",
+		type: "kill",
+		entity: "minecraft:enderman",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "4e0d79e3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

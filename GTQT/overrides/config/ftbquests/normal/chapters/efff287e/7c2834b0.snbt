@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"fabf597d"
+	],
+	tasks: [{
+		uid: "8c1b2ac1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_gem 1 2010"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 12.5d,
+	y: 1.5d,
+	text: [
+		"如果你出生在竹林，恭喜你，这些竹子可是防御利器"
+	],
+	dependencies: [
+		"02a914a5"
+	],
+	tasks: [{
+		uid: "17510259",
+		type: "item",
+		items: [{
+			item: "tconstruct:punji"
+		}]
+	}],
+	rewards: [{
+		uid: "23d8c8b3",
+		type: "random",
+		table: 9
+	}]
+}

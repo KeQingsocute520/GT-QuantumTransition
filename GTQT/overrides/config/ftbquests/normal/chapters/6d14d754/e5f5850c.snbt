@@ -1,0 +1,100 @@
+{
+	title: "检查你的工具！工程师",
+	x: 30.5d,
+	y: 7.0d,
+	description: "在你的机器完善之前，会一直需要他们。",
+	dependencies: [
+		"5a6ae1d0"
+	],
+	tasks: [{
+		uid: "12c63721",
+		type: "item",
+		items: [{
+			id: "gregtech:screwdriver",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "iron",
+					MaxDurability: 256,
+					Durability: 0,
+					AttackDamage: 1.0f,
+					AttackSpeed: 3.0f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "54f7579c",
+		type: "item",
+		items: [{
+			id: "gregtech:file",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "iron",
+					MaxDurability: 256,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.4f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8570d354",
+		type: "item",
+		items: [{
+			id: "gregtech:wire_cutter",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "iron",
+					MaxDurability: 256,
+					Durability: 0,
+					ToolSpeed: 6.0f,
+					HarvestLevel: 2,
+					AttackDamage: 1.0f,
+					AttackSpeed: -2.4f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff58bf6a",
+		type: "item",
+		items: [{
+			id: "gregtech:knife",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "iron",
+					MaxDurability: 256,
+					Durability: 0,
+					AttackDamage: 2.0f,
+					AttackSpeed: 3.0f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9dc40e6a",
+		type: "random",
+		table: 9
+	}]
+}

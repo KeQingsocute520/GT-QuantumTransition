@@ -1,0 +1,21 @@
+{
+	title: "甲基三甲氧基硅烷",
+	x: 10.0d,
+	y: -4.0d,
+	dependencies: [
+		"48d9d3a9"
+	],
+	tasks: [{
+		uid: "d410838d",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "methyltrimethyoxysilane",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

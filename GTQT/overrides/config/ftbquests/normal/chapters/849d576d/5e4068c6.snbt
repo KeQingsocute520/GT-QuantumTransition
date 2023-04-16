@@ -1,0 +1,17 @@
+{
+	x: 8.5d,
+	y: 11.5d,
+	description: "你得感谢你的14CM加工工艺",
+	dependencies: [
+		"3d4d7b5d",
+		"9ced3645",
+		"4ccff600"
+	],
+	tasks: [{
+		uid: "8edd098d",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 100"
+		}]
+	}]
+}

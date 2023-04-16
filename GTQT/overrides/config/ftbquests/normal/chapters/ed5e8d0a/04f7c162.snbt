@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: -12.5d,
+	text: [
+		"使用钨钢线圈",
+		"烧制闪锌矿粉"
+	],
+	dependencies: [
+		"fc797031"
+	],
+	tasks: [{
+		uid: "531896a9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 6017"
+		}]
+	}]
+}

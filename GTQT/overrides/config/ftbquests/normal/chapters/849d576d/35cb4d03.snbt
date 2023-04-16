@@ -1,0 +1,31 @@
+{
+	x: 7.0d,
+	y: 2.0d,
+	dependencies: [
+		"65257cf8"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5584d8e4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "0ae52bfc",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "07645fcc",
+		type: "item",
+		item: "minecraft:piston",
+		count: 2
+	},
+	{
+		uid: "8ff321f2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

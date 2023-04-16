@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"21de2c58"
+	],
+	tasks: [{
+		uid: "ccc9e37e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_vanadium_magnetite_0"
+		}]
+	}]
+}

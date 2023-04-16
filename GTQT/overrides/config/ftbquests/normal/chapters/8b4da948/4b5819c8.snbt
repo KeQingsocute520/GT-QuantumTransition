@@ -1,0 +1,24 @@
+{
+	x: 19.5d,
+	y: -9.5d,
+	dependencies: [
+		"ed1a483a"
+	],
+	tasks: [{
+		uid: "b0ec7681",
+		type: "item",
+		items: [{
+			item: "gregtech:transparent_casing 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "33b46a0b",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "d81e5e6f",
+		type: "loot",
+		table: 9
+	}]
+}

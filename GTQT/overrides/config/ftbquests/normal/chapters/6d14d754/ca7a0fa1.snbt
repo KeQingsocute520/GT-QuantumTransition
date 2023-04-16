@@ -1,0 +1,25 @@
+{
+	x: 25.5d,
+	y: 7.0d,
+	description: "磁铁矿可以直接烧制为铁",
+	text: [
+		"并没有太强的吸力。"
+	],
+	dependencies: [
+		"2a4123c2"
+	],
+	tasks: [{
+		uid: "a252d3da",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_magnetite_0"
+		}],
+		count: 32L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "8173094f",
+		type: "random",
+		table: 9
+	}]
+}

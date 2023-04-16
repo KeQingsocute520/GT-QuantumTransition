@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: -1.5d,
+	dependencies: [
+		"f3487be6"
+	],
+	tasks: [{
+		uid: "f710beb1",
+		type: "item",
+		items: [{
+			item: "forestry:farm_nether"
+		}]
+	}]
+}

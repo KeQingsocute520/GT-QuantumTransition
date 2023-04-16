@@ -1,0 +1,14 @@
+{
+	x: 22.0d,
+	y: 2.0d,
+	dependencies: [
+		"8b1b3621"
+	],
+	tasks: [{
+		uid: "e74e9a7c",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 67"
+		}]
+	}]
+}

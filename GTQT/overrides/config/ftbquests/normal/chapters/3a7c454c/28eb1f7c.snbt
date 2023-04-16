@@ -1,0 +1,25 @@
+{
+	title: "氯甲烷",
+	x: 12.0d,
+	y: -4.0d,
+	description: "第一类光刻胶产线",
+	text: [
+		"在你能够制造SU8前（EV），你只能使用HSQ光刻胶产线，开心点，这也不算长"
+	],
+	dependencies: [
+		"145982f3"
+	],
+	tasks: [{
+		uid: "82f7007e",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "chloromethane",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

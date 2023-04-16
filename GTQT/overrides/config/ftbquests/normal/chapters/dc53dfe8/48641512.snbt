@@ -1,0 +1,19 @@
+{
+	title: "这玩意比储罐好使多了",
+	x: 17.5d,
+	y: 3.5d,
+	description: "强大，无需解释",
+	text: [
+		"你需要这台最先进的量子肛嘛，快去塞满他。"
+	],
+	dependencies: [
+		"a9757831"
+	],
+	tasks: [{
+		uid: "16e6f097",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1575"
+		}]
+	}]
+}

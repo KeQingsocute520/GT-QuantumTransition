@@ -1,0 +1,2 @@
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:thaumometer>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("test", "", 20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>], <thaumcraft:thaumometer>, [[<gregtech:meta_plate:2>,<twilightforest:naga_scale>,<gregtech:meta_plate:2>], [<gregtech:meta_plate:55>,<gregtech:meta_lens:2000>,<gregtech:meta_plate:55>], [<gregtech:meta_plate:2>,<twilightforest:naga_scale>,<gregtech:meta_plate:2>]]);
