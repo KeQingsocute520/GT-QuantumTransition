@@ -1,0 +1,79 @@
+{
+	title: "如何将ic电转为GTCEu电",
+	x: 3.0d,
+	y: 2.5d,
+	text: [
+		"使用这里提供高压输入器，能量桥，RF输出器将ic电转化为rf(fr)，再使用这里的RF转GTCEU电方块即可为你的电池仓充电啦",
+		"当然，支持变压哟。"
+	],
+	dependencies: [
+		"7496f1e4"
+	],
+	tasks: [{
+		uid: "8561bf3a",
+		type: "item",
+		items: [{
+			item: "energyconverters:energy_consumer_eu 1 2"
+		}]
+	},
+	{
+		uid: "375a18ef",
+		type: "item",
+		items: [{
+			item: "energyconverters:energy_bridge"
+		}]
+	},
+	{
+		uid: "b80ac323",
+		type: "item",
+		items: [{
+			item: "mbd:gtce_ic"
+		}]
+	},
+	{
+		uid: "94c67a01",
+		type: "item",
+		items: [{
+			item: "energyconverters:energy_producer_fe"
+		}]
+	},
+	{
+		uid: "b460491f",
+		type: "item",
+		items: [{
+			item: "energyconverters:energy_consumer_fe"
+		}]
+	},
+	{
+		uid: "a41ca2ac",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1686"
+		}]
+	}],
+	rewards: [{
+		uid: "207db2bd",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "e8df24bf",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "436c5ed4",
+		type: "item",
+		item: "gregtech:meta_item_1 1 100"
+	},
+	{
+		uid: "07462736",
+		type: "item",
+		item: "gregtech:meta_item_1 1 104"
+	},
+	{
+		uid: "9501508e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 101"
+	}]
+}

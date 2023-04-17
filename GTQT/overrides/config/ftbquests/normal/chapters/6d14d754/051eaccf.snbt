@@ -1,0 +1,40 @@
+{
+	title: "最好的伙伴",
+	x: 33.5d,
+	y: 5.0d,
+	description: "是扳手哒",
+	text: [
+		"可以调整机器输入输出接口，链接管道。"
+	],
+	dependencies: [
+		"5a6ae1d0"
+	],
+	tasks: [{
+		uid: "fa630a66",
+		type: "item",
+		items: [{
+			id: "gregtech:wrench",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "iron",
+					MaxDurability: 256,
+					Durability: 0,
+					ToolSpeed: 6.0f,
+					HarvestLevel: 2,
+					AttackDamage: 3.0f,
+					AttackSpeed: -2.8f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "607207e2",
+		type: "random",
+		table: 9
+	}]
+}

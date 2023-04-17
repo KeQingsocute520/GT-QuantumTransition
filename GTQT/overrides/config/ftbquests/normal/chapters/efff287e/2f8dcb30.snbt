@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"298bee35"
+	],
+	tasks: [{
+		uid: "3da5de13",
+		type: "item",
+		items: [{
+			item: "forestry:soldering_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

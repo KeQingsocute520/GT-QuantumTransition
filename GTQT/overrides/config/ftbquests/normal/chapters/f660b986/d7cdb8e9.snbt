@@ -1,0 +1,15 @@
+{
+	x: 13.5d,
+	y: -2.0d,
+	dependencies: [
+		"82a58d28",
+		"8d4ddf8f"
+	],
+	tasks: [{
+		uid: "35f23a7a",
+		type: "item",
+		items: [{
+			item: "minecraft:tnt"
+		}]
+	}]
+}

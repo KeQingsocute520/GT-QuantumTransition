@@ -1,0 +1,25 @@
+{
+	title: "王水",
+	x: -9.5d,
+	y: -9.0d,
+	text: [
+		"铂系处理离不开王水"
+	],
+	dependencies: [
+		"d68cb487",
+		"419306f8"
+	],
+	tasks: [{
+		uid: "97f35168",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "aqua_regia",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

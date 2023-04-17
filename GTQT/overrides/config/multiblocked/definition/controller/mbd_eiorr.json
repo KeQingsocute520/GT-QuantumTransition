@@ -1,0 +1,199 @@
+{
+  "version": 2,
+  "location": "mbd:eiorr",
+  "traits": {
+    "background": "multiblocked:textures/gui/test.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 20,
+        "y": 61,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 39,
+        "y": 61,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 2,
+        "x": 119,
+        "y": 61,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 2,
+        "x": 137,
+        "y": 61,
+        "autoIO": false
+      }
+    ],
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 16,
+      "y": 127,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 500000,
+      "maxReceive": 100000,
+      "maxExtract": 100000
+    },
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 58,
+      "y": 70,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblock:control_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/gregtech_base",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_active",
+        "type": "gregtech"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "03_04",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "AAAA",
+        "BBBB",
+        "BBBB",
+        "AAAA"
+      ],
+      [
+        "AAAA",
+        "B  B",
+        "B  B",
+        "AAAA"
+      ],
+      [
+        "AAAA",
+        "B  B",
+        "B  B",
+        "AAAA"
+      ],
+      [
+        "A@AA",
+        "BBBB",
+        "BBBB",
+        "AAAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:metal_casing",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:eiorr",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:wire_coil",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

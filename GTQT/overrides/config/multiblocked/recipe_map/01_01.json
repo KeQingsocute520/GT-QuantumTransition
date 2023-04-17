@@ -1,0 +1,193 @@
+{
+  "name": "01_01",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "3e8166a0-05e4-484c-9c32-33b28eeaae8b",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:100s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2048
+          }
+        ]
+      },
+      "outputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 2048
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d8baf514-20db-46d4-8ab7-54f0723e92e9",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:101s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 8192
+          }
+        ]
+      },
+      "outputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 8192
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d7cea465-19c2-4620-9bb3-4ccbf23565ff",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:104s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 524288
+          }
+        ]
+      },
+      "outputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 254288
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d18d34e8-6d5b-4bd4-bbba-a612e0afbb22",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:103s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 131072
+          }
+        ]
+      },
+      "outputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 131072
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d52a00b2-4f4f-4aba-8f7c-9b01d700fbfb",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:99s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 512
+          }
+        ]
+      },
+      "outputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 512
+          }
+        ]
+      }
+    },
+    {
+      "uid": "89077502-36e2-4702-8048-bd24aadc3d7c",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:102s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 32768
+          }
+        ]
+      },
+      "outputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 32768
+          }
+        ]
+      }
+    }
+  ]
+}

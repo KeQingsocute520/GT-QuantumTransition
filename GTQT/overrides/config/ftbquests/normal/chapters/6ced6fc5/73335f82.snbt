@@ -1,0 +1,24 @@
+{
+	title: "苯基溴化镁",
+	x: 8.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fb7de8a2"
+	],
+	tasks: [{
+		uid: "5755e775",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "phenylmagnesiumbromide",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "P1溶液",
+	x: 11.0d,
+	y: 0.5d,
+	text: [
+		"非常抱歉，我也不知道P1能干什么"
+	],
+	dependencies: [
+		"cc356c6e"
+	],
+	tasks: [{
+		uid: "55aeaba7",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "p_one_solution",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

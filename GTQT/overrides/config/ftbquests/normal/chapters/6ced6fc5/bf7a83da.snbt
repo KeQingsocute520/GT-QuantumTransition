@@ -1,0 +1,30 @@
+{
+	x: 9.0d,
+	y: -6.0d,
+	dependencies: [
+		"73e4d7dc"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "26004872",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 126"
+		}]
+	}],
+	rewards: [{
+		uid: "6c4891ad",
+		type: "random",
+		table: 7
+	},
+	{
+		uid: "f7446167",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "4841a7c5",
+		type: "item",
+		item: "gregtech:meta_item_1 1 5"
+	}]
+}

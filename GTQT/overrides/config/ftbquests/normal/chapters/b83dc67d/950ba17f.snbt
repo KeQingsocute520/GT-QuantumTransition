@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: 6.5d,
+	dependencies: [
+		"c27a7e26"
+	],
+	tasks: [{
+		uid: "f989d0b5",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:methane_canister_partial 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

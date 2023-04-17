@@ -1,0 +1,19 @@
+{
+	x: 16.0d,
+	y: 13.5d,
+	description: "有毒？不要放在嘴里。",
+	text: [
+		"你可以在雄黄矿里分离找到它。"
+	],
+	dependencies: [
+		"2defcc9e",
+		"af3e8ecc"
+	],
+	tasks: [{
+		uid: "f9681ef0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 6"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "一步到位的MV电路板",
+	x: 4.0d,
+	y: -3.0d,
+	text: [
+		"新套娃的第一步。"
+	],
+	dependencies: [
+		"35981177"
+	],
+	tasks: [{
+		uid: "167e9460",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 108"
+		}]
+	}],
+	rewards: [{
+		uid: "ea93a8e6",
+		type: "random",
+		table: 9
+	}]
+}

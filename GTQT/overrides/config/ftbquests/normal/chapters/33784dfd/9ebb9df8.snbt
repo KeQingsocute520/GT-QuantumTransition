@@ -1,0 +1,19 @@
+{
+	title: "宝石宝石在哪里pat1",
+	x: -6.5d,
+	y: 7.5d,
+	description: "蓝宝石",
+	text: [
+		"暮色"
+	],
+	dependencies: [
+		"ca7fcd4c"
+	],
+	tasks: [{
+		uid: "8ebe3e3d",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sapphire_0"
+		}]
+	}]
+}

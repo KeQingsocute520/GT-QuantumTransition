@@ -1,0 +1,17 @@
+{
+	x: 23.0d,
+	y: 8.5d,
+	text: [
+		"混合硫粉与生橡胶粉，在合金炉里烧制即可"
+	],
+	dependencies: [
+		"ac7f9599"
+	],
+	tasks: [{
+		uid: "571ff650",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1068"
+		}]
+	}]
+}

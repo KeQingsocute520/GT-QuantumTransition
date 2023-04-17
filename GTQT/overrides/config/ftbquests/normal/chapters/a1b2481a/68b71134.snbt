@@ -1,0 +1,18 @@
+{
+	title: "最之前锇来力",
+	x: -7.5d,
+	y: -12.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2d656eb8"
+	],
+	tasks: [{
+		uid: "bfafb584",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 80"
+		}]
+	}]
+}

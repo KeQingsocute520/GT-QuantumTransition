@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"298bee35"
+	],
+	tasks: [{
+		uid: "82d8e749",
+		type: "item",
+		items: [{
+			item: "forestry:apiary"
+		}]
+	}]
+}

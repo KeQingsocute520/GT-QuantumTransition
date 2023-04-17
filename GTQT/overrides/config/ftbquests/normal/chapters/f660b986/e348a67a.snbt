@@ -1,0 +1,25 @@
+{
+	title: "聚乙烯",
+	x: 16.0d,
+	y: 4.0d,
+	text: [
+		"好日子来了"
+	],
+	dependencies: [
+		"fc9faef4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f2084862",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "plastic",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

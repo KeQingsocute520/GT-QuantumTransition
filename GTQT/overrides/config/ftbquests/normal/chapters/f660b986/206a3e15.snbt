@@ -1,0 +1,25 @@
+{
+	title: "混合！汽油来喽",
+	x: 13.5d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3da56f21",
+		"7a890de1"
+	],
+	tasks: [{
+		uid: "08d4d1d6",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "diesel",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"a544b2bf"
+	],
+	tasks: [{
+		uid: "39c9097e",
+		type: "item",
+		items: [{
+			item: "mbd:coldmk1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2dfe17a1",
+		type: "item",
+		items: [{
+			item: "qmd:accelerator_cavity 1 4"
+		}]
+	},
+	{
+		uid: "1dc7cc2b",
+		type: "item",
+		items: [{
+			item: "qmd:accelerator_cavity 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "3d08666a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 5"
+	}]
+}

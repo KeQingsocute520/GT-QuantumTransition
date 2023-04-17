@@ -1,0 +1,30 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"这是一块ev的工作站，或许你会抱怨说什么套娃太难",
+		"开心点，到了ev你可以直接制作每一个过去等级的电路板了",
+		"就在眼前了是不是"
+	],
+	dependencies: [
+		"e2373a98"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "071e04d7",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 110"
+		}]
+	}],
+	rewards: [{
+		uid: "92324c87",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "1ac09792",
+		type: "random",
+		table: 2
+	}]
+}

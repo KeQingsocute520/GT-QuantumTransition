@@ -1,0 +1,26 @@
+{
+	title: "甲烷",
+	x: -17.0d,
+	y: 0.5d,
+	description: "什么味道？",
+	text: [
+		"石油化工衍生物，也可以燃烧发电，",
+		"更多的作为化工原料使用。"
+	],
+	dependencies: [
+		"145982f3"
+	],
+	tasks: [{
+		uid: "092c6b61",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "methane",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

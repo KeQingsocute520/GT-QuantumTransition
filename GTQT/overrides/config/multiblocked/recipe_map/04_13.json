@@ -1,0 +1,118 @@
+{
+  "name": "04_13",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "8a224ada-11c2-4d77-b8c5-01e2ca65c700",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:461s,tag:{Configuration:3}}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ic2uu_matter\",Amount:50}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100000000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ic2uu_matter\",Amount:100}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ae1d4f49-6ffc-4ac9-99d0-52d4fd7125c1",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:461s,tag:{Configuration:1}}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ic2uu_matter\",Amount:1}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 4000000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ic2uu_matter\",Amount:2}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e3a9b4f3-3a35-4d51-94ea-104eef995bdd",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:461s,tag:{Configuration:2}}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ic2uu_matter\",Amount:5}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 20000000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ic2uu_matter\",Amount:10}"
+          }
+        ]
+      }
+    }
+  ]
+}

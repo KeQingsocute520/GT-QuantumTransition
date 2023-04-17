@@ -1,0 +1,241 @@
+{
+  "name": "01_06",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "a24dcc0d-497d-4c21-95a9-a9b7422d819f",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"qmd:waste_spallation\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"qmd:accelerator_cavity\",Count:1,Damage:4s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"plasma.oxygen\",Amount:10}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5120000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:97s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4a4652af-6471-4320-9694-850bf1aa6543",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"qmd:accelerator_cavity\",Count:1,Damage:4s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 0.5,
+            "content": "{FluidName:\"deuterium\",Amount:10}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 512000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.01,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:3s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 0.2,
+            "content": "{FluidName:\"neutronium\",Amount:1}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 256000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3c982a53-4a94-4165-993f-cd98fbeddbf2",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"qmd:accelerator_cavity\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"nuclearcraft:fission_dust\",Count:4,Damage:3s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:1000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 750000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0E-6,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust_tiny\",Count:1,Damage:127s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:12s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 256000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4a5ceca4-867e-479e-bbaf-07f4bec698a6",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:uranium\",Count:1,Damage:10s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:plutonium\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:neptunium\",Count:1,Damage:9s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:3,Damage:12s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

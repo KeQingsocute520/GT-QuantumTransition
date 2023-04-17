@@ -1,0 +1,20 @@
+{
+	x: -5.5d,
+	y: 10.0d,
+	dependencies: [
+		"a96200d2"
+	],
+	tasks: [{
+		uid: "ac152c3a",
+		type: "item",
+		items: [{
+			id: "wft:wft",
+			tag: {
+				internalCurrentPower: 1600000.0d,
+				InfinityEnergy: 2147483647
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

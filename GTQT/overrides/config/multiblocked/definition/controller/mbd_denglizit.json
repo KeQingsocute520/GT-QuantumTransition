@@ -1,0 +1,226 @@
+{
+  "version": 2,
+  "location": "mbd:denglizit",
+  "traits": {
+    "item": [],
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 10000,
+      "maxReceive": 500,
+      "maxExtract": 500
+    },
+    "fluid": []
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblock:control_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "04_07",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "  ABBBB@  ",
+        "  ABBBBA  ",
+        "  ABBBBA  ",
+        "  ABBBBA  ",
+        "  ABBBBA  "
+      ],
+      [
+        "  ABBBBC  ",
+        "  ADDDDA  ",
+        " AADDDDAA ",
+        "  ADDDDA  ",
+        "  ABBBBA  "
+      ],
+      [
+        "  ABBBBE  ",
+        " AADDDDAA ",
+        "AA      AA",
+        " AADDDDAA ",
+        "  ABBBBA  "
+      ],
+      [
+        "  ABBBBF  ",
+        "  ADDDDA  ",
+        " AADDDDAA ",
+        "  ADDDDA  ",
+        "  ABBBBA  "
+      ],
+      [
+        "  ABBBBG  ",
+        "  ABBBBA  ",
+        "  ABBBBA  ",
+        "  ABBBBA  ",
+        "  ABBBBA  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gcym:large_multiblock_casing",
+            "meta": 10
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:denglizit",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:transparent_casing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "multiblocked:energy_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "gregtech:wire_coil",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "multiblocked:item_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

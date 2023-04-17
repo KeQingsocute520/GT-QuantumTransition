@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: -2.5d,
+	description: "黑乎乎的一坨",
+	text: [
+		"下一阶段的机器需要它"
+	],
+	dependencies: [
+		"2830db40"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "8fd9d438",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1010"
+		}]
+	}],
+	rewards: [{
+		uid: "3cb46d0e",
+		type: "random",
+		table: 5
+	}]
+}

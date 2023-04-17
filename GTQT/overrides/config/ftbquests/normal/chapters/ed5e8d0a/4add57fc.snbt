@@ -1,0 +1,20 @@
+{
+	x: 5.5d,
+	y: -11.0d,
+	dependencies: [
+		"1d111196"
+	],
+	tasks: [{
+		uid: "07277d1d",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "rare_earth_chlorides_solution",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

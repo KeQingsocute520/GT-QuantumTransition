@@ -1,0 +1,24 @@
+{
+	title: "盐酸",
+	x: -11.5d,
+	y: -9.0d,
+	text: [
+		"盐酸是我们的老朋友了，你一定储备很多吧"
+	],
+	dependencies: [
+		"96d02b51"
+	],
+	tasks: [{
+		uid: "0d3c4e16",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "hydrochloric_acid",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

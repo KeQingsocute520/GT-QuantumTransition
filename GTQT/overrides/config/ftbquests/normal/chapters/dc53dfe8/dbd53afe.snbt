@@ -1,0 +1,31 @@
+{
+	title: "电解粘土的主要产物？",
+	x: 16.0d,
+	y: 21.0d,
+	description: "比铝更加值钱",
+	text: [
+		"注意，这些产物只能在MV阶段电解粘土粉获取，放在这里只因为他们是LV级别的机器"
+	],
+	dependencies: [
+		"6224db1c"
+	],
+	tasks: [{
+		uid: "3ea2707b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 101"
+		}]
+	},
+	{
+		uid: "a0b84d64",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 56"
+		}]
+	}],
+	rewards: [{
+		uid: "a5422a85",
+		type: "choice",
+		table: 0
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "聚氯乙烯",
+	x: -9.5d,
+	y: 14.5d,
+	description: "塑料塑料part",
+	text: [
+		""
+	],
+	dependencies: [
+		"e5481766"
+	],
+	tasks: [{
+		uid: "24a75246",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "polyvinyl_chloride",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

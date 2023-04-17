@@ -1,0 +1,36 @@
+{
+	title: "镉和锂",
+	x: 19.5d,
+	y: 19.5d,
+	text: [
+		"在处理闪锌矿的时候或许你会得到一点点镉.",
+		"但是显然用镉做电池不如锂"
+	],
+	dependencies: [
+		"8ba3444b"
+	],
+	tasks: [{
+		uid: "5b528d95",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 735s,
+			tag: {
+				Charge: 120000L
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2fb3ec5f",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 738s,
+			tag: {
+				Charge: 100000L
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

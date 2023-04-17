@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: 3.0d,
+	text: [
+		"分布在主世界的矿物，提取镁粉"
+	],
+	dependencies: [
+		"585211e1"
+	],
+	tasks: [{
+		uid: "95257edb",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_magnesite_0"
+		}]
+	}]
+}

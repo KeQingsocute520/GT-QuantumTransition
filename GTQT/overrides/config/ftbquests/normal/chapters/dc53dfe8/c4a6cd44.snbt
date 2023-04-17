@@ -1,0 +1,18 @@
+{
+	title: "镍在哪里",
+	x: 12.0d,
+	y: 7.0d,
+	text: [
+		"找一点镍，你会需要的"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "97e6bbc4",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pentlandite_0"
+		}]
+	}]
+}

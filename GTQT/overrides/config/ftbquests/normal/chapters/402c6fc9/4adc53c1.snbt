@@ -1,0 +1,11 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "8b0d98f4",
+		type: "item",
+		items: [{
+			item: "additional_lights:al_torch_oak_planks"
+		}]
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: 20.5d,
+	y: 5.0d,
+	description: "自己烧自己",
+	text: [
+		"懂得都懂,你不能一直烧木头"
+	],
+	dependencies: [
+		"2a4123c2"
+	],
+	tasks: [{
+		uid: "5bc65305",
+		type: "item",
+		items: [{
+			item: "minecraft:coal_ore"
+		}],
+		count: 32L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "dc927a80",
+		type: "item",
+		item: {
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "dark_steel"
+			}
+		}
+	},
+	{
+		uid: "0a9dc46f",
+		type: "random",
+		table: 9
+	}]
+}

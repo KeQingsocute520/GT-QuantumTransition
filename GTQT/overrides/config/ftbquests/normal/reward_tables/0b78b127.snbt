@@ -1,0 +1,114 @@
+{
+	title: "钻石工具礼包",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "gregtech:hammer",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "diamond",
+					MaxDurability: 768,
+					Durability: 0,
+					ToolSpeed: 10.0f,
+					HarvestLevel: 3,
+					AttackDamage: 8.0f,
+					AttackSpeed: -2.7f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:saw",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "diamond",
+					MaxDurability: 768,
+					Durability: 0,
+					AttackDamage: 6.0f,
+					AttackSpeed: -2.5f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					HarvestIce: 1b
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:wrench",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "diamond",
+					MaxDurability: 768,
+					Durability: 0,
+					ToolSpeed: 10.0f,
+					HarvestLevel: 3,
+					AttackDamage: 8.0f,
+					AttackSpeed: -2.7f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:file",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "diamond",
+					MaxDurability: 768,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.3000002f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:screwdriver",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "diamond",
+					MaxDurability: 768,
+					Durability: 0,
+					AttackDamage: 6.0f,
+					AttackSpeed: 3.1f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:wire_cutter",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "diamond",
+					MaxDurability: 768,
+					Durability: 0,
+					ToolSpeed: 10.0f,
+					HarvestLevel: 3,
+					AttackDamage: 6.0f,
+					AttackSpeed: -2.3000002f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	}]
+}

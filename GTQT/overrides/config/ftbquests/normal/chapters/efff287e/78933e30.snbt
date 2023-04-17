@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 6.0d,
+	dependencies: [
+		"8a45a988"
+	],
+	tasks: [{
+		uid: "17998e15",
+		type: "item",
+		items: [{
+			item: "forestry:farm_mushroom"
+		}]
+	}]
+}

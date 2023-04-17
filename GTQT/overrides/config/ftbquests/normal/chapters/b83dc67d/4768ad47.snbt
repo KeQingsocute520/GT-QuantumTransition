@@ -1,0 +1,28 @@
+{
+	x: 20.5d,
+	y: 5.0d,
+	dependencies: [
+		"0796d5b1"
+	],
+	tasks: [{
+		uid: "d0fc602b",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:item_basic_asteroids 1 1"
+		}]
+	},
+	{
+		uid: "c7de8bb8",
+		type: "item",
+		items: [{
+			item: "galaxyspace:rocket_parts 1 2"
+		}]
+	},
+	{
+		uid: "addd9a6a",
+		type: "item",
+		items: [{
+			item: "galaxyspace:rocket_parts 1 3"
+		}]
+	}]
+}

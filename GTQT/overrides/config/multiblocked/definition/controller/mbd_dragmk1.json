@@ -1,0 +1,299 @@
+{
+  "version": 2,
+  "location": "mbd:dragmk1",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblock:control_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/gregtech_base",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_front_active",
+        "type": "gregtech"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "03_01",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "       ",
+        "       ",
+        " AAAAA ",
+        " BBBBB ",
+        " AAAAA ",
+        "       ",
+        "       "
+      ],
+      [
+        "       ",
+        " CAAAC ",
+        "AADDDAA",
+        "BBEEEBB",
+        "AADDDAA",
+        "FCAAAC ",
+        "       "
+      ],
+      [
+        "  GGG  ",
+        " AAAAA ",
+        "AD   DA",
+        "BE   EB",
+        "AD   DA",
+        "HAAAAA ",
+        "  GGG  "
+      ],
+      [
+        "  GGG  ",
+        " AAIAA ",
+        "AD J DA",
+        "BE J EB",
+        "AD J DA",
+        "HAAAAA ",
+        "  GGG  "
+      ],
+      [
+        "  GGG  ",
+        " AAAAA ",
+        "AD   DA",
+        "BE   EB",
+        "AD   DA",
+        "KAAAAA ",
+        "  GGG  "
+      ],
+      [
+        "       ",
+        " CAAAC ",
+        "AADDDAA",
+        "BBEEEBB",
+        "AADDDAA",
+        "@CAAAC ",
+        "       "
+      ],
+      [
+        "       ",
+        "       ",
+        " AAAAA ",
+        " BBBBB ",
+        " AAAAA ",
+        "       ",
+        "       "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:fusion_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:dragmk1",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:wire_coil",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_frame_8",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_frame_194",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_frame_2",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "gregtech:machine_casing",
+            "meta": 9
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "multiblocked:item_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "gregtech:meta_block_frame_7",
+            "meta": 15
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "extrabotany:blockorichalcos",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

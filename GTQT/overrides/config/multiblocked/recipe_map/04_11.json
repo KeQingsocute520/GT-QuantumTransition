@@ -1,0 +1,367 @@
+{
+  "name": "04_11",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "c0732f2f-e100-4764-9c93-9ac8bddc882d",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_ingot\",Count:1,Damage:252s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:1,Damage:252s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4cfb5e7c-26e1-4f6d-8574-90e75a2d950f",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_ingot\",Count:1,Damage:2012s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:1,Damage:2012s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "fe3f844e-e3ee-4503-8175-1222a6ddf7cf",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_ingot\",Count:1,Damage:129s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:1,Damage:129s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e229ab46-2dea-47c7-a347-59f1e1222057",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_ingot\",Count:1,Damage:324s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:1,Damage:324s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "93b09023-9cc5-492d-a8e1-5b26617b69d9",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_wire_fine\",Count:4,Damage:1007s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:1,Damage:97s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c4037ba6-0ee4-4cd5-b1d0-2f34d226904c",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:2000s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:1,Damage:2000s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f751b5ad-60dd-437a-bc41-a26e0e0b58ee",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_ingot\",Count:1,Damage:3592s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:1,Damage:3592s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "961a9822-4411-45cd-9c9b-c051309d759b",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_plate\",Count:1,Damage:342s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:1,Damage:342s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "9e31d0c3-de14-4484-959a-ce053fc58dc6",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_ingot\",Count:1,Damage:3104s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:1,Damage:3104s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8f51f2a7-aa2b-4aa0-b69b-5d18929959f2",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_ingot\",Count:1,Damage:335s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:1,Damage:335s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

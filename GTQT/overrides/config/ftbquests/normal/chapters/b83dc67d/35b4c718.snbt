@@ -1,0 +1,15 @@
+{
+	x: 26.0d,
+	y: 3.0d,
+	dependencies: [
+		"5abe17e0"
+	],
+	tasks: [{
+		uid: "a7a5f9ff",
+		type: "item",
+		items: [{
+			item: "galaxyspace:rocket_tier_6"
+		}],
+		ignore_nbt: 1b
+	}]
+}

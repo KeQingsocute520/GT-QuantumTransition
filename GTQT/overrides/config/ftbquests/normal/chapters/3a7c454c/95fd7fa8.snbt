@@ -1,0 +1,17 @@
+{
+	x: -9.5d,
+	y: 0.5d,
+	text: [
+		"你可以在月球找到"
+	],
+	dependencies: [
+		"421cc2a3"
+	],
+	tasks: [{
+		uid: "880061af",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_bastnasite_0"
+		}]
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "大锤80，小锤75",
+	x: 30.5d,
+	y: 5.0d,
+	description: "80~80~80~,显然锤子还能用来粉碎矿物，你也可以直接使用锤子去挖矿。",
+	dependencies: [
+		"2cb18d1d"
+	],
+	tasks: [{
+		uid: "b7d319ca",
+		type: "item",
+		items: [{
+			id: "gregtech:hammer",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "iron",
+					MaxDurability: 256,
+					Durability: 0,
+					ToolSpeed: 6.0f,
+					HarvestLevel: 2,
+					AttackDamage: 3.0f,
+					AttackSpeed: -2.8f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f39a2539",
+		type: "random",
+		table: 9
+	}]
+}

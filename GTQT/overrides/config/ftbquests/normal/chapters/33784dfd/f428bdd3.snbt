@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: 7.5d,
+	text: [
+		"你的第一块棒棒",
+		"这个棒棒将伴随你直到游戏后期"
+	],
+	dependencies: [
+		"55dcaad8"
+	],
+	tasks: [{
+		uid: "a070c2ca",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 361"
+		}]
+	}]
+}

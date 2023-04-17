@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 6.5d,
+	dependencies: [
+		"ff730a93"
+	],
+	tasks: [{
+		uid: "7481109e",
+		type: "item",
+		items: [{
+			item: "mbd:gtmk2"
+		}]
+	}]
+}

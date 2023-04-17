@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -1.5d,
+	dependencies: [
+		"8fd7951d"
+	],
+	tasks: [{
+		uid: "89fcf38a",
+		type: "item",
+		items: [{
+			id: "reactor_stuff:terminium_rod",
+			tag: {
+				advDmg: 0
+			}
+		}]
+	}]
+}

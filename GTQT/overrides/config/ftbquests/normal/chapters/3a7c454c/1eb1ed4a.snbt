@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: -3.0d,
+	text: [
+		"我知道很难做，但是一次能做两组"
+	],
+	dependencies: [
+		"a4a3757a",
+		"a735150f",
+		"f0ac433b"
+	],
+	tasks: [{
+		uid: "1300369f",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 555"
+		}]
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	title: "欠债人名单",
+	icon: {
+		id: "conarm:helmet",
+		tag: {
+			TinkerData: {
+				Materials: [
+					"sunnarium",
+					"sunnarium",
+					"sunnarium"
+				],
+				Modifiers: [
+					"leveling_armor"
+				]
+			},
+			Stats: {
+				Durability: 539,
+				Defense: 27.0f,
+				Toughness: 4.0f,
+				FreeModifiers: 3
+			},
+			StatsOriginal: {
+				Durability: 539,
+				Defense: 27.0f,
+				Toughness: 4.0f,
+				FreeModifiers: 3
+			},
+			Modifiers: [{
+				identifier: "tconevo.photosynthetic_armor",
+				color: -1915115,
+				level: 1
+			},
+			{
+				identifier: "tconevo.radiant_armor",
+				color: -1915115,
+				level: 1
+			},
+			{
+				identifier: "leveling_armor",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"tconevo.photosynthetic_armor",
+				"tconevo.radiant_armor",
+				"leveling_armor"
+			],
+			ConArmEquipmentSlot: 5
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

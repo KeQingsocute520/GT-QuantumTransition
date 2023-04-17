@@ -1,0 +1,67 @@
+{
+  "name": "05_5",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "f9cc2712-ab02-41e8-b397-cbc74a25a642",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"light_hyper_fuel\",Amount:2}"
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 524288
+          }
+        ]
+      }
+    },
+    {
+      "uid": "342d3533-512d-4496-a07d-13167ab51711",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"medium_hyper_fuel\",Amount:2}"
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1048576
+          }
+        ]
+      }
+    },
+    {
+      "uid": "157b630d-2862-4d7f-85c5-6a201fcb2f3b",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"heavy_hyper_fuel\",Amount:2}"
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2097152
+          }
+        ]
+      }
+    }
+  ]
+}

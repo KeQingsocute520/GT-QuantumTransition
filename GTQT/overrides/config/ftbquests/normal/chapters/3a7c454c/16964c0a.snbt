@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 1.5d,
+	dependencies: [
+		"8a12e79c"
+	],
+	tasks: [{
+		uid: "c09ade28",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 467s,
+			tag: {
+				Charge: 1600000L,
+				Mode: 1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3f3f9ec",
+		type: "random",
+		table: 9
+	}]
+}

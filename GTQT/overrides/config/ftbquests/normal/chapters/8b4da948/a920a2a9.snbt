@@ -1,0 +1,24 @@
+{
+	title: "酸性锇溶液",
+	x: 7.0d,
+	y: -6.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5676f3e3"
+	],
+	tasks: [{
+		uid: "0e7d4c05",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "acidic_osmium_solution",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

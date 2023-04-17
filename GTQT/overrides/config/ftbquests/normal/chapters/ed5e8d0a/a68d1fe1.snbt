@@ -1,0 +1,34 @@
+{
+	title: "su8生产part2",
+	x: -1.0d,
+	y: -9.0d,
+	dependencies: [
+		"17c720f6"
+	],
+	tasks: [{
+		uid: "780e78ef",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "aminophenol",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "f54fcf43",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "reinforced_epoxy_resin",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

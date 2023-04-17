@@ -1,0 +1,18 @@
+{
+	x: 8.5d,
+	y: -6.5d,
+	description: "合金",
+	text: [
+		"混合铁粉，镍，咕"
+	],
+	dependencies: [
+		"3953bf62"
+	],
+	tasks: [{
+		uid: "0f440f31",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 3623"
+		}]
+	}]
+}

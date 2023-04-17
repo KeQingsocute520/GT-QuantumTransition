@@ -1,0 +1,43 @@
+{
+	x: -6.5d,
+	y: 3.0d,
+	dependencies: [
+		"12a58b10"
+	],
+	tasks: [{
+		uid: "c3c73acb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 67"
+		}]
+	},
+	{
+		uid: "de4853a5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 607"
+		}]
+	},
+	{
+		uid: "087ee845",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 187"
+		}]
+	}],
+	rewards: [{
+		uid: "5d948e7c",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "6ace586a",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "4fe4e485",
+		type: "loot",
+		table: 2
+	}]
+}

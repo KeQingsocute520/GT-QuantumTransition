@@ -1,0 +1,29 @@
+{
+	title: "石墨烯",
+	x: 6.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b99e49f8"
+	],
+	tasks: [{
+		uid: "55c303e8",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustGraphene"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustGraphene"
+				}
+			}
+		}]
+	}]
+}

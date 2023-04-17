@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	text: [
+		"能接收其他 Mod 的能源转换成ae能给me网络供电"
+	],
+	dependencies: [
+		"119dcb5d"
+	],
+	tasks: [{
+		uid: "614b5f00",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	}]
+}

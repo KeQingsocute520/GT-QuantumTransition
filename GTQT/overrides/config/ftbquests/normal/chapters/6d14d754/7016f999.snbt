@@ -1,0 +1,24 @@
+{
+	title: "这送了我个啥玩意？",
+	x: 2.0d,
+	y: 2.0d,
+	description: "最新海克斯科技，小子！",
+	text: [
+		"融合了探矿，多方块自动搭建，以及小游戏的平板电脑。",
+		"搭载RTX 4090 ，i9 13900k DDR5 32G*X",
+		"550W实在是太快了。"
+	],
+	dependencies: [
+		"2e7b437e"
+	],
+	tasks: [{
+		uid: "275b42b1",
+		type: "gamestage",
+		stage: "easy"
+	}],
+	rewards: [{
+		uid: "a1f0d3a3",
+		type: "choice",
+		table: 11
+	}]
+}

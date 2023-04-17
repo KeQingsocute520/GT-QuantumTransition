@@ -1,0 +1,36 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	dependencies: [
+		"97174b65"
+	],
+	tasks: [{
+		uid: "01513a16",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1575"
+		}]
+	}],
+	rewards: [{
+		uid: "20a58884",
+		type: "item",
+		item: "enderstorage:ender_storage 1 1",
+		count: 2
+	},
+	{
+		uid: "203c37ce",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 32
+	},
+	{
+		uid: "46924dbb",
+		type: "item",
+		item: "gregtech:machine 1 1585"
+	},
+	{
+		uid: "3a453668",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	}]
+}

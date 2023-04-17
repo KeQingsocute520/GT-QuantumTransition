@@ -1,0 +1,33 @@
+{
+	title: "你真的会用JEI嘛",
+	icon: "jecalculation:item_calculator",
+	x: 2.0d,
+	y: 4.0d,
+	description: "送你一个计算器，希望小学数学能及格。",
+	text: [
+		"希望你会用"
+	],
+	dependencies: [
+		"2e7b437e"
+	],
+	tasks: [{
+		uid: "2ba3f7b0",
+		type: "checkmark"
+	},
+	{
+		uid: "a2cf265a",
+		type: "gamestage",
+		stage: "easy"
+	}],
+	rewards: [{
+		uid: "763ffd4a",
+		type: "item",
+		item: "harvestcraft:crayfishsaladitem",
+		count: 8
+	},
+	{
+		uid: "eb370f6e",
+		type: "item",
+		item: "jecalculation:item_calculator"
+	}]
+}

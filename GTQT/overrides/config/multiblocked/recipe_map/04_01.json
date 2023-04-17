@@ -1,0 +1,208 @@
+{
+  "name": "04_01",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "8a34441f-4f0b-4925-a3ad-83b7ca1a2578",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:103s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:11s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:2,Damage:106s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_plate\",Count:1,Damage:3587s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:5,Damage:3599s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "410bfb2e-cc2c-4ab5-a274-763ef67a26f9",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_plate\",Count:1,Damage:1010s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:2,Damage:3534s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:2,Damage:6022s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:2,Damage:6021s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:meta_item_1\",Count:1,Damage:202s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a6cdd603-6349-4c07-b9cc-023ac77faf6f",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust_tiny\",Count:1,Damage:25056s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:1,Damage:30s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:1,Damage:29s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2224afb0-816d-4208-91df-ad895ed71e99",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_foil\",Count:1,Damage:41s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_gem\",Count:1,Damage:3568s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:1,Damage:3569s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

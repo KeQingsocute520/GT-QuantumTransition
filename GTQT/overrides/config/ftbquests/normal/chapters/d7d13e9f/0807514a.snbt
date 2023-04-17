@@ -1,0 +1,21 @@
+{
+	x: -9.0d,
+	y: -0.5d,
+	dependencies: [
+		"3de0a930"
+	],
+	tasks: [{
+		uid: "8f2963f1",
+		type: "item",
+		items: [{
+			item: "railcraft:manipulator 1 5"
+		}]
+	},
+	{
+		uid: "4b1e51e8",
+		type: "item",
+		items: [{
+			item: "railcraft:manipulator 1 4"
+		}]
+	}]
+}

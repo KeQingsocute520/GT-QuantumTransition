@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 11.0d,
+	description: "陶瓷基板",
+	dependencies: [
+		"65bdc5ea"
+	],
+	tasks: [{
+		uid: "bfa21927",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 65"
+		}]
+	}]
+}

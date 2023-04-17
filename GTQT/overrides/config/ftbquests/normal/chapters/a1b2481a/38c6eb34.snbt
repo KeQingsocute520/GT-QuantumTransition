@@ -1,0 +1,53 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"热交换器是一种能够交换热量的核反应炉配件。它自身可以储存2500点热量，向相邻其他元件传递12点热量，并向核反应炉自身传递4点热量。",
+		"散热片是一种拥有散发周围燃料棒热量的核反应炉配件。",
+		"加厚中子反射板是一种能够增加各种燃料棒输出频率的元件。加厚中子反射板一共能进行120,000次脉冲，相邻每根单燃料棒每秒消耗1耐久，双联和四联对应消耗2和4耐久。",
+		"它必须放置在燃料棒附近才能正常工作，正常工作时会显示耐久度。"
+	],
+	dependencies: [
+		"7496f1e4"
+	],
+	tasks: [{
+		uid: "7d223a40",
+		type: "item",
+		items: [{
+			id: "ic2:advanced_heat_vent",
+			tag: {
+				advDmg: 0
+			}
+		}]
+	},
+	{
+		uid: "2a1e3ffb",
+		type: "item",
+		items: [{
+			id: "ic2:advanced_heat_exchanger",
+			tag: {
+				advDmg: 0
+			}
+		}]
+	},
+	{
+		uid: "05386a82",
+		type: "item",
+		items: [{
+			id: "ic2:thick_neutron_reflector",
+			tag: {
+				advDmg: 0
+			}
+		}]
+	},
+	{
+		uid: "3c3adfbe",
+		type: "item",
+		items: [{
+			id: "ic2:lzh_condensator",
+			tag: {
+				advDmg: 0
+			}
+		}]
+	}]
+}

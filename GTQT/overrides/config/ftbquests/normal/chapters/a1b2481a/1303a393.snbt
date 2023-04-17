@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	dependencies: [
+		"ce7ddddc"
+	],
+	tasks: [{
+		uid: "d9021e3d",
+		type: "item",
+		items: [{
+			id: "reactor_stuff:thorium_rod_dual",
+			tag: {
+				advDmg: 0
+			}
+		}]
+	}]
+}

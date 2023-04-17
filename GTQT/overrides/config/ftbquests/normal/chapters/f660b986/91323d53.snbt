@@ -1,0 +1,22 @@
+{
+	title: "原油",
+	x: 2.5d,
+	y: 0.0d,
+	description: "黑色的黄金",
+	dependencies: [
+		"d780a941"
+	],
+	tasks: [{
+		uid: "324845d9",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "oil_medium",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "03_06",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "e6a38306-a1af-45e3-8c4c-d1e267bece10",
+      "duration": 1,
+      "inputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 100
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:curio\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:curio\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:curio\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:curio\",Count:1,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:curio\",Count:1,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:curio\",Count:1,Damage:5s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

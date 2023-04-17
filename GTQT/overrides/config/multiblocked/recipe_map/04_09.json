@@ -1,0 +1,79 @@
+{
+  "name": "04_09",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "1cf3459f-6d7d-4473-af4c-3c8c7e0ad62c",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"air\",Amount:200}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"gasoline\",Amount:100}"
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 131072
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1cf3459f-7d7d-4773-af4c-3c8c7e0ad62c",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"air\",Amount:200}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"nitro_fuel\",Amount:75}"
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 131072
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1cf3459f-6d7d-4773-af4c-5c8c7e0ad62c",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"air\",Amount:200}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"rocket_fuel\",Amount:50}"
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 131072
+          }
+        ]
+      }
+    }
+  ]
+}

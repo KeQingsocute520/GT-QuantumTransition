@@ -1,0 +1,25 @@
+{
+	title: "冷却液",
+	x: -3.0d,
+	y: 11.0d,
+	text: [
+		"混合青金石粉和蒸馏水得到冷却液，在得到真空冷冻机之前，你只能使用冷却液来给物品降温",
+		"当然，冷却液是可以回收利用的,因此，你不需要制备太多冷却液"
+	],
+	dependencies: [
+		"eb45140f"
+	],
+	tasks: [{
+		uid: "d2e43676",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2coolant",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

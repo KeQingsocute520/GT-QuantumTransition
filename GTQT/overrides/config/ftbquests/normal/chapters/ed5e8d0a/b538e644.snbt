@@ -1,0 +1,23 @@
+{
+	title: "再也不需要聚爆压缩机了",
+	x: -6.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fc797031"
+	],
+	tasks: [{
+		uid: "d7024487",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine2"
+		}]
+	}],
+	rewards: [{
+		uid: "33caf60d",
+		type: "random",
+		table: 9
+	}]
+}

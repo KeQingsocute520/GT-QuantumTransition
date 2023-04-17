@@ -1,0 +1,21 @@
+{
+	x: -13.0d,
+	y: -0.5d,
+	dependencies: [
+		"fbdc0df0"
+	],
+	tasks: [{
+		uid: "65f3b614",
+		type: "item",
+		items: [{
+			item: "minecraft:minecart"
+		}]
+	},
+	{
+		uid: "b335ddf2",
+		type: "item",
+		items: [{
+			item: "minecraft:rail"
+		}]
+	}]
+}

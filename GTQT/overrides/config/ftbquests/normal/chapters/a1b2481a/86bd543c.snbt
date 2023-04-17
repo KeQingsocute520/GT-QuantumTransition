@@ -1,0 +1,19 @@
+{
+	title: "这坨泥很值钱",
+	x: -7.5d,
+	y: -7.0d,
+	text: [
+		"第一步，提取粉碎矿物里的含铂污泥"
+	],
+	dependencies: [
+		"611437ca",
+		"419306f8"
+	],
+	tasks: [{
+		uid: "1087cf29",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 364"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "HSQ",
+	x: 8.0d,
+	y: -4.0d,
+	dependencies: [
+		"7dbce1a1"
+	],
+	tasks: [{
+		uid: "04980ec2",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogensilsesquioxane",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	dependencies: [
+		"64339f3e",
+		"290c96a6",
+		"3c78d383"
+	],
+	tasks: [{
+		uid: "e7df806a",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:heavy_plating"
+		}]
+	}]
+}

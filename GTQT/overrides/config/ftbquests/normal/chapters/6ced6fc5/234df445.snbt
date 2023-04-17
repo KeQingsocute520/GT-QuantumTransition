@@ -1,0 +1,24 @@
+{
+	title: "SU8光刻胶教",
+	x: 16.5d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8d98dec8"
+	],
+	tasks: [{
+		uid: "bb3a4c7c",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "su_photoresist",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

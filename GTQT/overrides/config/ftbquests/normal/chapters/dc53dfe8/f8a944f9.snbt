@@ -1,0 +1,35 @@
+{
+	title: "把你的锤子丢掉吧",
+	x: 6.5d,
+	y: 13.5d,
+	description: "够了够了，坏，压扁了",
+	text: [
+		"将你的金属锭变成板，当然需要电路板"
+	],
+	dependencies: [
+		"9ea1ad6f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "80068890",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 140"
+		}]
+	}],
+	rewards: [{
+		uid: "0ded75db",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "edf5402d",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "b8114a97",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	}]
+}

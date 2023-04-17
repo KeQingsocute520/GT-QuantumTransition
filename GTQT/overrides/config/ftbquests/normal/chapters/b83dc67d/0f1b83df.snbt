@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"4e92df92",
+		"c0c02350",
+		"efcf766e",
+		"7e9506a1",
+		"218ce5c8",
+		"82614b65",
+		"11b7c9d0",
+		"7d98f83f",
+		"aaa8a405",
+		"ef3414cb",
+		"b0f1780e"
+	],
+	tasks: [{
+		uid: "e9133cc4",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:rocket_t1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

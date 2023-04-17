@@ -1,0 +1,21 @@
+{
+	title: "为什么不在一起？",
+	x: 1.5d,
+	y: 2.0d,
+	description: "加热，加热，迫使金属在一起！",
+	dependencies: [
+		"7ccf9a0c"
+	],
+	tasks: [{
+		uid: "bf7ed27d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "0df5b753",
+		type: "loot",
+		table: 9
+	}]
+}

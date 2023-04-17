@@ -1,0 +1,24 @@
+{
+	x: 6.5d,
+	y: 10.0d,
+	text: [
+		"而电炉就是一台用电的炉子。",
+		"IV级以上的电炉曾用名“英伟达泰坦图像处理核心”（日常黑N卡）",
+		"对电炉而言，所有工序需求的电功率均为LV（低压）。"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "c367bc30",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 50"
+		}]
+	}],
+	rewards: [{
+		uid: "4a9bf7ee",
+		type: "loot",
+		table: 0
+	}]
+}

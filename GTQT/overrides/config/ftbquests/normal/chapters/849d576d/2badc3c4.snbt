@@ -1,0 +1,16 @@
+{
+	title: "需要补充水分",
+	x: 8.5d,
+	y: 5.0d,
+	description: "我知道他的贴图非常奇怪，但是这不能怪我",
+	dependencies: [
+		"b3ffd459"
+	],
+	tasks: [{
+		uid: "9f83adbb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 12041"
+		}]
+	}]
+}

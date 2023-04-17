@@ -1,0 +1,19 @@
+{
+	title: "拒绝套娃，现在！！！",
+	x: -1.0d,
+	y: -4.5d,
+	text: [
+		"太棒了，这个电路板是一个新的开始，你不再需要套娃来合成它。"
+	],
+	dependencies: [
+		"0d43bb8f",
+		"8c3e1708"
+	],
+	tasks: [{
+		uid: "f4c730ce",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 115"
+		}]
+	}]
+}

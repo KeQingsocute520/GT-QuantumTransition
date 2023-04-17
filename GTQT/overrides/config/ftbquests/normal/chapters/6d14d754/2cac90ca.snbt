@@ -1,0 +1,27 @@
+{
+	title: "收集常见的矿物part1",
+	x: 28.0d,
+	y: 3.0d,
+	dependencies: [
+		"2a4123c2"
+	],
+	tasks: [{
+		uid: "2ddfd2b3",
+		type: "item",
+		items: [{
+			item: "ic2:ingot 1 2"
+		}]
+	},
+	{
+		uid: "3ec2251b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 112"
+		}]
+	}],
+	rewards: [{
+		uid: "117f468b",
+		type: "random",
+		table: 9
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "铬",
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c2f5ef1b"
+	],
+	tasks: [{
+		uid: "52d9acee",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "chrome",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

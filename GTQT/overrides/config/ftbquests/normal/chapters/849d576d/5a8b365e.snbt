@@ -1,0 +1,20 @@
+{
+	x: 6.5d,
+	y: 3.5d,
+	description: "锻造！更强大的工具",
+	dependencies: [
+		"35cb4d03"
+	],
+	tasks: [{
+		uid: "89c0bc1b",
+		type: "item",
+		items: [{
+			item: "minecraft:anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "30ddb4f9",
+		type: "choice",
+		table: 9
+	}]
+}

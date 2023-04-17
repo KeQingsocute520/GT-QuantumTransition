@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: 3.0d,
+	dependencies: [
+		"5140c921"
+	],
+	tasks: [{
+		uid: "70d01cf2",
+		type: "item",
+		items: [{
+			item: "mbd:eiorr"
+		}]
+	}]
+}

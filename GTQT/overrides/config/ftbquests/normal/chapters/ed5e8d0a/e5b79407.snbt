@@ -1,0 +1,42 @@
+{
+	x: 5.5d,
+	y: -9.0d,
+	dependencies: [
+		"4add57fc"
+	],
+	tasks: [{
+		uid: "b456efad",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 8"
+		}]
+	},
+	{
+		uid: "78bebfad",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:dust 1 10"
+		}]
+	},
+	{
+		uid: "921d2655",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 101"
+		}]
+	},
+	{
+		uid: "eba670c3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 53"
+		}]
+	},
+	{
+		uid: "a1d52912",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2"
+		}]
+	}]
+}

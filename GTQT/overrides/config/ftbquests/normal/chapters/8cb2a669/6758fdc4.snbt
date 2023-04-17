@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: -12.0d,
+	dependencies: [
+		"30d6b1d3"
+	],
+	tasks: [{
+		uid: "6a9b1be3",
+		type: "item",
+		items: [{
+			item: "mbd:magmk1"
+		}]
+	}]
+}

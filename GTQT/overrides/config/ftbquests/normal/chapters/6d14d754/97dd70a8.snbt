@@ -1,0 +1,24 @@
+{
+	x: 23.0d,
+	y: 7.0d,
+	text: [
+		"黄铁矿也可以直接烧制",
+		"不够等你的技术先进之后你可以从黄铁矿里提取硫粉。"
+	],
+	dependencies: [
+		"2a4123c2"
+	],
+	tasks: [{
+		uid: "b8320560",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrite_0"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "af86d33a",
+		type: "random",
+		table: 9
+	}]
+}

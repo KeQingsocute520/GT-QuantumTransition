@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	text: [
+		"还在用手组装马达？太慢了"
+	],
+	dependencies: [
+		"cd1cd41c"
+	],
+	tasks: [{
+		uid: "2e0adfb5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 12030"
+		}]
+	}]
+}

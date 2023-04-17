@@ -1,0 +1,27 @@
+{
+	icon: "reactor_stuff:terminium_pick",
+	x: 1.5d,
+	y: 2.5d,
+	description: "免费的镐子要不要",
+	text: [
+		"只能买一次"
+	],
+	dependencies: [
+		"2a4123c2"
+	],
+	tasks: [{
+		uid: "9046dc33",
+		type: "ftbmoney:money",
+		value: 10L
+	},
+	{
+		uid: "7047034d",
+		type: "gamestage",
+		stage: "easy"
+	}],
+	rewards: [{
+		uid: "380419d1",
+		type: "choice",
+		table: 12
+	}]
+}

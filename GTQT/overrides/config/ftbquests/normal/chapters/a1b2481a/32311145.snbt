@@ -1,0 +1,16 @@
+{
+	title: "火星救援",
+	x: 3.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"21de2c58"
+	],
+	tasks: [{
+		uid: "3d31ac2a",
+		type: "dimension",
+		dim: -29
+	}]
+}

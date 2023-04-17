@@ -1,0 +1,35 @@
+{
+	title: "铂系处理",
+	x: -7.5d,
+	y: -0.5d,
+	text: [
+		"欢迎来到铂系处理！首先你要准备一些原材料，当然你会发现，这些原料都是你所熟悉的。"
+	],
+	dependencies: [
+		"21de2c58"
+	],
+	tasks: [{
+		uid: "c9b9c4d4",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreChalcopyrite"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreChalcopyrite"
+				}
+			}
+		},
+		{
+			item: "gregtech:ore_tetrahedrite_0"
+		},
+		{
+			item: "gregtech:ore_pentlandite_0"
+		}]
+	}]
+}

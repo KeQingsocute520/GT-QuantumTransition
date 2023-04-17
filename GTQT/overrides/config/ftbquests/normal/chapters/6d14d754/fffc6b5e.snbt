@@ -1,0 +1,25 @@
+{
+	x: 33.5d,
+	y: 7.0d,
+	description: "如你所见，真正的连锁，兄弟",
+	text: [
+		"一砍砍一棵"
+	],
+	dependencies: [
+		"e5f5850c"
+	],
+	tasks: [{
+		uid: "264f397d",
+		type: "item",
+		items: [{
+			item: "lumberjack:iron_lumberaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "88c54365",
+		type: "random",
+		table: 9
+	}]
+}

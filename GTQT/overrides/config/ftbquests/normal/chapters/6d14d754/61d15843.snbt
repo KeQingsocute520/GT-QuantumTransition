@@ -1,0 +1,20 @@
+{
+	title: "猪猪那么可爱，你为什么要杀猪猪",
+	x: 10.0d,
+	y: 5.0d,
+	dependencies: [
+		"1800d419"
+	],
+	tasks: [{
+		uid: "4dbad37c",
+		type: "item",
+		items: [{
+			item: "animania:raw_prime_pork"
+		}]
+	}],
+	rewards: [{
+		uid: "769c59ed",
+		type: "random",
+		table: 9
+	}]
+}

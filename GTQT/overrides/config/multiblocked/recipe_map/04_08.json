@@ -1,0 +1,196 @@
+{
+  "name": "04_08",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "71bd3f60-5883-4726-b47a-af68b1a18846",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:1,Damage:72s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"tjcore:meta_item_1\",Count:16,Damage:429s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:wyvern_core\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"tjcore:meta_item_1\",Count:2,Damage:426s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:8,Damage:58s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c27369e8-ea71-4d7a-98b2-610bce5b9f39",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:1,Damage:72s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:wyvern_energy_core\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tjcore:meta_item_1\",Count:1,Damage:204s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"tjcore:meta_item_1\",Count:16,Damage:221s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1000
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:8,Damage:996s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "39446cc6-127e-47b0-8e86-1905496fd410",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:draconic_core\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"tjcore:nanofoil\",Count:4,Damage:3104s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"tjcore:tjmetaitem\",Count:2,Damage:72s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

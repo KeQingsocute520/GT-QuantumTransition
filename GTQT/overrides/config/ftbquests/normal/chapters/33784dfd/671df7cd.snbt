@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: 14.5d,
+	text: [
+		"不知道你有没有发现电路组装的规律"
+	],
+	dependencies: [
+		"60bb96a7"
+	],
+	tasks: [{
+		uid: "510b402e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 636"
+		}]
+	}]
+}

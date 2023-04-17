@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 5.0d,
+	dependencies: [
+		"1800d419"
+	],
+	tasks: [{
+		uid: "7c87cd5a",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}]
+	}],
+	rewards: [{
+		uid: "7b1a844e",
+		type: "random",
+		table: 9
+	}]
+}

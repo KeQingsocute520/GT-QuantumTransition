@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "location": "multiblocked:jubao_core",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/gregtech_base",
+        "frontTexture": "multiblocked:blocks/overlay/overlay_none_blok",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 15,
+      "parent": "idle",
+      "sound": {
+        "sound": "twilightforest:mob.urghast.trapwarmup",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 0.4
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "canShared": true
+}

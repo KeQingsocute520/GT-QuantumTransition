@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	dependencies: [
+		"1e9d61ad"
+	],
+	tasks: [{
+		uid: "e2e28de5",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage 1 3"
+		}]
+	}]
+}

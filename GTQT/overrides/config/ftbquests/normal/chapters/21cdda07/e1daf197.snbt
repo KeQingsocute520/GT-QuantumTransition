@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: 6.0d,
+	dependencies: [
+		"9b10e602"
+	],
+	tasks: [{
+		uid: "bd2c768a",
+		type: "item",
+		items: [{
+			item: "mbd:gtmk2"
+		}]
+	}],
+	rewards: [{
+		uid: "09dc7582",
+		type: "item",
+		item: "avaritia:resource 1 5"
+	},
+	{
+		uid: "e9085401",
+		type: "item",
+		item: "gregtech:meta_item_1 1 6"
+	}]
+}

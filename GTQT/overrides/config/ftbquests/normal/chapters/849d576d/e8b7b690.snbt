@@ -1,0 +1,42 @@
+{
+	title: "你的第一块LV电路板",
+	x: 11.0d,
+	y: 14.0d,
+	description: "有点智能，但是不多。",
+	text: [
+		"你的14CM工艺电路板"
+	],
+	dependencies: [
+		"9f6d9ba5",
+		"5e4068c6"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e6d9fbb8",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 101"
+		}]
+	}],
+	rewards: [{
+		uid: "cd6f1daf",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "5887faff",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 461s,
+			tag: {
+				Configuration: 0
+			}
+		}
+	},
+	{
+		uid: "3973b532",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

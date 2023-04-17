@@ -1,0 +1,24 @@
+{
+	x: 12.0d,
+	y: 8.0d,
+	description: "别惦记你那破蒸汽了，来看看燃气",
+	text: [
+		"如果你拥有一套完整的石化工体系，你可以考虑这台最棒的燃气涡轮"
+	],
+	dependencies: [
+		"eb4ef064"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5c8b1ac6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1011"
+		}]
+	}],
+	rewards: [{
+		uid: "3dc97b96",
+		type: "loot",
+		table: 3
+	}]
+}

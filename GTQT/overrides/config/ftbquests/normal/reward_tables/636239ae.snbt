@@ -1,0 +1,126 @@
+{
+	title: "ZPM",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 133"
+	},
+	{
+		item: "gregtech:meta_item_1 1 148"
+	},
+	{
+		item: "gregtech:meta_item_1 1 163"
+	},
+	{
+		item: "gregtech:meta_item_1 1 178"
+	},
+	{
+		item: "gregtech:meta_item_1 1 193"
+	},
+	{
+		item: "gregtech:meta_item_1 1 208"
+	},
+	{
+		item: "gregtech:meta_item_1 1 223"
+	},
+	{
+		item: "gregtech:meta_item_1 1 238"
+	},
+	{
+		item: "gregtech:meta_item_1 1 253"
+	},
+	{
+		item: "gregtech:meta_plate 1 2520",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_plate 1 2519",
+		count: 32
+	},
+	{
+		item: "tjcore:tjmetaitem 1 128"
+	},
+	{
+		item: "tjcore:tjmetaitem 1 128"
+	},
+	{
+		item: "tjcore:tjmetaitem 1 120"
+	},
+	{
+		item: "tjcore:tjmetaitem 1 112"
+	},
+	{
+		item: "tjcore:tjmetaitem 1 108"
+	},
+	{
+		item: "tjcore:tjmetaitem 1 65",
+		count: 8
+	},
+	{
+		item: "tjcore:tjmetaitem 1 305",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 68",
+		count: 8
+	},
+	{
+		item: "tjcore:tjmetaitem 1 309",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 310",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 69",
+		count: 8
+	},
+	{
+		item: "tjcore:tjmetaitem 1 309",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 310",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 305",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 306",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 554",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 552",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 546",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 539",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 519",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 511",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 512",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 506",
+		count: 16
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "它就藏在河床里",
+	x: 12.5d,
+	y: -4.0d,
+	description: "什么？你只找到岩块？",
+	dependencies: [
+		"ffd1d36e"
+	],
+	tasks: [{
+		uid: "b35ac836",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "70e2de29",
+		type: "random",
+		table: 9
+	}]
+}

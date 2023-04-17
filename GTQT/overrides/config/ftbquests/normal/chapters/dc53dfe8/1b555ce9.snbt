@@ -1,0 +1,24 @@
+{
+	title: "比水好",
+	x: 24.0d,
+	y: 13.5d,
+	text: [
+		"查询 石油化工 部分获取制作方法"
+	],
+	dependencies: [
+		"2e547a6f"
+	],
+	tasks: [{
+		uid: "b231762d",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "lubricant",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

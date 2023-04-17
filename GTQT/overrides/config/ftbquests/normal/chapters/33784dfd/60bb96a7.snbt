@@ -1,0 +1,20 @@
+{
+	x: 10.0d,
+	y: 13.0d,
+	dependencies: [
+		"252f89d6"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2c50c12e",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 106"
+		}]
+	}],
+	rewards: [{
+		uid: "2968bdfb",
+		type: "random",
+		table: 9
+	}]
+}

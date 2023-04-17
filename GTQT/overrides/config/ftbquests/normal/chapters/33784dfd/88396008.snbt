@@ -1,0 +1,18 @@
+{
+	x: -8.0d,
+	y: 11.0d,
+	text: [
+		"对红宝石矿进行简单的处理，当然，在处理过程中，你会发现自己已经得到了一些镉",
+		"当然，你需要更多"
+	],
+	dependencies: [
+		"da436daa"
+	],
+	tasks: [{
+		uid: "75f6c751",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 311"
+		}]
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	x: 0.0d,
+	y: 5.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "f898530f",
+		type: "ftbmoney:money",
+		value: 1L
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: 10.0d,
+	dependencies: [
+		"221f6592"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0a9f2c8d",
+		type: "item",
+		items: [{
+			item: "mbd:denglizit"
+		}]
+	}]
+}

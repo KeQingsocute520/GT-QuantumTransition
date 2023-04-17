@@ -1,0 +1,19 @@
+{
+	x: -6.5d,
+	y: 5.0d,
+	text: [
+		"制作火把",
+		"硫酸",
+		"或者其他你后期才需要的东西"
+	],
+	dependencies: [
+		"a4cdae15"
+	],
+	tasks: [{
+		uid: "35d70077",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 78"
+		}]
+	}]
+}

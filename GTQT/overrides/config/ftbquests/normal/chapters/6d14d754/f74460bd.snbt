@@ -1,0 +1,22 @@
+{
+	title: "匠魂高级工具铸模",
+	x: 28.0d,
+	y: 9.0d,
+	description: "你肯定会用这个。",
+	text: [
+		"将模具放置在铸造台上即可导出相应的部件。"
+	],
+	dependencies: [
+		"07412b83"
+	],
+	tasks: [{
+		uid: "c12580a7",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	}]
+}

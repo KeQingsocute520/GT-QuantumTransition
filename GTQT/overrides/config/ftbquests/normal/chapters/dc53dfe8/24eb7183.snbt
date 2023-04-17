@@ -1,0 +1,20 @@
+{
+	title: "在哪？",
+	x: 12.0d,
+	y: 19.5d,
+	description: "你需要前往暮色森林了",
+	text: [
+		"暮色森林存在大量的独特矿脉，主世界找不到为什么不试试去暮色看看。",
+		"注意，暮色维度的任务安排在MV，这条支线目前可以不做，知道你前往暮色之前"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "e712eccd",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_galena_0"
+		}]
+	}]
+}

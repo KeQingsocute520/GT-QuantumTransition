@@ -1,0 +1,57 @@
+{
+  "name": "04_07",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "fdbce5f2-9aa1-4979-a744-22f54660168c",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_plate\",Count:1,Damage:89s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"acetylene\",Amount:3000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"plasma.nitrogen\",Amount:10000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"cycloparaphenylene\",Amount:7000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 4915200
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_ingot\",Count:1,Damage:3592s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

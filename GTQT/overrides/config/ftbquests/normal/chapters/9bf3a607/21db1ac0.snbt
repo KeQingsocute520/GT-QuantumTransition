@@ -1,0 +1,18 @@
+{
+	x: 9.0d,
+	y: -3.0d,
+	dependencies: [
+		"286502a0"
+	],
+	tasks: [{
+		uid: "909d9634",
+		type: "item",
+		items: [{
+			id: "emt:nanowing",
+			Damage: 27s,
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "塞牙之物",
+	x: 18.5d,
+	y: 3.0d,
+	description: "够吃吗，够了够了。",
+	dependencies: [
+		"d48e9dff"
+	],
+	tasks: [{
+		uid: "a9c7a75c",
+		type: "item",
+		items: [{
+			item: "futuremc:sweet_berries"
+		}]
+	}],
+	rewards: [{
+		uid: "7e8bf482",
+		type: "loot",
+		table: 9
+	}]
+}

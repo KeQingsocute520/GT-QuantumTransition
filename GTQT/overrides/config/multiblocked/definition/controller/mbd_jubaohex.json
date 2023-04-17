@@ -1,0 +1,318 @@
+{
+  "version": 2,
+  "location": "mbd:jubaohex",
+  "traits": {
+    "item": [],
+    "fluid": [],
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 10000,
+      "maxReceive": 500,
+      "maxExtract": 500
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "multiblock:control_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "01_07",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAAAAAAAA",
+        "         ",
+        "AAAAAAAAA",
+        "         ",
+        "AAAAAAAAA"
+      ],
+      [
+        "A  A A  A",
+        "         ",
+        "A       A",
+        "         ",
+        "A  A A  A"
+      ],
+      [
+        "A BBBBB A",
+        "C DDDDD  ",
+        "A DDDDD A",
+        "E DDDDD  ",
+        "A BBBBB A"
+      ],
+      [
+        "AABFFFBAA",
+        "  DGGGD  ",
+        "A DGGGD A",
+        "  DGGGD  ",
+        "AABFFFBAA"
+      ],
+      [
+        "A BFFFB A",
+        "@ DGGGD  ",
+        "A DGHGD A",
+        "I DGGGD  ",
+        "A BFFFB A"
+      ],
+      [
+        "AABFFFBAA",
+        "  DGGGD  ",
+        "A DGGGD A",
+        "  DGGGD  ",
+        "AABFFFBAA"
+      ],
+      [
+        "A BBBBB A",
+        "J DDDDD  ",
+        "A DDDDD A",
+        "K DDDDD  ",
+        "A BBBBB A"
+      ],
+      [
+        "A  A A  A",
+        "         ",
+        "A       A",
+        "         ",
+        "A  A A  A"
+      ],
+      [
+        "AAAAAAAAA",
+        "         ",
+        "AAAAAAAAA",
+        "         ",
+        "AAAAAAAAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "gregtech:fusion_casing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "mbd:jubaohex",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "gregtech:fusion_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "gregtech:transparent_casing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "gregtech:fusion_casing",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "draconicevolution:draconic_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "multiblocked:jubao_core",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "multiblocked:energy_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "multiblocked:item_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

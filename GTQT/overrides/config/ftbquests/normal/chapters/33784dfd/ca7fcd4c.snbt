@@ -1,0 +1,23 @@
+{
+	x: -8.0d,
+	y: 7.5d,
+	description: "什么？你问我传送门怎么开？你可能需要精致的钻石。",
+	text: [
+		"小心闪电哦"
+	],
+	dependencies: [
+		"90a1f4ab"
+	],
+	tasks: [{
+		uid: "10526cb7",
+		type: "dimension",
+		dim: 7
+	},
+	{
+		uid: "b5430d4f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_gem_exquisite 1 276"
+		}]
+	}]
+}

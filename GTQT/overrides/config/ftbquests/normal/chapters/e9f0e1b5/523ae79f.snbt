@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	dependencies: [
+		"4216e94b"
+	],
+	tasks: [{
+		uid: "ae2a2fda",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:io_port"
+		}]
+	}]
+}

@@ -1,0 +1,151 @@
+{
+  "name": "01_08",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "b6b64358-5a1d-4215-822a-9a8ea9c96a80",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"gregtech:meta_plate_double\",Count:8,Damage:126s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_block_frame_0\",Count:4,Damage:12s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"qmd:ingot_alloy\",Count:16,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"qmd:accelerator_cavity\",Count:1,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4f67a5b0-dd8e-46ba-93bc-beccb479d2c8",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"qmd:part\",Count:16,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"gregtech:meta_plate_double\",Count:8,Damage:126s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_block_frame_0\",Count:4,Damage:12s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"qmd:accelerator_cavity\",Count:1,Damage:4s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b28a8725-1a6f-4870-b803-4b552d77fd56",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"gregtech:meta_plate_double\",Count:8,Damage:126s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"qmd:accelerator_cavity\",Count:4,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"gregtech:meta_block_frame_0\",Count:16,Damage:12s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:fission_irradiator\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

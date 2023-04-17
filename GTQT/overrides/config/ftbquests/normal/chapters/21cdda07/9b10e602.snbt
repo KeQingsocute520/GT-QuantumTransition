@@ -1,0 +1,15 @@
+{
+	title: "剩下的",
+	x: 0.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "90687200",
+		type: "gamestage",
+		stage: "easy"
+	},
+	{
+		uid: "29eec130",
+		type: "gamestage",
+		stage: "zpm"
+	}]
+}

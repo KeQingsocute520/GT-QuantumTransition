@@ -1,0 +1,21 @@
+{
+	x: -1.5d,
+	y: 5.0d,
+	dependencies: [
+		"3a3a9731"
+	],
+	tasks: [{
+		uid: "d453e135",
+		type: "item",
+		items: [{
+			item: "projectred-transportation:pipe"
+		}]
+	},
+	{
+		uid: "bc7a4a1f",
+		type: "item",
+		items: [{
+			item: "projectred-transportation:pipe 1 1"
+		}]
+	}]
+}

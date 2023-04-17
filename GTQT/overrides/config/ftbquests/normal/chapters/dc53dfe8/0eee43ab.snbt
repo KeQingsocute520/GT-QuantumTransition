@@ -1,0 +1,30 @@
+{
+	title: "闪锌矿",
+	x: 12.0d,
+	y: 15.0d,
+	description: "地狱大勘探",
+	text: [
+		"并不会一闪一闪，你可以从中提取镓"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "e90aa400",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreNetherrackSphalerite"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreNetherrackSphalerite"
+				}
+			}
+		}]
+	}]
+}

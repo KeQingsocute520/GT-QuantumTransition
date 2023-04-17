@@ -1,0 +1,27 @@
+{
+	title: "雄黄",
+	x: 12.0d,
+	y: 13.5d,
+	description: "雄黄分布在主世界",
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "e2e325a3",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreRealgar"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreRealgar"
+				}
+			}
+		}]
+	}]
+}

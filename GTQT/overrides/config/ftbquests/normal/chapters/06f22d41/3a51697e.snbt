@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: 23.5d,
+	tasks: [{
+		uid: "66402ce1",
+		type: "ftbmoney:money",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a3d92aa6",
+		type: "item",
+		item: "tjcore:tjmetaitem 1 998"
+	}]
+}

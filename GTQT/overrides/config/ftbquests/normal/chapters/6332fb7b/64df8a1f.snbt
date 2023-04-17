@@ -1,0 +1,28 @@
+{
+	title: "新手礼包",
+	x: 0.0d,
+	y: 0.0d,
+	rewards: [{
+		uid: "94f97081",
+		type: "item",
+		item: {
+			id: "ftbquests:book",
+			tag: {
+				display: {
+					Name: "可爱的任务书"
+				}
+			}
+		}
+	},
+	{
+		uid: "63eb9811",
+		type: "item",
+		item: "minecraft:apple",
+		count: 16
+	},
+	{
+		uid: "11ceeb8b",
+		type: "command",
+		command: "/say 感谢下载GTQP,加QQ群1073091808获取更多。请务必在FTB里选择游戏难度后再开始游戏！如果你在开局看到FTB有三个等待领取的任务奖励，请忽视他，系系统提示"
+	}]
+}

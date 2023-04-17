@@ -1,0 +1,21 @@
+{
+	title: "su8",
+	x: 0.0d,
+	y: -9.0d,
+	dependencies: [
+		"a68d1fe1"
+	],
+	tasks: [{
+		uid: "8a6bf7fd",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "su_photoresist",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

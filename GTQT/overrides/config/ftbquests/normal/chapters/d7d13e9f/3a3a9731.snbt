@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"用于烧制EIO的合金"
+	],
+	dependencies: [
+		"90a1f4ab"
+	],
+	tasks: [{
+		uid: "c51beae5",
+		type: "item",
+		items: [{
+			item: "mbd:eiorr"
+		}]
+	}]
+}

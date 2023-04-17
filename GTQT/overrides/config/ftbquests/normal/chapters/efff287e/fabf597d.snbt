@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	dependencies: [
+		"e9ed3357"
+	],
+	tasks: [{
+		uid: "92e65608",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}]
+}

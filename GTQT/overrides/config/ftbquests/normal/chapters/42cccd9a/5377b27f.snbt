@@ -1,0 +1,11 @@
+{
+	x: -1.0d,
+	y: 10.5d,
+	tasks: [{
+		uid: "56a3a715",
+		type: "item",
+		items: [{
+			item: "mbd:bileiz"
+		}]
+	}]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "03_2",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "c68064fa-5a05-4ff9-a534-5a1f0ca8731e",
+      "duration": 1,
+      "inputs": {
+        "gtce_energy": [
+          {
+            "chance": 1.0,
+            "content": 2097152
+          },
+          {
+            "chance": 1.0,
+            "content": 2097152
+          }
+        ],
+        "ta_impetus": [
+          {
+            "chance": 1.0,
+            "content": 1
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:chaos_shard\",Count:1,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:chaos_shard\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0E-5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:chaos_shard\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.45,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:resource\",Count:1,Damage:4s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

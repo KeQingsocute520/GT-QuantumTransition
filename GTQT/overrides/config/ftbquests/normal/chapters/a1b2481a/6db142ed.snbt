@@ -1,0 +1,24 @@
+{
+	title: "蒸馏？",
+	x: -5.0d,
+	y: -2.5d,
+	text: [
+		"你首先需要一座7层的蒸馏塔来保障能顺利蒸馏出最终材料。"
+	],
+	dependencies: [
+		"d6809a47"
+	],
+	tasks: [{
+		uid: "e03e23b2",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "radon",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

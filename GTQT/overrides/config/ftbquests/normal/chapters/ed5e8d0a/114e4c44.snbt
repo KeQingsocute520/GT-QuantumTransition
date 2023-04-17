@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: -10.0d,
+	dependencies: [
+		"1d111196"
+	],
+	tasks: [{
+		uid: "b3c47e63",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "er_tm_yb_lu_oxides_solution",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

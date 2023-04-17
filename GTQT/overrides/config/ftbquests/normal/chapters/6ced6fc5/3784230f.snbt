@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: 4.0d,
+	text: [
+		"从你的稀土产线里获得，如果你想知道你的稀土产线能产生什么，我建议看一看JEI"
+	],
+	dependencies: [
+		"6912770b"
+	],
+	tasks: [{
+		uid: "ff60123d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 53"
+		}]
+	}]
+}

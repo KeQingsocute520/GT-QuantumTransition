@@ -1,0 +1,38 @@
+{
+	title: "核电之心",
+	x: 0.0d,
+	y: 1.0d,
+	description: "好日子来力",
+	text: [
+		"EV部分的发电机略显吃力，我们需要好兄弟IC2帮帮忙。",
+		"快来看看这个核电吧，我们上调了10倍的发电量！1！1"
+	],
+	dependencies: [
+		"21de2c58"
+	],
+	tasks: [{
+		uid: "da51f4b1",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 22"
+		}]
+	},
+	{
+		uid: "a0f4e33f",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 24"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "9505470d",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "352e7c13",
+		type: "random",
+		table: 9
+	}]
+}

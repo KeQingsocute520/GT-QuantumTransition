@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"221f6592"
+	],
+	tasks: [{
+		uid: "9aa50d22",
+		type: "item",
+		items: [{
+			item: "mbd:biozuzhuangji"
+		}]
+	}]
+}

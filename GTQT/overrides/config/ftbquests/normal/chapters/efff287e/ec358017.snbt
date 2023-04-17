@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 1.5d,
+	dependencies: [
+		"f211615a"
+	],
+	tasks: [{
+		uid: "f1d57f8c",
+		type: "item",
+		items: [{
+			item: "forestry:farm_ender"
+		}]
+	}]
+}

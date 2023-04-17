@@ -1,0 +1,21 @@
+{
+	x: 15.0d,
+	y: 5.5d,
+	dependencies: [
+		"82744140",
+		"f3f186d7",
+		"d900a69f"
+	],
+	tasks: [{
+		uid: "0f01ab5e",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 296"
+		}]
+	}],
+	rewards: [{
+		uid: "4edd2c51",
+		type: "loot",
+		table: 9
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 14.0d,
+	dependencies: [
+		"e9565a27"
+	],
+	tasks: [{
+		uid: "0f505293",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe_large 1 323"
+		}]
+	}]
+}

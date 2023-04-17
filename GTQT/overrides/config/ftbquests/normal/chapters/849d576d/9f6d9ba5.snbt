@@ -1,0 +1,17 @@
+{
+	x: 11.0d,
+	y: 8.0d,
+	text: [
+		"用于制造电路"
+	],
+	dependencies: [
+		"21a97ace"
+	],
+	tasks: [{
+		uid: "5f0f33dc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 520"
+		}]
+	}]
+}

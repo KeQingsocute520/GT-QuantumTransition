@@ -1,0 +1,18 @@
+{
+	x: -9.0d,
+	y: 1.5d,
+	dependencies: [
+		"8a24a67f"
+	],
+	tasks: [{
+		uid: "857c9551",
+		type: "item",
+		items: [{
+			id: "railcraft:locomotive_steam_solid",
+			tag: {
+				model: "railcraft:default"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

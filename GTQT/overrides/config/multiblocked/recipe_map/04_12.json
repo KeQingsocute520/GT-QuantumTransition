@@ -1,0 +1,110 @@
+{
+  "name": "04_12",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "ab631aa4-0ada-4f23-a040-7a5a2a9fda1f",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"gregtech:meta_dust\",Count:4,Damage:285s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:461s,tag:{Configuration:1}}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"hydrofluoric_acid\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"oxygen\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"methane\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"chlorine\",Amount:2000}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"polytetrafluoroethylene\",Amount:250}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d960751e-72b9-422d-ac66-039c4973dba5",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:461s,tag:{Configuration:1}}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"oil_medium\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"hydrogen\",Amount:500}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"oxygen\",Amount:625}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 50000
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"plastic\",Amount:250}"
+          }
+        ]
+      }
+    }
+  ]
+}

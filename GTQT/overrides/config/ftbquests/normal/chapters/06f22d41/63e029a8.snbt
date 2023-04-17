@@ -1,0 +1,16 @@
+{
+	icon: "gregtech:meta_ingot 1 25093",
+	x: 16.0d,
+	y: 16.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "7533d928",
+		type: "ftbmoney:money",
+		value: 1000L
+	}],
+	rewards: [{
+		uid: "ba6ed680",
+		type: "item",
+		item: "gregtech:meta_ingot 1 25093"
+	}]
+}

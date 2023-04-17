@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"8fd7951d"
+	],
+	tasks: [{
+		uid: "9922beec",
+		type: "item",
+		items: [{
+			id: "reactor_stuff:triga_rod",
+			tag: {
+				advDmg: 0
+			}
+		}]
+	}]
+}

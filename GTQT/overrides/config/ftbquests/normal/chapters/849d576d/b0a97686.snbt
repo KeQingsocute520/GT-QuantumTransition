@@ -1,0 +1,33 @@
+{
+	title: "电一电吧",
+	x: 14.0d,
+	y: 9.5d,
+	description: "你的导线可能有某种SM属性",
+	text: [
+		"开玩笑，性命要紧，做点绝缘导线。"
+	],
+	dependencies: [
+		"e85d2289",
+		"18015dcf"
+	],
+	tasks: [{
+		uid: "08fc1053",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 2517"
+		}]
+	},
+	{
+		uid: "43a16d6a",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 112"
+		}]
+	}],
+	rewards: [{
+		uid: "c65581dc",
+		type: "item",
+		item: "tjcore:tjmetaitem 1 1301",
+		count: 2
+	}]
+}

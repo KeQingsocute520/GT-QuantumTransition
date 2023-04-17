@@ -1,0 +1,50 @@
+{
+  "name": "9a3f304d-dc11-4cf2-81b7-b41d4c3f3fa2",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "9083d059-4915-4bbd-adc0-64309a67d329",
+      "duration": 1200,
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.25,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:fish\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:fish\",Count:4,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:fish\",Count:4,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "biome",
+          "condition": {
+            "biome": "minecraft:ocean"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	x: 22.5d,
+	y: 3.0d,
+	dependencies: [
+		"b99e49f8"
+	],
+	tasks: [{
+		uid: "84fb9ad3",
+		type: "item",
+		items: [{
+			item: "mbd:wat_steam"
+		}]
+	}]
+}

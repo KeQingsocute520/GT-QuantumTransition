@@ -1,0 +1,14 @@
+{
+	x: 22.5d,
+	y: 4.5d,
+	dependencies: [
+		"7645921d"
+	],
+	tasks: [{
+		uid: "590a8238",
+		type: "item",
+		items: [{
+			item: "mbd:botmk1"
+		}]
+	}]
+}

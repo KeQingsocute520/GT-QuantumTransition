@@ -1,0 +1,31 @@
+{
+	x: -8.0d,
+	y: 10.0d,
+	dependencies: [
+		"2b676b22"
+	],
+	tasks: [{
+		uid: "6fe7617f",
+		type: "item",
+		items: [{
+			id: "ae2wtlib:wut",
+			tag: {
+				InfinityEnergy: 2147483647,
+				StoredTerminals: [{
+					id: "wft:wft",
+					Count: 1,
+					Damage: 0s
+				},
+				{
+					id: "wit:wit",
+					Count: 1,
+					Damage: 0s
+				}],
+				SelectedTerminal: 0,
+				internalCurrentPower: 1600000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,104 @@
+{
+	title: "HV",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 234"
+	},
+	{
+		item: "gregtech:meta_item_1 1 129"
+	},
+	{
+		item: "gregtech:meta_item_1 1 144"
+	},
+	{
+		item: "gregtech:meta_item_1 1 174"
+	},
+	{
+		item: "gregtech:meta_item_1 1 189"
+	},
+	{
+		item: "gregtech:meta_item_1 1 219"
+	},
+	{
+		item: "gregtech:meta_item_1 1 204"
+	},
+	{
+		item: "gregtech:meta_item_1 1 159"
+	},
+	{
+		item: "gregtech:meta_item_1 1 520",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 518",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 112"
+	},
+	{
+		item: "tjcore:tjmetaitem 1 100"
+	},
+	{
+		item: "tjcore:tjmetaitem 1 104"
+	},
+	{
+		item: "tjcore:tjmetaitem 1 116"
+	},
+	{
+		item: "tjcore:tjmetaitem 1 6",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 2",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 2",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 4",
+		count: 32
+	},
+	{
+		item: "tjcore:tjmetaitem 1 13",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 65",
+		count: 8
+	},
+	{
+		item: "tjcore:tjmetaitem 1 55",
+		count: 8
+	},
+	{
+		item: "tjcore:tjmetaitem 1 302",
+		count: 32
+	},
+	{
+		item: "tjcore:tjmetaitem 1 304",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 68",
+		count: 8
+	},
+	{
+		item: "tjcore:tjmetaitem 1 506",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 512",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 546",
+		count: 16
+	},
+	{
+		item: "tjcore:tjmetaitem 1 507",
+		count: 16
+	}]
+}

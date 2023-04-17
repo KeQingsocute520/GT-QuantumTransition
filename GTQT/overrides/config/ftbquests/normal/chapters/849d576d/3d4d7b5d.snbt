@@ -1,0 +1,15 @@
+{
+	title: "这是什么，原始人专用电路板",
+	x: 8.5d,
+	y: 8.0d,
+	dependencies: [
+		"6fc5e4a5"
+	],
+	tasks: [{
+		uid: "7ce16e64",
+		type: "item",
+		items: [{
+			item: "tjcore:tjmetaitem 1 64"
+		}]
+	}]
+}

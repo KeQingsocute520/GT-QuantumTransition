@@ -1,0 +1,28 @@
+{
+	title: "当心你的用电器",
+	icon: "gregtech:warning_sign_1 1 8",
+	x: 11.0d,
+	y: 18.5d,
+	text: [
+		"从V开始，你就已经步入了电气时代，值得注意的是，所有电器都要小心电压以及淋雨。",
+		"给你的基地盖个屋顶吧。不然再靠近一点就会爆炸"
+	],
+	dependencies: [
+		"a456c5bc"
+	],
+	tasks: [{
+		uid: "fb548266",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "09f1dbff",
+		type: "item",
+		item: "gregtech:wire_single 1 25",
+		count: 4
+	},
+	{
+		uid: "8a691889",
+		type: "random",
+		table: 9
+	}]
+}

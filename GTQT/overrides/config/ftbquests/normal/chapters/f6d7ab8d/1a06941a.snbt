@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 12.0d,
+	dependencies: [
+		"2b9ca0d0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1a8a276b",
+		type: "item",
+		items: [{
+			item: "mbd:dragmk1"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "把你的钠电池丢掉吧",
+	x: 7.5d,
+	y: 4.0d,
+	text: [
+		"传统的电池无法满足更高电压的储能电压。"
+	],
+	dependencies: [
+		"653aaaa1"
+	],
+	tasks: [{
+		uid: "b034a057",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 743s,
+			tag: {
+				Charge: 10240000L
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

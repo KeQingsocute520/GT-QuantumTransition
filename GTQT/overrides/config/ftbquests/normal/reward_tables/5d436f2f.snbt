@@ -1,0 +1,12 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "utilityworlds:portal_garden"
+	},
+	{
+		item: "utilityworlds:portal_mining"
+	},
+	{
+		item: "utilityworlds:portal_void"
+	}]
+}

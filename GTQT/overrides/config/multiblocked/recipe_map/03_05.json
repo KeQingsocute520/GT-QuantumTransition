@@ -1,0 +1,127 @@
+{
+  "name": "03_05",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "4a073718-a22d-4788-9928-bd46db4a6a17",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:32,Damage:709s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sterilized_growth_medium\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"fluidedmana\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "29f0c5b6-3d07-41b3-9f44-1de13c615965",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:1,Damage:709s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:10}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:crop_res\",Count:1,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2878d0fc-d4e4-432e-8876-6bb883a47f66",
+      "duration": 1200,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"bacteria\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"raw_growth_medium\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"gregtech:meta_item_1\",Count:64,Damage:709s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4a073718-a22d-4788-9828-bd86db4a6a17",
+      "duration": 1200,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"bacteria\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"bacteria\",Amount:1000}"
+          }
+        ]
+      }
+    }
+  ]
+}

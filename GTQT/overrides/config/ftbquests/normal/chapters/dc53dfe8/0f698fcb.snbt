@@ -1,0 +1,16 @@
+{
+	title: "你的电力高炉在哪",
+	x: 18.0d,
+	y: 16.5d,
+	description: "前往多方块查询电力高炉",
+	dependencies: [
+		"ea8c60f1"
+	],
+	tasks: [{
+		uid: "e4ea09dc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2"
+		}]
+	}]
+}

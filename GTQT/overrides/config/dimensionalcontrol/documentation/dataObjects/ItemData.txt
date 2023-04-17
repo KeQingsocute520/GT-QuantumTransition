@@ -1,0 +1,132 @@
+These are the functions which can be called on an ItemData object.
+
+
+
+setItem:
+    Arguments:
+        String, Integer, String
+    Usage:
+        item name, meta, NBT Json
+    Notes:
+        Sets the item with the provided meta and NBT.
+
+setItem:
+    Arguments:
+        String
+    Usage:
+        item name
+    Notes:
+        Sets the item. This counts for any meta.
+
+setItem:
+    Arguments:
+        String, Integer
+    Usage:
+        item name, meta
+    Notes:
+        Sets the item with the provided meta.
+
+setEnchantmentLevelsMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max enchantment levels.
+
+setEnchantmentLevelsMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max enchantment level.
+
+setDurabilityMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max durability.
+
+setEnchantmentLevelsMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min enchantment level.
+
+setOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the ore dictionary.
+
+setCountMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max stack count.
+
+setDurabilityMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min durability.
+
+setDurabilityMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max durability.
+
+setCountMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min stack count.
+
+setEnchantment:
+    Arguments:
+        String
+    Usage:
+        enchantment path
+    Notes:
+        Sets the enchantment.
+
+setCountMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max stack count.
+
+setPotionType:
+    Arguments:
+        String
+    Usage:
+        potion type
+    Notes:
+        Sets the potion type.
+
+setNBT:
+    Arguments:
+        String
+    Usage:
+        NBT Json
+    Notes:
+        Sets the NBT from the provided Json string.
+
